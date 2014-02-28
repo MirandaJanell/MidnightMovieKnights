@@ -12,7 +12,7 @@
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-		<link href="/css/mmk.css" rel="stylesheet">
+		<link href="{{ site.baseurl }}/css/mmk.css" rel="stylesheet">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -31,6 +31,7 @@
 			</header>
 			
 			<div class="container">
+				<div class="well">site.baseurl: {{ site.baseurl }}</div>
 				<div class="row">
 					<div class="col-md-8">{{ content }}</div>
 					<div class="col-md-4">
