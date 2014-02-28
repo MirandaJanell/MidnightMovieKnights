@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+	<title>Midnight Movie Knights</title>
+	<link>http://www.midnightmovieknights.com/</link>
+	<language>en-us</language>
+	<copyright>&#xA9; 2014 @MirandaJanell &amp; @ThatFrakkingCat</copyright>
+	<itunes:subtitle>Two Idiots With Microphones</itunes:subtitle>
+	<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+	<itunes:keywords>uk,comedy,pub,news,talk,technology,web,adam,wilcox,darren,scott,radio,mix,96,eagle,radio</itunes:keywords>
+	<itunes:summary>Two friends in different states with microphones that love watching movies together.</itunes:summary>
+	<description>Two friends in different states with microphones that love watching movies together.</description>
+	<itunes:owner>
+		<itunes:name>@MirandaJanell &amp; @ThatFrakkingCat</itunes:name>
+		<itunes:email>podcasts2014@mirandaragland.com</itunes:email>
+	</itunes:owner>
+	<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
+	<itunes:category text="Society &amp; Culture" />
+	<itunes:category text="TV &amp; Film" />
+	
+	<item>
+		<title>005 - Blades of Glory</title>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>I think I Liked It!</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The Movie Knights are joined by one of their first supporters, a squire if you will. Lessons learned from NetHeads, prior podcasting experiences, The Lego Movie, bad drivers, and more! This week&amp;#39;s Flick Pick is Blades of Glory.&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
+		<enclosure url="http://media.midnightmovieknights.com/2014/005_-_Blades_of_Glory.m4a" length="28304105" type="audio/mp4" />
+		<guid>http://media.midnightmovieknights.com/2014/005_-_Blades_of_Glory.m4a</guid>
+		<pubDate>Tue, 25 Feb 2014 22:33:56 -0000 PST</pubDate>
+		<itunes:duration>3747.0</itunes:duration>
+		<itunes:keywords>midnight,movie,knights,mirandajanell,thatfrakkingcat</itunes:keywords>
+	</item>
+	
+	<item>
+		<title>004 - Pump Up The Volume</title>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>An Inspiration!</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;Rage provocation, Invisibility, moonshine, remakes of iconic movies, and a smidge of Doctor Who. Pump up the Volume is the flick pick for the week, and one of the hosts can&amp;#39;t believe that the other hasn&amp;#39;t seen it.&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
+		<enclosure url="http://media.midnightmovieknights.com/2014/004_-_Pump_Up_The_Volume.m4a" length="24825023" type="audio/mp4" />
+		<guid>http://media.midnightmovieknights.com/2014/004_-_Pump_Up_The_Volume.m4a</guid>
+		<pubDate>Mon, 17 Feb 2014 21:22:48 -0000 PST</pubDate>
+		<itunes:duration>3367.0</itunes:duration>
+		<itunes:keywords>midnight,movie,knights,mirandajanell,thatfrakkingcat</itunes:keywords>
+	</item>
+	
+	<item>
+		<title>003 - Pirate Radio</title>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Cool Flick!</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;This week we talk trailers, and the unfortunate death of Phillip Seymour Hoffman. Our &amp;quot;Flick Pick&amp;quot; was Pirate Radio which we watched before we recorded because the internet hates us.&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
+		<enclosure url="http://media.midnightmovieknights.com/2014/003_-_Pirate_Radio.m4a" length="21913514" type="audio/mp4" />
+		<guid>http://media.midnightmovieknights.com/2014/003_-_Pirate_Radio.m4a</guid>
+		<pubDate>Thu, 13 Feb 2014 00:32:50 -0000 PST</pubDate>
+		<itunes:duration>2894.0</itunes:duration>
+		<itunes:keywords>midnight,movie,knights,mirandajanell,thatfrakkingcat</itunes:keywords>
+	</item>
+	
+	<item>
+		<title>002 - Origin Stories</title>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Evolution of a Pod</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;This week we went a little longer than our target of 30-45 minutes, but we wanted to properly thank everyone who listened last week as well as answer some of the questions we&amp;#39;ve received. We are still experimenting with the format, and we actually made attempts at learning to edit the audio.&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
+		<enclosure url="http://media.midnightmovieknights.com/2014/002_-_Origin_Stories.m4a" length="32681087" type="audio/mp4" />
+		<guid>http://media.midnightmovieknights.com/2014/002_-_Origin_Stories.m4a</guid>
+		<pubDate>Sun, 02 Feb 2014 20:30:00 -0000 PST</pubDate>
+		<itunes:duration>4325.0</itunes:duration>
+		<itunes:keywords>midnight,movie,knights,mirandajanell,thatfrakkingcat</itunes:keywords>
+	</item>
+	
+	<item>
+		<title>001 - Waxing Idiodical</title>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Two friends waxing idiodically</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The first recording of two friends having a good time and it didn&amp;#39;t totally suck, just mostly.&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
+		<enclosure url="http://media.midnightmovieknights.com/2014/001_-_Waxing_Idiotical.m4a" length="17545055" type="audio/mp4" />
+		<guid>http://media.midnightmovieknights.com/2014/001_-_Waxing_Idiotical.m4a</guid>
+		<pubDate>Sat, 25 Jan 2014 23:28:00 -0000 PST</pubDate>
+		<itunes:duration>2308.0</itunes:duration>
+		<itunes:keywords>midnight,movie,knights,mirandajanell,thatfrakkingcat</itunes:keywords>
+	</item>
+	
+</channel>
+</rss>

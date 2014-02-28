@@ -1,0 +1,18 @@
+---
+layout: default
+title: Midnight Movie Knights
+---
+
+<div id="home">
+{% for post in site.posts %}
+	<div>
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<audio controls>
+			<source type="audio/mpeg" src="{{ post.link }}">
+		</audio>
+		<div>
+			<span>{{ post.date | date_to_string }}</span> <a class="download-link" href="{{ post.link }}">Download</a>
+		</div>
+	</div>
+{% endfor %}
+</div>
