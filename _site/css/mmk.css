@@ -1,0 +1,22 @@
+/*
+	Uses sticky footer by Ryan Fait http://ryanfait.com/
+*/
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;
+}
+footer, .push {
+	height: 40px;
+}
+footer .container {
+	margin-top: 20px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
