@@ -21,35 +21,33 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="wrapper">
-			<header>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12"><a href="/"><img src="http://media.midnightmovieknights.com/img/logo1-wide.jpg" /></a></div>
-					</div>
+		<div class="wrapper container">
+			<div class="row">
+				<div class="col-md-8">
+					<header>
+						<a href="/"><img src="http://media.midnightmovieknights.com/img/logo1-wide.jpg" /></a>
+					</header>
+					<div class="content">{{ content }}</div>
 				</div>
-			</header>
-			
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8">{{ content }}</div>
-					<div class="col-md-4">
-						<div class="subscribe-section">
-							<!--<i class="fa fa-music"></i>&nbsp;iTunes<br />-->
-							<a href="{{ site.baseurl }}/mmk.xml"><i class="fa fa-rss"></i>&nbsp;RSS</a><br />
-							<a href="https://twitter.com/MovieKnightsPod"><span><i class="fa fa-twitter"></i>&nbsp;Twitter</a>
-						</div>
-						<div class="host-section">
-							<h3>Hosts</h3>
-							<a href="https://twitter.com/MirandaJanell">@MirandaJanell</a><br />
-							<a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a>
-						</div>
+				<div class="col-md-4">
+					<h3>About</h3>
+					<p>Two friends in different states with microphones that love watching movies together.</p>
+					<div class="subscribe-section">
+						<h3>Check This Stuff Out</h3>
+						<h4>You know, if you want to.</h4>
+						<!--<i class="fa fa-music"></i>&nbsp;iTunes<br />-->
+						<a href="{{ site.baseurl }}/mmk.xml"><i class="fa fa-rss"></i>&nbsp;RSS</a><br />
+						<a href="https://twitter.com/MovieKnightsPod"><span><i class="fa fa-twitter"></i>&nbsp;Twitter</a>
+					</div>
+					<div class="host-section">
+						<h3>Hosts</h3>
+						<a href="https://twitter.com/MirandaJanell">@MirandaJanell</a><br />
+						<a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a>
 					</div>
 				</div>
 			</div>
 			<div class="push"></div>
-		</div>
-
+		</div><!-- /.wrapper.container -->
 		<footer>
 			<div class="container">
 				<div class="row">
@@ -57,8 +55,9 @@
 				</div>
 			</div>
 		</footer>
-
+		<!--
 		<script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		-->
 	</body>
 </html>
