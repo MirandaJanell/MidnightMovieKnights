@@ -1,21 +1,23 @@
 /*
 	Uses sticky footer by Ryan Fait http://ryanfait.com/
 */
-html, body {
-	height: 100%;
-}
-.wrapper {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -3em;
-}
-footer, .push {
-	height: 3em;
-}
-footer .container {
-	margin-top: 1em;
-	padding-top: 1em;
+@media screen {
+	html, body {
+		height: 100%;
+	}
+	.wrapper {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -3em;
+		padding-bottom: 1em;
+	}
+	footer, .push {
+		height: 3em;
+	}
+	footer .container {
+		padding-top: 1em;
+	}
 }
 img {
 	max-width: 100%;
