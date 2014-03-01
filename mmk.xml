@@ -2,10 +2,11 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 <channel>
 	<title>Midnight Movie Knights</title>
 	<link>http://www.midnightmovieknights.com/</link>
+	<atom:link href="http://www.midnightmovieknights.com/mmk.xml" rel="self" type="application/rss+xml" />
 	<language>en-us</language>
 	<copyright>&#xA9; 2014 @MirandaJanell &amp; @ThatFrakkingCat</copyright>
 	<itunes:subtitle>Two Idiots With Microphones</itunes:subtitle>
@@ -20,19 +21,22 @@ layout: nil
 	<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
 	<itunes:category text="Society &amp; Culture" />
 	<itunes:category text="TV &amp; Film" />
-	{% for post in site.categories.podcast limit:20 %}
+	<itunes:explicit>Yes</itunes:explicit>
+{% for post in site.categories.podcast limit:20 %}
+	{% assign episodeurl = post.link | remove: 'http://' | prepend: 'http://www.podtrac.com/pts/redirect.m4a/'  %}
 	<item>
 		<title>{{ post.title }}</title>
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
 		<itunes:subtitle>{{ post.subtitle }}</itunes:subtitle>
 		<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
 		<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
-		<enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mp4" />
-		<guid>{{ post.link }}</guid>
-		<pubDate>{{ post.date | date_to_rfc822 }} PST</pubDate>
-		<itunes:duration>{{ post.duration }}</itunes:duration>
+		<enclosure url="{{ episodeurl }}" length="{{ post.length }}" type="audio/mp4" />
+		<guid>{{ episodeurl }}</guid>
+		<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} PST</pubDate>
+		<itunes:duration>{{ post.duration | remove: '.0' }}</itunes:duration>
 		<itunes:keywords>midnight,movie,knights,mirandajanell,thatfrakkingcat</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
 	</item>
-	{% endfor %}
+{% endfor %}
 </channel>
 </rss>
