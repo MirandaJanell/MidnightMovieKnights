@@ -6,7 +6,7 @@ title: Midnight Movie Knights
 <div id="home">
 {% for post in site.posts %}
 	<div>
-		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		<audio controls>
 			<source type="audio/mpeg" src="{{ post.link }}">
 		</audio>
