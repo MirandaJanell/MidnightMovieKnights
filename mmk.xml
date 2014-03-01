@@ -19,8 +19,8 @@ layout: nil
 		<itunes:email>podcasts2014@mirandaragland.com</itunes:email>
 	</itunes:owner>
 	<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
-	<itunes:category text="Society &amp; Culture" />
 	<itunes:category text="TV &amp; Film" />
+	<itunes:category text="Society &amp; Culture" />
 	<itunes:explicit>Yes</itunes:explicit>
 {% for post in site.categories.podcast limit:20 %}
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
