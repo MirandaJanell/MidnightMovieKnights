@@ -2,4 +2,4 @@ name: Midnight Movie Knights
 markdown: redcarpet
 pygments: true
 timezone: America/Los_Angeles
-baseurl: /MidnightMovieKnights
+baseurl: ''
