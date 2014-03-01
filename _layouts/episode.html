@@ -1,10 +1,20 @@
 ---
 layout: default
-categories: episode
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
 <p class="post">
 {{ content }}
+</p>
+
+{% assign episodeurl = page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
+
+<p class="player-container">
+	<audio controls>
+		<source type="audio/mpeg" src="{{ episodeurl }}">
+	</audio>
+</p>
+
+<p>
+	<span>{{ page.date | date_to_string }}</span> | <span><a href="{{ episodeurl }}">Download</a></span>
 </p>

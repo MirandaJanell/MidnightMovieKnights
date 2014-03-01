@@ -6,14 +6,17 @@ sitemap:
     changefreq: hourly
     lastmod: 2014-03-01T01:18:00-08:00
 ---
-
 <div id="home">
 {% for post in site.posts %}
 	<div>
 		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-		<audio controls>
-			<source type="audio/mpeg" src="{{ post.link }}">
-		</audio>
+		
+		<div class="player-container">
+			<audio controls>
+				<source type="audio/mpeg" src="{{ post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' }}">
+			</audio>
+		</div>
+
 		<div>
 			<span>{{ post.date | date_to_string }}</span> <a class="download-link" href="{{ post.link }}">Download</a>
 		</div>

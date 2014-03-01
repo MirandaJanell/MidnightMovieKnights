@@ -23,7 +23,7 @@ layout: nil
 	<itunes:category text="TV &amp; Film" />
 	<itunes:explicit>Yes</itunes:explicit>
 {% for post in site.categories.podcast limit:20 %}
-	{% assign episodeurl = post.link | remove: 'http://' | prepend: 'http://www.podtrac.com/pts/redirect.m4a/'  %}
+	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<item>
 		<title>{{ post.title }}</title>
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
