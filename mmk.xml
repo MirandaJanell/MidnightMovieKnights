@@ -11,14 +11,14 @@ layout: nil
 	<copyright>&#xA9; 2014 @MirandaJanell &amp; @ThatFrakkingCat</copyright>
 	<itunes:subtitle>Two Idiots With Microphones</itunes:subtitle>
 	<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
-	<itunes:keywords>Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat</itunes:keywords>
+	<itunes:keywords>Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
 	<itunes:summary>Two friends in different states with microphones that love watching movies together.</itunes:summary>
 	<description>Two friends in different states with microphones that love watching movies together.</description>
 	<itunes:owner>
 		<itunes:name>@MirandaJanell &amp; @ThatFrakkingCat</itunes:name>
 		<itunes:email>podcasts2014@mirandaragland.com</itunes:email>
 	</itunes:owner>
-	<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
+	<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
 	<itunes:category text="TV &amp; Film" />
 	<itunes:category text="Society &amp; Culture" />
 	<itunes:explicit>Yes</itunes:explicit>
@@ -34,7 +34,7 @@ layout: nil
 		<guid>{{ episodeurl }}</guid>
 		<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} PST</pubDate>
 		<itunes:duration>{{ post.duration | remove: '.0' }}</itunes:duration>
-		<itunes:keywords>{% for tag in post.tags %}{{ tag }},{% endfor %}Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat</itunes:keywords>
+		<itunes:keywords>{% for tag in post.tags %}{{ tag }},{% endfor %}Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
 		<itunes:explicit>Yes</itunes:explicit>
 	</item>
 {% endfor %}
