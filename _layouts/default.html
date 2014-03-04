@@ -12,7 +12,7 @@
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-		<link href="{{ site.baseurl }}/css/mmk.css" rel="stylesheet">
+		<link href="{{ site.baseurl }}/assets/css/mmk.css" rel="stylesheet">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -25,7 +25,9 @@
 			<div class="row">
 				<div class="col-md-8">
 					<header>
-						<a href="/"><img src="http://media.midnightmovieknights.com/img/logo1-wide.jpg" /></a>
+						<a href="/">
+							<img src="http://media.midnightmovieknights.com/img/logo1-wide.jpg" alt="Midnight Movie Knights Logo" />
+						</a>
 					</header>
 					<div class="content">{{ content }}</div>
 				</div>
@@ -35,14 +37,18 @@
 					<div class="subscribe-section">
 						<h3>Check This Stuff Out</h3>
 						<h4>You know, if you want to.</h4>
-						<!--<i class="fa fa-music"></i>&nbsp;iTunes<br />-->
-						<a href="{{ site.baseurl }}/mmk.xml"><i class="fa fa-rss"></i>&nbsp;RSS</a><br />
-						<a href="https://twitter.com/MovieKnightsPod"><span><i class="fa fa-twitter"></i>&nbsp;Twitter</a>
+						<a href="https://itunes.apple.com/us/podcast/midnight-movie-knights/id831512584" title="Subscribe in iTunes"><i class="fa fa-fw fa-music"></i>&nbsp;iTunes</a><br />
+						<a href="{{ site.baseurl }}/mmk.xml" title="Podcasts RSS"><i class="fa fa-fw fa-rss"></i>&nbsp;RSS</a><br />
+						<a href="https://twitter.com/MovieKnightsPod" title="@MovieKnightsPod"><span><i class="fa fa-fw fa-twitter"></i>&nbsp;Twitter</a>
 					</div>
 					<div class="host-section">
 						<h3>Hosts</h3>
-						<a href="https://twitter.com/MirandaJanell">@MirandaJanell</a><br />
-						<a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a>
+						<a href="https://twitter.com/MirandaJanell" title="@MirandaJanell">@MirandaJanell</a><br />
+						<a href="https://twitter.com/ThatFrakkingCat" title="@ThatFrakkingCat">@ThatFrakkingCat</a>
+					</div>
+					<div class="twitter-widget hidden-xs hidden-sm">
+						<a class="twitter-timeline" href="https://twitter.com/MovieKnightsPod" data-widget-id="440616044848087040" title="@MovieKnightsPod Twitter Timeline">Recent Tweets by @MovieKnightsPod</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 					</div>
 				</div>
 			</div>
@@ -51,7 +57,7 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">We're still working out the copyright.</div>
+					<div class="col-md-12">&copy; 2014 @MirandaJanell &amp; @ThatFrakkingCat</div>
 				</div>
 			</div>
 		</footer>
