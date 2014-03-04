@@ -28,7 +28,7 @@ layout: nil
 		<title>{{ post.title }}</title>
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
 		<itunes:subtitle>{{ post.subtitle }}</itunes:subtitle>
-		<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+		<itunes:summary>{{ post.content | strip_html | xml_escape }}</itunes:summary>
 		<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
 		<enclosure url="{{ episodeurl }}" length="{{ post.length }}" type="audio/mp4" />
 		<guid>{{ episodeurl }}</guid>
