@@ -21,57 +21,66 @@
 		<![endif]-->
 
 		<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" >
-		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon-152x152.png">
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon-144x144.png">
-		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicon-120x120.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon-114x114.png">
-		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicon-76x76.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72x72.png">
-		<link rel="apple-touch-icon-precomposed" href="/favicon-57x57.png">
-		<link rel="shortcut icon" sizes="196x196" href="/favicon-196x196.png">
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/favicon-152x152.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/favicon-144x144.png">
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.baseurl }}/favicon-120x120.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/favicon-114x114.png">
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.baseurl }}/favicon-76x76.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/favicon-72x72.png">
+		<link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/favicon-57x57.png">
+		<link rel="shortcut icon" sizes="196x196" href="{{ site.baseurl }}/favicon-196x196.png">
 		
 		<meta name="msapplication-TileColor" content="#FFFFFF">
-		<meta name="msapplication-TileImage" content="/favicon-144x144-ie10.png">
-		<meta name="msapplication-square70x70logo" content="/favicon-128x128-ie11.png"/>
-		<meta name="msapplication-square150x150logo" content="/favicon-270x270-ie11.png"/>
-		<meta name="msapplication-wide310x150logo" content="/favicon-558x270-ie11.png"/>
-		<meta name="msapplication-square310x310logo" content="/favicon-558x558-ie11.png"/>
+		<meta name="msapplication-TileImage" content="{{ site.baseurl }}/favicon-144x144-ie10.png">
+		<meta name="msapplication-square70x70logo" content="{{ site.baseurl }}/favicon-128x128-ie11.png"/>
+		<meta name="msapplication-square150x150logo" content="{{ site.baseurl }}/favicon-270x270-ie11.png"/>
+		<meta name="msapplication-wide310x150logo" content="{{ site.baseurl }}/favicon-558x270-ie11.png"/>
+		<meta name="msapplication-square310x310logo" content="{{ site.baseurl }}/favicon-558x558-ie11.png"/>
 	</head>
 	<body>
-		<div class="wrapper container">
-			<div class="row">
-				<div class="col-md-8">
-					<header>
-						<a href="/">
-							<img src="http://media.midnightmovieknights.com/img/logo1-wide.jpg" alt="Midnight Movie Knights Logo" />
-						</a>
-					</header>
-					<div class="content">{{ content }}</div>
-				</div>
-				<div class="col-md-4">
-					<h3>About</h3>
-					<p>Two friends in different states with microphones that love watching movies together.</p>
-					<div class="subscribe-section">
-						<h3>Check This Stuff Out</h3>
-						<h4>You know, if you want to.</h4>
-						<a href="https://itunes.apple.com/us/podcast/midnight-movie-knights/id831512584?mt=2" title="Subscribe in iTunes"><i class="fa fa-fw fa-music"></i>&nbsp;iTunes</a><br />
-						<a href="http://www.stitcher.com/s?fid=45932&refid=stpr" title="Subscribe in Stitcher"><i class="fa fa-fw fa-microphone"></i>&nbsp;Stitcher</a><br />
-						<a href="{{ site.baseurl }}/mmk.xml" title="Podcasts RSS"><i class="fa fa-fw fa-rss"></i>&nbsp;RSS</a><br />
-						<a href="https://twitter.com/MovieKnightsPod" title="@MovieKnightsPod"><span><i class="fa fa-fw fa-twitter"></i>&nbsp;Twitter</a>
-					</div>
-					<div class="host-section">
-						<h3>Hosts</h3>
-						<a href="https://twitter.com/MirandaJanell" title="@MirandaJanell">@MirandaJanell</a><br />
-						<a href="https://twitter.com/ThatFrakkingCat" title="@ThatFrakkingCat">@ThatFrakkingCat</a>
-					</div>
-					<div class="twitter-widget hidden-xs hidden-sm">
-						<a class="twitter-timeline" href="https://twitter.com/MovieKnightsPod" data-widget-id="440616044848087040" title="@MovieKnightsPod Twitter Timeline">Recent Tweets by @MovieKnightsPod</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</div>
-				</div>
-			</div>
-			<div class="push"></div>
-		</div><!-- /.wrapper.container -->
+		<div class="wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<header>
+							<a href="{{ site.baseurl }}/">
+								<img src="http://media.midnightmovieknights.com/img/logo1-wide.jpg" alt="Midnight Movie Knights Logo" />
+							</a>
+						</header>
+						<div class="content">{{ content }}</div>
+					</div><!-- .wrapper .container .row .col-md-8 -->
+
+					<div class="col-md-4">
+						<h3>About</h3>
+						<p>Two friends in different states with microphones that love watching movies together.</p>
+						<div class="subscribe-section">
+							<h3>Check This Stuff Out</h3>
+							<h4>You know, if you want to.</h4>
+							<a href="https://itunes.apple.com/us/podcast/midnight-movie-knights/id831512584?mt=2" title="Subscribe in iTunes"><i class="fa fa-fw fa-music"></i>&nbsp;iTunes</a><br />
+							<a href="http://www.stitcher.com/s?fid=45932&refid=stpr" title="Subscribe in Stitcher"><i class="fa fa-fw fa-microphone"></i>&nbsp;Stitcher</a><br />
+							<a href="{{ site.baseurl }}/mmk.xml" title="Podcasts RSS"><i class="fa fa-fw fa-rss"></i>&nbsp;RSS</a><br />
+							<a href="https://twitter.com/MovieKnightsPod" title="@MovieKnightsPod"><span><i class="fa fa-fw fa-twitter"></i>&nbsp;Twitter</a>
+						</div>
+						
+						<div class="host-section">
+							<h3>Hosts</h3>
+							<a href="https://twitter.com/MirandaJanell" title="@MirandaJanell">@MirandaJanell</a><br />
+							<a href="https://twitter.com/ThatFrakkingCat" title="@ThatFrakkingCat">@ThatFrakkingCat</a>
+						</div>
+						
+						{% if page.show_tweets %}
+						<div class="twitter-widget hidden-xs hidden-sm">
+							<a class="twitter-timeline" href="https://twitter.com/MovieKnightsPod" data-widget-id="440616044848087040" title="@MovieKnightsPod Twitter Timeline">Recent Tweets by @MovieKnightsPod</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						{% endif %}
+					</div><!-- .wrapper .container .row .col-md-4 -->
+				</div><!-- .wrapper .container .row -->
+
+				<div class="push"></div>
+			</div><!-- .wrapper .container -->
+		</div><!-- .wrapper -->
+
 		<footer>
 			<div class="container">
 				<div class="row">
