@@ -1,7 +1,7 @@
 ---
 layout:     episode
 title:      007 - Monty Python and the Holy Grail
-subtitle:   @MirandaJanell is turned into a newt
+subtitle:   MirandaJanell is turned into a newt
 categories: podcast
 date:       2014-03-09 22:13:23
 duration:   0:50:07
