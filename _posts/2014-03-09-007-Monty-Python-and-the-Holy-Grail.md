@@ -13,4 +13,4 @@ tags:
 - Dave Thomas
 - Founder of Wendy's
 ---
-The Cat does the intro, kinda. The knights discuss the end of last weeks show, their call into NetHeads, show feedback. The Flick Pick is Monty Python and the Holy Grail and The Cat has never seen it. Ultimately The Cat proves to be King Arthur while Miranda is the black knight, utterly disarmed and unable to continue.
+The Cat does the intro, kinda. The knights discuss the end of last weeks show, their call into NetHeads, and show feedback. The Flick Pick is Monty Python and the Holy Grail and The Cat has never seen it. Ultimately The Cat proves to be King Arthur while Miranda is the black knight, utterly disarmed and unable to continue.
