@@ -19,7 +19,7 @@ sitemap:
 	</div>
 	<h2>Episodes</h2>
 {% for post in site.posts %}
-	{% assign episodeurl = page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
+	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<div>
 		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		
