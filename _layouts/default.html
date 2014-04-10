@@ -10,17 +10,20 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@MovieKnightsPod">
 		<meta name="twitter:creator" content="@MovieKnightsPod">
-		{% if page.title %}
-		<meta name="twitter:title" content="{{ page.title }}">
-		{% else %}
-		<meta name="twitter:title" content="{{ page.title }}">
-		{% endif %}
 		{% if page.categories contains 'podcast' %}
-		<meta name="twitter:description" content="{{ page.excerpt }}">
-		{% elsif page.description %}
-		<meta name="twitter:description" content="{{ page.description }}">
+		<meta name="twitter:title" content="{{ page.title }}">
+		<meta name="twitter:description" content="{{ page.content }}">
 		{% else %}
+			{% if page.title %}
+		<meta name="twitter:title" content="{{ page.title }}">
+			{% else %}
+		<meta name="twitter:title" content="{{ site.name }}">
+			{% endif %}
+			{% if page.description %}
+		<meta name="twitter:description" content="{{ page.description }}">
+			{% else %}
 		<meta name="twitter:description" content="{{ site.description }}">
+			{% endif %}
 		{% endif %}
 
     	<title>{{ page.title }}</title>
