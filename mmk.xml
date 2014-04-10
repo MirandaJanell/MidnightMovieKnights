@@ -12,11 +12,11 @@ layout: nil
 	<itunes:subtitle>Two Idiots With Microphones</itunes:subtitle>
 	<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
 	<itunes:keywords>Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
-	<itunes:summary>Two friends in different states with microphones that love watching movies together.</itunes:summary>
-	<description>Two friends in different states with microphones that love watching movies together.</description>
+	<itunes:summary>{{ site.description }}</itunes:summary>
+	<description>{{ site.description }}</description>
 	<itunes:owner>
 		<itunes:name>@MirandaJanell &amp; @ThatFrakkingCat</itunes:name>
-		<itunes:email>podcasts2014@mirandaragland.com</itunes:email>
+		<itunes:email>midnightmovieknights@gmail.com</itunes:email>
 	</itunes:owner>
 	<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
 	<itunes:category text="TV &amp; Film" />

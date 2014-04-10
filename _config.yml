@@ -1,4 +1,5 @@
 name: Midnight Movie Knights
+description: Your not safe for work podcast by a couple of idiots with microphones who like to make each other laugh, rant a little, and talk about movies.
 markdown: redcarpet
 pygments: true
 timezone: America/Los_Angeles
