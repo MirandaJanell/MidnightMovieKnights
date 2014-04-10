@@ -6,7 +6,7 @@ categories: podcast
 date:       2014-04-10 01:50:20
 duration:   1:21:01
 length:     75375697
-link:       http://media.midnightmovieknights.com/2014/012_-_First_Contact_With_Canada_Part_2.m4a
+link:       http://media.midnightmovieknights.com/2014/013_-_First_Contact_With_Canada_Part_2.m4a
 tags:
 - Revelstoke
 - RevelstokeJim
