@@ -9,11 +9,11 @@
 		min-height: 100%;
 		height: auto !important;
 		height: 100%;
-		margin: 0 auto -3em;
+		margin: 0 auto -4em;
 		padding-bottom: 1em;
 	}
 	footer, .push {
-		height: 3em;
+		height: 4em;
 	}
 	footer .container {
 		padding-top: 1em;
