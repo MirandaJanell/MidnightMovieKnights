@@ -26,6 +26,7 @@ layout: nil
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<item>
 		<title>{{ post.title }}</title>
+		<link>{{site.url}}{{ site.baseurl }}{{ post.url }}</link>
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
 		<itunes:subtitle>{{ post.subtitle }}</itunes:subtitle>
 		<itunes:summary>{{ post.content | strip_html | xml_escape }}</itunes:summary>
