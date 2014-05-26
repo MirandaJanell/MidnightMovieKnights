@@ -1,7 +1,7 @@
 ---
 layout:     episode
-title:      020 - Wax On Your Monkey
-subtitle:   Kitteh gets boingy woingy
+title:      "020 - Romy and Michele's High School Reunion"
+subtitle:   Kitteh gets boingy woingy (Wax on your monkey)
 categories: podcast
 date:       2014-05-25 17:06:16
 duration:   1:20:17
