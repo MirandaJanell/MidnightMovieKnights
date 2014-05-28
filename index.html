@@ -18,7 +18,7 @@ sitemap:
 		</div>
 	</div>
 	<h2>Episodes</h2>
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<div>
 		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -34,4 +34,30 @@ sitemap:
 		</div>
 	</div>
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+	<div class="paginator row">
+		<div class="col-xs-2">
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+			<a href="/" >Prev</a>
+			{% else %}
+			<a href="/page{{ paginator.previous_page }}">Prev</a>
+			{% endif %}
+		{% else %}
+			<span>Prev</span>
+		{% endif %}
+		</div>
+
+		<div class="col-xs-2">Page: {{ paginator.page }} of {{ paginator.total_pages }}</div>
+
+		<div class="col-xs-2">
+		{% if paginator.next_page %}
+			<a href="/page{{ paginator.next_page }}">Next</a>
+		{% else %}
+			<span>Next</span>
+		{% endif %}
+		</div>
+	</div>
+{% endif %}
 </div>
