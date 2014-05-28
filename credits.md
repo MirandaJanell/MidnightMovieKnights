@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Midnight Movie Knights
+title: Midnight Movie Knights - Credits
 sitemap:
     priority: 0.7
     changefreq: hourly
@@ -9,11 +9,11 @@ sitemap:
 
 ### Artwork
 Title: Logo  
-Artist: [@mrBradRaven](@mrBradRaven)  
+Artist: [@mrBradRaven](https://twitter.com/mrBradRaven)  
 
 ### Music
 Title: Midnight Movie Knights Theme  
-Artist: [@JudgeFunkyBoy][@JudgeFunkyBoy]  
+Artist: [@JudgeFunkyBoy](https://twitter.com/JudgeFunkyBoy)  
 
 ### Articles
 [Podcasting with Jekyll](http://www.adamwilcox.org/2013/01/17/from-the-pub/)  
@@ -25,6 +25,3 @@ Accessed: 2014-02-27
 URL: [http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/)  
 Author: [David Ensinger](http://davidensinger.com/)  
 Accessed: 2014-03-01  
-
-[@JudgeFunkyBoy](https://twitter.com/JudgeFunkyBoy)
-[@mrBradRaven](https://twitter.com/mrBradRaven)
