@@ -21,13 +21,19 @@ sitemap:
 
 	<h2>Our stuff</h2>
 	<div>
-		<h2><a href="{{ site.streamurl }}" target="_blank">Live Stream</a></h2>
+		<h2><a href="{{ site.baseurl }}/stream.html">Live Stream</a></h2>
+
+		<p>Ceebs is still piecing this together. The stream player hopefully will be enhanced soon.</p>
 
 		<div class="player-container">
 			<audio controls preload="metadata" autoplay="false">
 				<source type="audio/mpeg" src="{{ site.streamurl }}">
 			</audio>
 		</div>
+
+		<div>
+		<span><a href="{{ site.baseurl }}/stream.html">Stream Page</a></span>&nbsp;|&nbsp;
+		<span><a href="{{ site.streamurl }}" target="_blank">Direct Link</a></div></span>
 	</div>
 
 {% for post in paginator.posts %}
