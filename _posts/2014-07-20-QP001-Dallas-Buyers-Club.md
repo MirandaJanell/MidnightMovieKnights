@@ -1,6 +1,6 @@
 ---
 layout:     episode
-title:      QP001 - Dallas Buys Club
+title:      QP001 - Dallas Buyers Club
 subtitle:   Awesome flick!
 categories: podcast
 date:       2014-07-20 17:35:08
