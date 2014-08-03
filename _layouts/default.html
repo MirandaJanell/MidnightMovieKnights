@@ -12,7 +12,11 @@
 		<meta name="twitter:creator" content="@MovieKnightsPod">
 		{% if page.categories contains 'podcast' %}
 		<meta name="twitter:title" content="{{ page.title }}">
-		<meta name="twitter:description" content="{{ page.content }}">
+			{% if page.abstract %}
+			<meta name="twitter:description" content="{{ page.abstract }}">
+			{% else %}
+			<meta name="twitter:description" content="{{ page.content }}">
+			{% endif %}
 		{% else %}
 			{% if page.title %}
 		<meta name="twitter:title" content="{{ page.title }}">
