@@ -4,10 +4,6 @@ layout: default
 <h2>{{ page.title }}</h2>
 <h3>{{ page.subtitle }}</h3>
 
-<p class="post">
-{{ content }}
-</p>
-
 {% assign episodeurl = page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 
 <p class="player-container">
@@ -18,4 +14,8 @@ layout: default
 
 <p>
 	<span>{{ page.date | date_to_string }}</span> | <span><a href="{{ episodeurl }}">Download</a></span>
+</p>
+
+<p class="post">
+{{ content }}
 </p>
