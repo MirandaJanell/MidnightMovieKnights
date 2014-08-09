@@ -20,3 +20,8 @@ Movie: [The Truman Show](http://www.imdb.com/title/tt0120382){:target="_blank"}
 #### Ceebs Pick  
 Movie: [The Right Stuff](http://www.imdb.com/title/tt0086197){:target="_blank"}  
 Guests: [Matt](https://twitter.com/nittwit12345){:target="_blank"} and Tim from [The SLS Cast](http://slscast.com){:target="_blank"}  
+
+### August 30, 3014
+
+Movie: ???
+Guests: [Rafael](https://twitter.com/WANHTPY){:target="_blank"} and Artuu from [We Are Not Here To Please You](http://wearenotheretopleaseyou.blogspot.fi){:target="_blank"}
