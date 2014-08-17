@@ -3,25 +3,13 @@ layout: default
 title: Midnight Movie Knights - Calendar
 show_tweets: false
 ---
-## Calendar
+## Upcoming Battles
 
-### August 9, 2014  
-Movie: [Contact](http://www.imdb.com/title/tt0118884){:target="_blank"}  
-
-
-### August 16, 2014  
-
-#### Cats Pick  
-Movie: [The Truman Show](http://www.imdb.com/title/tt0120382){:target="_blank"}  
-
-
-### August 23, 2014  
-
-#### Ceebs Pick  
-Movie: [The Right Stuff](http://www.imdb.com/title/tt0086197){:target="_blank"}  
-Guests: [Matt](https://twitter.com/nittwit12345){:target="_blank"} and Tim from [The SLS Cast](http://slscast.com){:target="_blank"}  
-
-### August 30, 3014
-
-Movie: ???
-Guests: [Rafael](https://twitter.com/WANHTPY){:target="_blank"} and Artuu from [We Are Not Here To Please You](http://wearenotheretopleaseyou.blogspot.fi){:target="_blank"}
+<ul markdown="1" class="list-unstyled calendar-list">
+{% for entry in site.data.mmk-calendar %}
+<li><h3>{{ entry.date | date: "%B, %-d %Y" }}{% if entry.knights-pick %}<small> {{ entry.knights-pick }} Pick</small>{% endif %}</h3>
+	<h4 markdown="1">{{ entry.episode }} - {{ entry.title }} {% if entry.imdb-link %}<small>[(IMDB)]({{ entry.imdb-link }}){:target="_blank"}</small>{% endif %}</h4>
+	{% if entry.guests %}<p>{{ entry.guests }}</p>{% endif %}
+</li>
+{% endfor %}
+</ul>
