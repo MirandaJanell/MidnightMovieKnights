@@ -1,6 +1,6 @@
 ---
 layout:     episode
-title:      033 - The Truman Show
+title:      033 - The Kitteh (Truman) Show
 subtitle:   The Cat bears all
 categories: podcast
 date:       2014-08-16 22:30:00
