@@ -11,28 +11,33 @@
 		<meta name="twitter:site" content="@MovieKnightsPod">
 		<meta name="twitter:creator" content="@MovieKnightsPod">
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="{{ url }}{{ site.baseurl }}{{ page.url }}">
-		<meta property="og:image" content="{{ url }}{{ site.baseurl }}/assets/img/mmk_banner.png">
-{% if page.categories contains 'podcast' %}
-		<meta property="og:title" content="{{ page.title }}">
-		<meta property="og:audio" content="{% page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}">
-	{% if page.abstract %}
-		<meta property="og:description" content="{{ page.abstract }}">
+		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+		<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/mmk_banner.png">
+	
+	{% if page.categories contains 'podcast' %}
+		{% assign ogtitle = page.title %}
+		<meta property="og:audio" content="{{ page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' }}">
+
+		{% if page.abstract %}
+			{% assign ogdesc = page.abstract %}
+		{% else %}
+			{% assign ogdesc = page.excerpt %}
+		{% endif %}
 	{% else %}
-		<meta property="og:description" content="{{ page.content }}">
+		{% if page.title %}
+			{% assign ogtitle = page.title %}
+		{% else %}
+			{% assign ogtitle = site.name %}
+		{% endif %}
+
+		{% if page.description %}
+			{% assign ogdesc = page.description %}
+		{% else %}
+			{% assign ogdesc = site.description %}
+		{% endif %}
 	{% endif %}
-{% else %}
-	{% if page.title %}
-		<meta property="og:title" content="{{ page.title }}">
-	{% else %}
-		<meta property="og:title" content="{{ site.name }}">
-	{% endif %}
-	{% if page.description %}
-		<meta property="og:description" content="{{ page.description }}">
-	{% else %}
-		<meta property="og:description" content="{{ site.description }}">
-	{% endif %}
-{% endif %}
+		<meta property="og:title" content="{{ ogtitle }}">
+		<meta property="og:description" content="{{ ogdesc }}">
 
     	<title>{{ page.title }}</title>
 
