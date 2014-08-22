@@ -10,25 +10,27 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@MovieKnightsPod">
 		<meta name="twitter:creator" content="@MovieKnightsPod">
-		{% if page.categories contains 'podcast' %}
+		<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+		<meta property="og:image" content="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg">
+{% if page.categories contains 'podcast' %}
 		<meta property="og:title" content="{{ page.title }}">
-			{% if page.abstract %}
-			<meta property="og:description" content="{{ page.abstract }}">
-			{% else %}
-			<meta property="og:description" content="{{ page.content }}">
-			{% endif %}
-		{% else %}
-			{% if page.title %}
+	{% if page.abstract %}
+		<meta property="og:description" content="{{ page.abstract }}">
+	{% else %}
+		<meta property="og:description" content="{{ page.content }}">
+	{% endif %}
+{% else %}
+	{% if page.title %}
 		<meta property="og:title" content="{{ page.title }}">
-			{% else %}
+	{% else %}
 		<meta property="og:title" content="{{ site.name }}">
-			{% endif %}
-			{% if page.description %}
+	{% endif %}
+	{% if page.description %}
 		<meta property="og:description" content="{{ page.description }}">
-			{% else %}
+	{% else %}
 		<meta property="og:description" content="{{ site.description }}">
-			{% endif %}
-		{% endif %}
+	{% endif %}
+{% endif %}
 
     	<title>{{ page.title }}</title>
 
