@@ -37,7 +37,7 @@
 		{% endif %}
 	{% endif %}
 		<meta property="og:title" content="{{ ogtitle }}">
-		<meta property="og:description" content="{{ ogdesc }}">
+		<meta property="og:description" content="{{ ogdesc | strip_html | strip_newlines }}">
 
     	<title>{{ page.title }}</title>
 
