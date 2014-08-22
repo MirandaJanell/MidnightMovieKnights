@@ -2,18 +2,14 @@
 layout: default
 title: Midnight Movie Knights - Strean
 show_tweets: true
-sitemap:
-    priority: 0.7
-    changefreq: hourly
-    lastmod: 2014-05-31T21:14:16-07:00
 ---
 <h2>Live Stream</h2>
 
 <p>This page is a major work in progress, but, yeah we've got a live stream now!</p>
-<p>When we go live, or switch back to the replays the stream will cut out out and you'll need to refresh the page to pick it back up. Ceebs is investigating the best way to prevent the stream from stopping when changing sources. Hopefully sometime soon this message will disappear.</p>
+<p>We're still working on getting something to indicate what episode is currently playing.</p>
 
 <div class="player-container">
-	<audio controls autoplay="true">
+	<audio id="live-stream" controls autoplay="true">
 		<source type="audio/mpeg" src="{{ site.streamurl }}">
 	</audio>
 </div>

@@ -32,6 +32,9 @@
 		margin-left: 180px;
 		margin-bottom: 10px;
 	}
+	.calendar-list li h4, .calendar-list li p {
+		margin-left: 20px;
+	}
 }
 img {
 	max-width: 100%;

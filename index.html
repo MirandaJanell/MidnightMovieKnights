@@ -2,26 +2,13 @@
 layout: default
 title: Midnight Movie Knights
 show_tweets: true
-sitemap:
-    priority: 0.7
-    changefreq: hourly
-    lastmod: 2014-03-01T01:18:00-08:00
+redirect_from: "/page1/"
 ---
 <div id="home">
-	<div class="panel panel-info special-note">
-		<div class="panel-heading">
-			<h3 class="panel-title">Special Note from The Midnight Movie Knights</h3>
-		</div>
-
-		<div class="panel-body">
-			<p>This site is still a work in progress. Midnight Movie Knights is a labor of love that we are doing in our spare time. There are a number of issues that we are currently aware of, but we're always open to feedback. Feel free to drop us a line at <a href="http://twitter.com/MovieKnightsPod" target="_blank">@MovieKnightsPod</a> for any reason what so ever, but especially for site issues. Believe us, we'll be happy you even noticed us, let alone took the time to contact us.</p>
-			<p>Thank you so much for your support.</p>
-		</div>
-	</div>
-
 	<h2>Our stuff</h2>
+
 	<div>
-		<h2><a href="{{ site.baseurl }}/stream.html">Live Stream</a></h2>
+		<h3><a href="{{ site.baseurl }}/stream.html">Live Stream</a></h3>
 
 		<p>Ceebs is still piecing this together. The stream player hopefully will be enhanced soon.</p>
 
@@ -32,50 +19,55 @@ sitemap:
 		</div>
 
 		<div>
-		<span><a href="{{ site.baseurl }}/stream.html">Stream Page</a></span>&nbsp;|&nbsp;
-		<span><a href="{{ site.streamurl }}" target="_blank">Direct Link</a></div></span>
+			<!-- <span><a href="{{ site.baseurl }}/stream.html" class="play-link" data-src="{{ site.streamurl }}"><i class="fa fa-play"></i> Play</a></span>&nbsp;|&nbsp; -->
+			<span><a href="{{ site.baseurl }}/stream.html">Stream Page</a></span>&nbsp;|&nbsp;
+			<span><a href="{{ site.streamurl }}" target="_blank">Direct Link</a></span>
+		</div>
+	</div>
+
+	<div class="alert alert-info alert-dismissible" role="alert">
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		<strong>Sorry :-(</strong> The multiple episode player is being rethought.<br />
+		The individual episode players are working on their respective pages.
 	</div>
 
 {% for post in paginator.posts %}
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<div>
-		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-		
-		<div class="player-container">
+		<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+
+		<!-- <div class="player-container">
 			<audio controls preload="metadata">
 				<source type="audio/mpeg" src="{{ episodeurl }}">
 			</audio>
-		</div>
+		</div> -->
 
-		<div>
-			<span>{{ post.date | date_to_string }}</span> <a class="download-link" href="{{ episodeurl }}">Download</a>
+		<p class="post-excerpt">{{ post.excerpt }}</p>
+
+		<div class="post-links">
+			<span><a href="{{ site.baseurl }}{{ post.url }}">Episode Page</a></span>&nbsp;|&nbsp;
+			<span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date_to_string }}</a></span>&nbsp;|&nbsp;
+			<span><a class="download-link" href="{{ episodeurl }}">Download</a></span>
 		</div>
 	</div>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
-	<div class="paginator row">
-		<div class="col-xs-1 col-md-2">
-		{% if paginator.previous_page %}
-			{% if paginator.previous_page == 1 %}
-			<a href="/" >Prev</a>
-			{% else %}
-			<a href="/page{{ paginator.previous_page }}">Prev</a>
-			{% endif %}
-		{% else %}
-			<span>Prev</span>
-		{% endif %}
-		</div>
-
-		<div class="col-xs-4 col-md-2">Page: {{ paginator.page }} of {{ paginator.total_pages }}</div>
-
-		<div class="col-xs-1 col-md-2">
+	<ul class="pagination">
+		<li>
+			<a href="{{ site.baseurl }}/{% if paginator.previous_page > 1 %}page{{ paginator.previous_page }}{% endif %}"><i class="fa fa-angle-double-left"></i> Prev</a>
+		</li>
+		{% for i in (1..paginator.total_pages) %}
+		<li{% if i == (paginator.page - 1) %} class="active"{% endif %}><a href="{{ site.baseurl }}/page{{ i }}">{{ i }}</a></li>
+		{% endfor %}
+		<li>
 		{% if paginator.next_page %}
-			<a href="/page{{ paginator.next_page }}">Next</a>
+			<a href="{{ site.baseurl }}/page{{ paginator.next_page }}">
 		{% else %}
-			<span>Next</span>
+			<a href="{{ site.baseurl }}/page{{ paginator.page }}">
 		{% endif %}
-		</div>
-	</div>
+			Next <i class="fa fa-angle-double-right"></i></a>
+		</li>
+	</ul>
 {% endif %}
 </div>
