@@ -11,10 +11,11 @@
 		<meta name="twitter:site" content="@MovieKnightsPod">
 		<meta name="twitter:creator" content="@MovieKnightsPod">
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
-		<meta property="og:image" content="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg">
+		<meta property="og:url" content="{{ url }}{{ site.baseurl }}{{ page.url }}">
+		<meta property="og:image" content="{{ url }}{{ site.baseurl }}/assets/img/mmk_banner.png">
 {% if page.categories contains 'podcast' %}
 		<meta property="og:title" content="{{ page.title }}">
+		<meta property="og:audio" content="{% page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}">
 	{% if page.abstract %}
 		<meta property="og:description" content="{{ page.abstract }}">
 	{% else %}
