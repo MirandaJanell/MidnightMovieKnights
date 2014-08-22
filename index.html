@@ -7,25 +7,29 @@ redirect_from: "/page1/"
 <div id="home">
 	<h2>Our stuff</h2>
 
-	<div>
-		<h3><a href="{{ site.baseurl }}/stream.html">Live Stream</a></h3>
+	<div class="post-container">
+		<h4 class="post-title"><a href="{{ site.baseurl }}/stream.html">Live Stream</a></h4>
 
-		<p>Ceebs is still piecing this together. The stream player hopefully will be enhanced soon.</p>
+		<div class="post-content">
+			<p>Ceebs is still piecing this together. The stream player hopefully will be enhanced soon.</p>
 
-		<div class="player-container">
-			<audio controls preload="none">
-				<source type="audio/mpeg" src="{{ site.streamurl }}">
-			</audio>
-		</div>
+			<div class="player-container">
+				<audio controls preload="none">
+					<source type="audio/mpeg" src="{{ site.streamurl }}">
+				</audio>
+			</div>
 
-		<div>
-			<!-- <span><a href="{{ site.baseurl }}/stream.html" class="play-link" data-src="{{ site.streamurl }}"><i class="fa fa-play"></i> Play</a></span>&nbsp;|&nbsp; -->
-			<span><a href="{{ site.baseurl }}/stream.html">Stream Page</a></span>&nbsp;|&nbsp;
-			<span><a href="{{ site.streamurl }}" target="_blank">Direct Link</a></span>
+			<div class="post-links">
+				<!-- <span><a href="{{ site.baseurl }}/stream.html" class="play-link" data-src="{{ site.streamurl }}"><i class="fa fa-play"></i> Play</a></span>&nbsp;|&nbsp; -->
+				<span><a href="{{ site.baseurl }}/stream.html">Stream Page</a></span>&nbsp;|&nbsp;
+				<span><a href="{{ site.streamurl }}" target="_blank">Direct Link</a></span>
+			</div>
 		</div>
 	</div>
 
-	<div class="alert alert-info alert-dismissible" role="alert">
+	<h3>Episodes</h3>
+
+	<div id="player-message" class="alert alert-info alert-dismissible" role="alert">
 		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 		<strong>Sorry :-(</strong> The multiple episode player is being rethought.<br />
 		The individual episode players are working on their respective pages.
@@ -33,23 +37,26 @@ redirect_from: "/page1/"
 
 {% for post in paginator.posts %}
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
-	<div>
-		<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+	<div class="post-container">
+		<h4 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 
-		<!-- <div class="player-container">
-			<audio controls preload="metadata">
-				<source type="audio/mpeg" src="{{ episodeurl }}">
-			</audio>
-		</div> -->
+		<div class="post-content">
+			<!-- <div class="player-container">
+				<audio controls preload="metadata">
+					<source type="audio/mpeg" src="{{ episodeurl }}">
+				</audio>
+			</div> -->
 
-		<p class="post-excerpt">{{ post.excerpt }}</p>
+			<p class="post-excerpt">{{ post.excerpt }}</p>
 
-		<div class="post-links">
-			<span><a href="{{ site.baseurl }}{{ post.url }}">Episode Page</a></span>&nbsp;|&nbsp;
-			<span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date_to_string }}</a></span>&nbsp;|&nbsp;
-			<span><a class="download-link" href="{{ episodeurl }}">Download</a></span>
+			<div class="post-links">
+				<span><a href="{{ site.baseurl }}{{ post.url }}">Episode Page</a></span>&nbsp;|&nbsp;
+				<span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date_to_string }}</a></span>&nbsp;|&nbsp;
+				<span><a class="download-link" href="{{ episodeurl }}">Download</a></span>
+			</div>
 		</div>
 	</div>
+	{% unless forloop.last %}<hr />{% endunless %}
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
