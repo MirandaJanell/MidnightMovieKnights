@@ -5,7 +5,7 @@ subtitle:   30 and a Dollar Kitteh Bob
 categories: podcast
 date:       2014-08-23 22:30:00
 duration:   1:59:42
-length:     59747572
+length:     59746280
 link:       http://media.midnightmovieknights.com/2014/034_-_The_Right_Stuff.m4a
 tags:
 - Right
