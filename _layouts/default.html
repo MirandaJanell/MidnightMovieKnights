@@ -10,13 +10,15 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@MovieKnightsPod">
 		<meta name="twitter:creator" content="@MovieKnightsPod">
-		<meta property="og:type" content="website">
 		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 		<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/mmk_banner.png">
+		<meta property="og:sitename" content="{{ site.name }}">
 	
 	{% if page.categories contains 'podcast' %}
 		{% assign ogtitle = page.title %}
+		{% assign ogtype = 'music.song' %}
 		<meta property="og:audio" content="{{ page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' }}">
+		<meta property="og:audio:type" content="audio/mpeg">
 
 		{% if page.abstract %}
 			{% assign ogdesc = page.abstract %}
@@ -24,6 +26,7 @@
 			{% assign ogdesc = page.excerpt %}
 		{% endif %}
 	{% else %}
+		{% assign ogtype = 'website' %}
 		{% if page.title %}
 			{% assign ogtitle = page.title %}
 		{% else %}
@@ -36,6 +39,7 @@
 			{% assign ogdesc = site.description %}
 		{% endif %}
 	{% endif %}
+		<meta property="og:type" content="{{ ogtype }}">
 		<meta property="og:title" content="{{ ogtitle }}">
 		<meta property="og:description" content="{{ ogdesc | strip_html | strip_newlines }}">
 
