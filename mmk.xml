@@ -29,7 +29,14 @@ layout: nil
 		<link>{{site.url}}{{ site.baseurl }}{{ post.url }}</link>
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
 		<itunes:subtitle>{{ post.subtitle }}</itunes:subtitle>
-		<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+		<itunes:summary><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="{{site.url}}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br />
+		{{ post.subtitle }}<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p>{{ post.content }}</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></itunes:summary>
 		<itunes:image href="http://media.midnightmovieknights.com/img/logo1-1400x1400.jpg" />
 		<enclosure url="{{ episodeurl }}" length="{{ post.length }}" type="audio/mp4" />
 		<guid>{{ episodeurl }}</guid>
