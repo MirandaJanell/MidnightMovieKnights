@@ -40,6 +40,9 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.jumbotron h1 {
+	font-size: 4em;
+}
 footer {
 	background-color: #101010;
 	color: white;
