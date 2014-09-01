@@ -56,3 +56,9 @@ footer {
 .paginator {
 	margin-top: 2em;
 }
+.nav-prev {
+	padding-left: 0px;
+}
+.nav-next {
+	padding-right: 0px;
+}

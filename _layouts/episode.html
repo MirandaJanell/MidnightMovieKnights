@@ -19,3 +19,15 @@ layout: default
 <p class="post">
 {{ content }}
 </p>
+
+<div class="navigation container-fluid">
+	<div class="row">
+		<div class="col-sm-6 text-left nav-prev">
+			{% if page.previous %}<a href="{{ baseurl }}{{ page.previous.url }}"><i class="fa fa-angle-double-left"></i> {{ page.previous.title }}</a>{% endif %}
+		</div>
+
+		<div class="col-sm-6 text-right nav-next">
+			{% if page.next %}<a href="{{ baseurl }}{{ page.next.url }}">{{ page.next.title }} <i class="fa fa-angle-double-right"></i></a>{% endif %}
+		</div>
+	</div>
+</div>
