@@ -16,7 +16,7 @@ if(onlbDays > 0) {
 }
 
 function calcDays(d1, d2) {
-	return Math.round((d1 - d2) / (1000 * 60 * 60 * 24));
+	return Math.ceil((d1 - d2) / (1000 * 60 * 60 * 24));
 }
 
 })(jQuery);
