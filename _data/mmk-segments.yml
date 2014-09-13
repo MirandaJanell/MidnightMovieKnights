@@ -1,5 +1,10 @@
 - title: "#HashtagMorons"
   description: "If someone does something one or both of the knights deem stupid then we have a #HashtagMoron on our hands."
+  status: "graduated"
+
+- title: "Science Flicktion"
+  type: "Pick-a-Flick"
+  description: "Any movie with a science-fiction basis."
 
 - title: "Pop My Culture Cherry"
   description: "Any pop culture related piece of news or discussion."
