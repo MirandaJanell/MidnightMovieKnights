@@ -1,10 +1,7 @@
 - title: "#HashtagMorons"
   description: "If someone does something one or both of the knights deem stupid then we have a #HashtagMoron on our hands."
-  status: "graduated"
-
-- title: "Science Flicktion"
-  type: "Pick-a-Flick"
-  description: "Any movie with a science-fiction basis."
+  status: "retired"
+  retired: 2014-09-06
 
 - title: "Pop My Culture Cherry"
   description: "Any pop culture related piece of news or discussion."
@@ -13,12 +10,15 @@
   description: "Bah, it's not just Doctor Who news, it's open to anything Whoniverse adjacent. We should rename this one. Get on it ya lazy bums."
 
 - title: "SMovie"
+  type: "Pick-a-Flick"
   description: "We're both pretty big fans of Kevin Smith and in November of 2013 we took his advice. &quot;Grab a buddy, and record a podcast he says.&quot; as Ceebs put it in the Midnight Movie Knights teaser episode. Kevin Smith is one of our inspirations, so this is how we pay Homage to him, by choosing one of his movies to highlight."
 
 - title: "Guilty Pleasure"
+  type: "Pick-a-Flick"
   description: "Any movie that we might get mocked for because of how we respond to it. "
 
 - title: "Old Friend"
+  type: "Pick-a-Flick"
   description: "Anything from the 1970’s or older"
 
 - title: "Ear Candy"
@@ -34,13 +34,35 @@
   description: "A podcast that we like, and will probably fangasm over. Yeah that's right, fangasm, we said it."
 
 - title: "Holiday Movie"
+  type: "Pick-a-Flick"
   description: "The knights are free to choose any movie that gets them in the holiday spirit."
 
 - title: "What's Reel?"
+  type: "Pick-a-Flick"
   description: "Any movie based on historical events or entities."
 
 - title: "A Novel Idea"
+  type: "Pick-a-Flick"
   description: "Any movie based on a written work."
 
 - title: "Knights Choice"
   description: "There are two Knights Choice entries. One for Ceebs, and one for Kitteh. Which ever knight is specified gets to choose a segment from the remaining segments."
+
+- title: "Science Flicktion"
+  type: "Pick-a-Flick"
+  description: "Any movie with a science-fiction basis."
+  dateAdded: 2014-09-06
+
+- title: "Foreigners"
+  type: "Pick-a-Flick"
+  description: "Any non North American movie. Why non North American when you're both in the USA? Well, there's a crap ton of movies filmed up in Canada, and we love Canada eh!"
+  dateAdded: 2014-09-13
+
+- title: "Tooned In"
+  type: "Pick-a-Flick"
+  description: "Any animated featured."
+  dateAdded: 2014-09-13
+
+- title: "Acting Out"
+  description: "Highlights any actor."
+  dateAdded: 2014-09-13

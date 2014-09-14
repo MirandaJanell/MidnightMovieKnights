@@ -13,7 +13,7 @@ Coming soon
 ### Segments
 
 {% for segment in site.data.mmk-segments %}
-{% if segment.status != "graduated" %}
+{% if segment.status != "retired" %}
 <h4 class="segment-title">{{ segment.title }}</h4>
 <p class="segment-description">{{ segment.description }}</p>
 {% endif %}
