@@ -1,19 +1,29 @@
-- date: 2014-09-13
-  episode: 37
-  title: Clerks
-  imdb-link: http://www.imdb.com/title/tt0109445
-  guests: "<a href=\"https://twitter.com/WANHTPY\" target=\"_blank\">Rafael</a> from <a href=\"http://wearenotheretopleaseyou.blogspot.fi\" target=\"_blank\">We Are Not Here To Please You</a>. They just landed some sweet interviews, and they want to talk to us about the guest they lined up for their <a href=\"http://wearenotheretopleaseyou.blogspot.fi/\" target=\"_blank\">41st episode</a>."
+- date: 2014-10-04
+  episode: 40
+  imdb-link: http://www.imdb.com/title/tt0095631/
+  title: Midnight Run
+  guests:
 
-- date: 2014-09-20
-  episode: 38
-  title: ???
+- date: 2014-10-11
+  episode: 41
+  imdb-link: 
+  title: 
+  guests:
 
-- date: 2014-09-27
-  episode: 39
-  title: ???
+- date: 2014-10-18
+  episode: 42
+  imdb-link: http://www.imdb.com/title/tt0371724/
+  title: The Hitchhiker's Guide to the Galaxy
+  guests:
+
+- date: 2014-10-25
+  episode: 43
+  imdb-link: 
+  title: 
+  guests:
 
 - date: 2014-11-01
-  episode: Special
+  episode: 44
   title: A Knights Tale
   subtitle: Ceebs arrives in Texas
 
