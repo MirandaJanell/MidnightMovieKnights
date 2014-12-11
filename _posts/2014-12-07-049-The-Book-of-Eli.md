@@ -3,7 +3,7 @@ layout:     episode
 title:      049 - The Book of Eli
 subtitle:   No one heard it
 categories: podcast
-date:       2014-12-70 00:00:00
+date:       2014-12-07 00:00:00
 duration:   1:08:58
 length:     35828792
 link:       http://media.midnightmovieknights.com/2014/049_-_The_Book_of_Eli.m4a
