@@ -15,7 +15,7 @@ Artist: [@mrBradRaven](https://twitter.com/mrBradRaven)
 Title: Midnight Movie Knights Theme  
 Artist: [@JudgeFunkyBoy](https://twitter.com/JudgeFunkyBoy)  
 
-Title: "Segment Jingles (Tournament of Segments, Flick Pick, Science Flicktion)"  
+Title: Segment Jingles (Tournament of Segments, Flick Pick, Science Flicktion)  
 Artist: [@DCKantel](https://twitter.com/DCKantel)  
 
 ### Articles
