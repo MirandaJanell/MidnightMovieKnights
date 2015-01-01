@@ -11,9 +11,12 @@ sitemap:
 Title: Logo  
 Artist: [@mrBradRaven](https://twitter.com/mrBradRaven)  
 
-### Music
+### Audio
 Title: Midnight Movie Knights Theme  
 Artist: [@JudgeFunkyBoy](https://twitter.com/JudgeFunkyBoy)  
+
+Title: "Segment Jingles (Tournament of Segments, Flick Pick, Science Flicktion)"  
+Artist: [@DCKantel](https://twitter.com/DCKantel)  
 
 ### Articles
 [Podcasting with Jekyll](http://www.adamwilcox.org/2013/01/17/from-the-pub/)  
