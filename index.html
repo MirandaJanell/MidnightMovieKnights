@@ -28,13 +28,6 @@ redirect_from: "/page1/"
 	</div>
 
 	<h3>Episodes</h3>
-
-	<div id="player-message" class="alert alert-info alert-dismissible" role="alert">
-		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-		<strong>Sorry :-(</strong> The multiple episode player is being rethought.<br />
-		The individual episode players are working on their respective pages.
-	</div>
-
 {% for post in paginator.posts %}
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<div class="post-container">
