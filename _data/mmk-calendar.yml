@@ -1,6 +1,13 @@
 - episode: 53
   date: 2015-01-03
-  time: 9:00 PM
+  time: 9:00 PM PST
   imdb-link: http://www.imdb.com/title/tt0097235/
   title: The Dream Team
+  guests: 
+
+- episode: 54
+  date: 2015-01-10
+  time: 9:00 PM PST
+  imdb-link: http://www.imdb.com/title/tt1392170/
+  title: The Hunger Games
   guests: 
