@@ -66,3 +66,38 @@
 - title: "Acting Out"
   description: "Highlights any actor."
   dateAdded: 2014-09-13
+
+- title: "Lights, Camera, Action!"
+  type: "Pick-a-Flick"
+  description: "Any action movie."
+  dateAdded: 2015-01-01
+
+- title: "Chick Flick"
+  type: "Pick-a-Flick"
+  description: "Let's face it, this category was added to force Ceebs to chose real guilty pleasures. :-D"
+  dateAdded: 2015-01-01
+
+- title: "Follow Ups"
+  type: "Pick-a-Flick"
+  description: "Sequels, prequels, trilogies, and sagas, it's all fair game."
+  dateAdded: 2015-01-01
+
+- title: "Reimagined"
+  type: "Pick-a-Flick"
+  description: "Any movie that is an update to a previously released film."
+  dateAdded: 2015-01-01
+
+- title: "New Releases"
+  type: "Pick-a-Flick"
+  description: "Movies that are currently in theaters or recently released on Bluray, DVD, or Digital Download."
+  dateAdded: 2015-01-01
+
+- title: "Made for TV"
+  type: "Pick-a-Flick"
+  description: "Any movie originally developed for a television release."
+  dateAdded: 2015-01-01
+
+- title: "Blockbusts"
+  type: "Pick-a-Flick"
+  description: "Any movie that woefully underperformed at the box office."
+  dateAdded: 2015-01-01
