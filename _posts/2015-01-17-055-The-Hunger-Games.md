@@ -7,6 +7,7 @@ date:       2015-01-17 21:00:00
 duration:   1:11:59
 length:     37152091
 link:       http://media.midnightmovieknights.com/2015/055_-_The_Hunger_Games.m4a
+ogimage:	http://media.midnightmovieknights.com/img/SneakyCeebs.png
 tags:
 - Hunger
 - Games

@@ -11,8 +11,14 @@
 		<meta name="twitter:site" content="@MovieKnightsPod">
 		<meta name="twitter:creator" content="@MovieKnightsPod">
 		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-		<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/mmk_banner.png">
 		<meta property="og:sitename" content="{{ site.name }}">
+
+		{% if page.ogimage %}
+		<meta property="og:image" content="{{ page.ogimage }}">
+		{% else %}
+		<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/mmk_banner.png">
+		{% endif %}
+
 	
 	{% if page.categories contains 'podcast' %}
 		{% assign ogtitle = page.title %}
