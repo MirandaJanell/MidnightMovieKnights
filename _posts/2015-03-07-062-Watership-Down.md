@@ -3,7 +3,7 @@ layout:     episode
 title:      062 - Watership Down
 subtitle:   Thank Frith for Bunnies!
 categories: podcast
-date:       2015-02-28 21:35:00
+date:       2015-03-07 21:50:00
 duration:   1:03:22
 length:     32811741
 link:       http://media.midnightmovieknights.com/2015/062_-_Watership_Down.m4a
