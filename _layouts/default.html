@@ -10,42 +10,40 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@MovieKnightsPod">
 		<meta name="twitter:creator" content="@MovieKnightsPod">
-		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-		<meta property="og:sitename" content="{{ site.name }}">
+{% assign ogtitle = site.name %}
+{% assign ogdesc = site.description %}
+{% capture ogimage %}{{ site.url }}{{ site.baseurl }}'/assets/img/mmk_banner.png'{% endcapture %}
+{% assign ogtype = 'website' %}
 
-		{% if page.ogimage %}
-		<meta property="og:image" content="{{ page.ogimage }}">
-		{% else %}
-		<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/mmk_banner.png">
-		{% endif %}
+{% if page.title %}
+	{% assign ogtitle = page.title %}
+{% endif %}
 
-	
-	{% if page.categories contains 'podcast' %}
-		{% assign ogtitle = page.title %}
-		{% assign ogtype = 'article' %}
+{% if page.description %}
+	{% assign ogdesc = page.description %}
+{% endif %}
 
-		{% if page.abstract %}
-			{% assign ogdesc = page.abstract %}
-		{% else %}
-			{% assign ogdesc = page.excerpt %}
-		{% endif %}
+{% if page.categories contains 'podcast' %}
+	{% assign ogtitle = page.title %}
+	{% assign ogtype = 'article' %}
+
+	{% if page.abstract %}
+		{% assign ogdesc = page.abstract %}
 	{% else %}
-		{% assign ogtype = 'website' %}
-		{% if page.title %}
-			{% assign ogtitle = page.title %}
-		{% else %}
-			{% assign ogtitle = site.name %}
-		{% endif %}
-
-		{% if page.description %}
-			{% assign ogdesc = page.description %}
-		{% else %}
-			{% assign ogdesc = site.description %}
-		{% endif %}
+		{% assign ogdesc = page.excerpt %}
 	{% endif %}
-		<meta property="og:type" content="{{ ogtype }}">
+{% endif %}
+
+{% if page.ogimage %}
+	{% assign ogimage = page.ogimage %}
+{% endif %}
+
+		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 		<meta property="og:title" content="{{ ogtitle }}">
 		<meta property="og:description" content="{{ ogdesc | strip_html | strip_newlines }}">
+		<meta property="og:site_name" content="{{ site.name }}">
+		<meta property="og:image" content="{{ ogimage }}">
+		<meta property="og:type" content="{{ ogtype }}">
 
     	<title>{{ page.title }}</title>
 
