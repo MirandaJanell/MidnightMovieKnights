@@ -22,9 +22,7 @@
 	
 	{% if page.categories contains 'podcast' %}
 		{% assign ogtitle = page.title %}
-		{% assign ogtype = 'music.song' %}
-		<meta property="og:audio" content="{{ page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' }}">
-		<meta property="og:audio:type" content="audio/mpeg">
+		{% assign ogtype = 'article' %}
 
 		{% if page.abstract %}
 			{% assign ogdesc = page.abstract %}
