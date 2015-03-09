@@ -12,7 +12,8 @@
 		<meta name="twitter:creator" content="@MovieKnightsPod">
 {% assign ogtitle = site.name %}
 {% assign ogdesc = site.description %}
-{% capture ogimage %}{{ site.url }}{{ site.baseurl }}'/assets/img/mmk_banner.png'{% endcapture %}
+{% assign bannerimg = '/assets/img/mmk_banner.png' %}
+{% capture ogimage %}{{ site.url }}{{ site.baseurl }}{{ bannerimg }}{% endcapture %}
 {% assign ogtype = 'website' %}
 
 {% if page.title %}
