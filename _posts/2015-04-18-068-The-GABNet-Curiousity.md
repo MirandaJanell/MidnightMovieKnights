@@ -14,4 +14,4 @@ tags:
 - Bunnies
 - Daredevil
 ---
-Plagued by difficulties of both the technical and non technical varieties, the Knights go live on GABNet.net and even attempted a Citizen Panel. The end result is a show that very much so resembles Getting Geeky, only with a lot more butt stuff. During the stinger, the Knights settled on Darevil as their FLick Pick, but they did not obtain it, so this week, they are without a Flick Pick. Both Knights agree, that was a weird show.
+Plagued by difficulties of both the technical and non technical varieties, the Knights go live on [GABNet.net](http://gabnet.net) and even attempted a Citizen Panel. The end result is a show that very much so resembles Getting Geeky, only with a lot more butt stuff. During the stinger, the Knights settled on [Darevil](http://www.imdb.com/title/tt0287978/) as their FLick Pick, but they did not obtain it, so this week, they are without a Flick Pick. Both Knights agree, that was a weird show.
