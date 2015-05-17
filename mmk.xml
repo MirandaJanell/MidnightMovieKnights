@@ -25,11 +25,11 @@ layout: nil
 {% for post in site.categories.podcast %}
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<item>
-		<title>{{ post.title }}</title>
+		<title>{{ post.title | xml_escape }}</title>
 		<link>{{site.url}}{{ site.baseurl }}{{ post.url }}</link>
 		<description>{{ post.content | xml_escape }}</description>
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
-		<itunes:subtitle>{{ post.subtitle }}</itunes:subtitle>
+		<itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
 		<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
 		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
 		<itunes:duration>{{ post.duration | remove: '.0' }}</itunes:duration>
