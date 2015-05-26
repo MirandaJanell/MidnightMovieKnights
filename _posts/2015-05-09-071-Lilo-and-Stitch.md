@@ -15,5 +15,4 @@ tags:
 - Mixer
 - Shower
 ---
-The Knights begin the show early with a bang or two or many and then discuss their week. They are joined by surprise caller 'Bill' who showers the Knights with his tale of cement mixing.
-The Flick Pick for the week was [Lilo & Stitch](http://www.imdb.com/title/tt0275847/), a definite favorite of Ceebs judging by all the stuffies she proudly displayed for the Cat, who had never seen the movie before and was impressed.
+The Knights begin the show early with a bang or two or many and then discuss their week. They are joined by surprise caller 'Bill' who showers the Knights with his tale of cement mixing. The Flick Pick for the week was [Lilo & Stitch](http://www.imdb.com/title/tt0275847/), a definite favorite of Ceebs judging by all the stuffies she proudly displayed for the Cat, who had never seen the movie before and was impressed.
