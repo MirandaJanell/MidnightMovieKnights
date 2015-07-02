@@ -53,20 +53,23 @@ redirect_from: "/page1/"
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
+	{% assign paginator_pages = 3 %}
 	{% assign paginator_first = 1 %}
-	{% if paginator.page > 5 %}{% assign paginator_first = paginator.page | minus: 5 %}{% endif %}
+	{% if paginator.page > paginator_pages %}{% assign paginator_first = paginator.page | minus: paginator_pages %}{% endif %}
 	{% assign paginator_last = paginator.total_pages %}
-	{% if paginator.page < (paginator.total_pages - 5) %}{% assign paginator_last = paginator.page | plus: 5 %}{% endif %}
-	<ul class="pagination">
-		<li{% unless paginator.previous_page %} class="disabled"{% endunless %}><a href="{{ site.baseurl }}/" title="First Page"><i class="fa fa-angle-double-left"></i></a></li>
-		<li{% unless paginator.previous_page %} class="disabled"{% endunless %}><a href="{{ site.baseurl }}/{% if paginator.previous_page > 1 %}page{{ paginator.previous_page }}{% endif %}" title="Previous Page"><i class="fa fa-angle-left"></i></a></li>
-		{% if paginator_first > 1 %}<li class="disabled"><span>...</span></li>{% endif %}
-		{% for i in (paginator_first..paginator_last) %}
-		<li{% if i == (paginator.page - 1) %} class="active"{% endif %}><a href="{{ site.baseurl }}/page{{ i }}" title="Page {{ i }}">{{ i }}</a></li>
-		{% endfor %}
-		{% if paginator_last < paginator.total_pages %}<li class="disabled"><span>...</span></li>{% endif %}
-		<li{% unless paginator.next_page %} class="disabled"{% endunless %}><a href="{{ site.baseurl }}/page{% if paginator.next_page %}{{ paginator.next_page }}{% else %}{{ paginator.page }}{% endif %}" title="Next Page"><i class="fa fa-angle-right"></i></a></li>
-		<li{% unless paginator.next_page %} class="disabled"{% endunless %}><a href="{{ site.baseurl }}/page{{ paginator.total_pages - 1 }}" title="Last Page"><i class="fa fa-angle-double-right"></i></a></li>
-	</ul>
+	{% if paginator.page < (paginator.total_pages - paginator_pages) %}{% assign paginator_last = paginator.page | plus: paginator_pages %}{% endif %}
+	<div class="text-center">
+		<ul class="pagination">
+			<li{% unless paginator.previous_page %} class="disabled"{% endunless %}><a href="{{ site.baseurl }}/" title="First Page"><i class="fa fa-angle-double-left"></i></a></li>
+			<li{% unless paginator.previous_page %} class="disabled"{% endunless %}><a href="{{ site.baseurl }}/{% if paginator.previous_page > 1 %}page{{ paginator.previous_page }}{% endif %}" title="Previous Page"><i class="fa fa-angle-left"></i></a></li>
+			{% if paginator_first > 1 %}<li class="disabled hidden-xs hidden-sm"><span>...</span></li>{% endif %}
+			{% for i in (paginator_first..paginator_last) %}
+			<li class="{% if i == (paginator.page - 1) %}active{% else %}hidden-xs hidden-sm{% endif %}"><a href="{{ site.baseurl }}/page{{ i }}" title="Page {{ i }}">{{ i }}{% if i == (paginator.page - 1) %} <span class="sr-only">(current)</span>{% endif %}</a></li>
+			{% endfor %}
+			{% if paginator_last < paginator.total_pages %}<li class="disabled hidden-xs hidden-sm"><span>...</span></li>{% endif %}
+			<li{% unless paginator.next_page %} class="disabled"{% endunless %}><a href="{{ site.baseurl }}/page{% if paginator.next_page %}{{ paginator.next_page }}{% else %}{{ paginator.page }}{% endif %}" title="Next Page"><i class="fa fa-angle-right"></i></a></li>
+			<li{% unless paginator.next_page %} class="disabled"{% endunless %}><a href="{{ site.baseurl }}/page{{ paginator.total_pages - 1 }}" title="Last Page"><i class="fa fa-angle-double-right"></i></a></li>
+		</ul>
+	</div>
 {% endif %}
 </div>
