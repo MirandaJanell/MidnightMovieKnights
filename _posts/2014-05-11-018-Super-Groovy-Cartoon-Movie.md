@@ -7,6 +7,7 @@ date:       2014-05-11 01:00:35
 duration:   0:53:41
 length:     28017371
 link:       http://media.midnightmovieknights.com/2014/018_-_Super_Groovy_Cartoon_Movie.m4a
+soundcloud: 213160244
 tags:
 - Super
 - Groovy

@@ -7,6 +7,7 @@ date:       2014-05-18 01:06:56
 duration:   1:00:32
 length:     31227909
 link:       http://media.midnightmovieknights.com/2014/019_-_The_Count_of_Monte_Cristo.m4a
+soundcloud: 213160312
 tags:
 - Count
 - Monte
