@@ -7,6 +7,7 @@ date:       2014-01-25 23:28:00
 duration:   0:38:28
 length:     17545055
 link:       http://media.midnightmovieknights.com/2014/001_-_Waxing_Idiotical.m4a
+soundcloud: 213132134
 tags:
 - 40 Year Old Virgin
 - Target

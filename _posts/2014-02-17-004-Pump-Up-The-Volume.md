@@ -7,6 +7,7 @@ date:       2014-02-17 21:22:48
 duration:   0:56:07
 length:     24825023
 link:       http://media.midnightmovieknights.com/2014/004_-_Pump_Up_The_Volume.m4a
+soundcloud: 213132672
 tags:
 - Pump Up The Volume
 - Pirate Radio
