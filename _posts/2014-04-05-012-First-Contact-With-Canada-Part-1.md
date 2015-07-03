@@ -7,6 +7,7 @@ date:       2014-04-07 02:01:24
 duration:   1:35:47
 length:     48353181
 link:       http://media.midnightmovieknights.com/2014/012_-_First_Contact_With_Canada_Part_1.m4a
+soundcloud: 213154277
 tags:
 - Star
 - Trek
