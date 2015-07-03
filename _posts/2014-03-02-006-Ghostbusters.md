@@ -7,6 +7,7 @@ date:       2014-03-02 22:13:23
 duration:   01:03:03
 length:     16509386
 link:       http://media.midnightmovieknights.com/2014/006_-_Ghostbusters.m4a
+soundcloud: 213132841
 tags:
 - Ghostbusters
 - Harold Ramis
