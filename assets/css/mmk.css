@@ -61,7 +61,9 @@ footer {
 }
 .nav-prev {
 	padding-left: 0px;
+	white-space: nowrap;
 }
 .nav-next {
 	padding-right: 0px;
+	white-space: nowrap;
 }
