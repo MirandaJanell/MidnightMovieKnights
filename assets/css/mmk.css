@@ -36,6 +36,12 @@
 		margin-left: 20px;
 	}
 }
+h1, h2, h3, h4 {
+	text-align: center;
+}
+.post-links {
+	text-align: center;
+}
 img {
 	max-width: 100%;
 	height: auto;
