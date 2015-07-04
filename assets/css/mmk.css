@@ -48,6 +48,12 @@ h1, h2, h3, h4 {
 	border: none;
 	margin: 0px;
 }
+.soundcloud-player {
+	width: 100%;
+	height: 166px;
+	border: none;
+	margin: 0px;
+}
 img {
 	max-width: 100%;
 	height: auto;
