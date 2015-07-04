@@ -7,6 +7,7 @@ date:       2014-11-30 00:00:00
 duration:   0:58:05
 length:     30304399
 link:       http://media.midnightmovieknights.com/2014/048_-_Legally_Blonde.m4a
+soundcloud: 213170726
 tags:
 - Legally
 - Blonde

@@ -7,6 +7,7 @@ date:       2015-02-15 21:00:00
 duration:   1:37:55
 length:     49277012
 link:       http://media.midnightmovieknights.com/2015/059_-_The_Dark_Knight.m4a
+soundcloud: 213172433
 tags:
 - Dark
 - Knight

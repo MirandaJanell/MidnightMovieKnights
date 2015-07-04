@@ -7,6 +7,7 @@ date:       2015-04-18 11:15:00
 duration:   1:34:36
 length:     47660202
 link:       http://media.midnightmovieknights.com/2015/068_-_The_GABNet_Curiousity.m4a
+soundcloud: 213173829
 tags:
 - GABNet
 - Bob's

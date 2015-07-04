@@ -7,6 +7,7 @@ date:       2014-12-07 00:00:00
 duration:   1:08:58
 length:     35828792
 link:       http://media.midnightmovieknights.com/2014/049_-_The_Book_of_Eli.m4a
+soundcloud: 213170779
 tags:
 - Book
 - Eli

@@ -7,6 +7,7 @@ date:       2015-03-28 09:00:00
 duration:   1:27:36
 length:     44462849
 link:       http://media.midnightmovieknights.com/2015/065_-_Bram_Stokers_Dracula.m4a
+soundcloud: 213173812
 tags:
 - Bram
 - Stoker

@@ -7,6 +7,7 @@ date:       2014-11-01 21:00:00
 duration:   1:02:23
 length:     32906227
 link:       http://media.midnightmovieknights.com/2014/044_-_A_Knights_Tale.m4a
+soundcloud: 213170538
 tags:
 - Knights
 - Tale

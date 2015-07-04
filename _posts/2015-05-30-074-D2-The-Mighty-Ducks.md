@@ -7,6 +7,7 @@ date:       2015-05-30 9:00:00
 duration:   1:43:44
 length:     52292239
 link:       http://media.midnightmovieknights.com/2015/074_-_D2_The_Mighty_Ducks.m4a
+soundcloud: 213173869
 tags:
 - D2
 - Mighty

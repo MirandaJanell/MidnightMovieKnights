@@ -8,6 +8,7 @@ duration:   1:03:22
 length:     32811741
 link:       http://media.midnightmovieknights.com/2015/062_-_Watership_Down.m4a
 ogimage:    http://media.midnightmovieknights.com/img/MMK62AngelStadiumHeartWalk.png
+soundcloud: 213173788
 tags:
 - Watership
 - Down

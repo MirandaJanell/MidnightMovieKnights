@@ -7,6 +7,7 @@ date:       2015-02-21 21:10:00
 duration:   1:05:31
 length:     33579767
 link:       http://media.midnightmovieknights.com/2015/060_-_The_Outsiders.m4a
+soundcloud: 213173774
 tags:
 - Outsiders
 - Ducks

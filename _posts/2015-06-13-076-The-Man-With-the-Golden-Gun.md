@@ -7,6 +7,7 @@ date:       2015-06-13 9:45:00
 duration:   1:08:35
 length:     35369543
 link:       http://media.midnightmovieknights.com/2015/076_-_The_Man_With_the_Golden_Gun.m4a
+soundcloud: 213173877
 tags:
 - Christopher
 - Lee

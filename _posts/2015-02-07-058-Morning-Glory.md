@@ -7,6 +7,7 @@ date:       2015-02-07 21:20:00
 duration:   1:05:49
 length:     33951497
 link:       http://media.midnightmovieknights.com/2015/058_-_Morning_Glory.m4a
+soundcloud: 213172426
 tags:
 - Morning
 - Glory
