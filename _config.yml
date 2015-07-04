@@ -6,7 +6,6 @@ timezone: America/Los_Angeles
 baseurl: ''
 url: http://www.midnightmovieknights.com
 paginate: 5
-streamurl: http://stream.midnightmovieknights.com/midnight-movie-knights/mmk-64m.mp3
 gems:
 - jekyll-sitemap
 - jekyll-redirect-from

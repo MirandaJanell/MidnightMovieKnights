@@ -26,14 +26,9 @@ layout: default
 {{ content }}
 </p>
 
-<div class="navigation container-fluid">
-	<div class="row">
-		<div class="col-sm-6 text-left nav-prev">
-			{% if page.previous %}<a href="{{ baseurl }}{{ page.previous.url }}"><i class="fa fa-angle-double-left"></i> {{ page.previous.title }}</a>{% endif %}
-		</div>
-
-		<div class="col-sm-6 text-right nav-next">
-			{% if page.next %}<a href="{{ baseurl }}{{ page.next.url }}">{{ page.next.title }} <i class="fa fa-angle-double-right"></i></a>{% endif %}
-		</div>
-	</div>
-</div>
+<nav>
+	<ul class="pager">
+		<li class="previous{% unless page.previous %} disabled{% endunless %}"><a href="{{ baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}"><span aria-hidden="true">&larr;</span> Older</a></li>
+		<li class="next{% unless page.next %} disabled{% endunless %}"><a href="{{ baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+	</ul>
+</nav>
