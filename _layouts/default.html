@@ -131,7 +131,6 @@
 						{% if page.show_tweets %}
 						<div class="twitter-widget hidden-xs hidden-sm">
 							<a class="twitter-timeline" href="https://twitter.com/MovieKnightsPod" data-widget-id="440616044848087040" title="@MovieKnightsPod Twitter Timeline">Recent Tweets by @MovieKnightsPod</a>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 						</div>
 						{% endif %}
 					</div><!-- .wrapper .container .row .col-md-4 -->
@@ -156,6 +155,7 @@
 
 		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		{% if page.show_tweets %}<script id="twitter-wjs" type="text/javascript" async defer src="//platform.twitter.com/widgets.js"></script>{% endif %}
 		<!-- <script src="{{ site.baseurl }}/assets/js/mmk.js"></script> -->
 	{% if page.local_scripts %}
 		{% for script in page.local_scripts %}
