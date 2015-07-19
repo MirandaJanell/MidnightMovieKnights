@@ -1,9 +1,7 @@
-_drafts
 _site
 Gemfile.lock
-mm.log
-mmst.log
-mmui.log
-midnightmovieknights.sublime-project
-midnightmovieknights.sublime-workspace
+mm*.log
+*.sublime-project
+*.sublime-workspace
 _config.dropbox.yml
+bower_components
