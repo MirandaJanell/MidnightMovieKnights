@@ -22,7 +22,7 @@ layout: null
 	<itunes:category text="TV &amp; Film" />
 	<itunes:category text="Society &amp; Culture" />
 	<itunes:explicit>Yes</itunes:explicit>
-{% for post in site.categories.podcast %}
+{% for post in site.categories.podcast limit:20 %}
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<item>
 		<title>{{ post.title | xml_escape }}</title>
