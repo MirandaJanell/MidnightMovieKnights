@@ -10,6 +10,7 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@MovieKnightsPod">
 		<meta name="twitter:creator" content="@MovieKnightsPod">
+		<meta property="fb:app_id" content="514828295332812" />
 {% assign ogtitle = site.name %}
 {% assign ogdesc = site.description %}
 {% assign bannerimg = '/assets/img/mmk_banner.png' %}
@@ -48,6 +49,7 @@
 {% if page.categories contains 'podcast' %}
 		<meta property="article:section" content="Podcast">
 		<meta property="article:publisher" content="MidnightMovieKnights" />
+
 		<meta property="og:audio" content="{{ page.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' }}">
 		<meta property="og:audio:type" content="audio/mpeg">
 {% endif %}
