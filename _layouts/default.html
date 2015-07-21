@@ -7,15 +7,12 @@
 		<meta name="author" content="@MirandaJanell &amp; @ThatFrakkingCat">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@MovieKnightsPod">
-		<meta name="twitter:creator" content="@MovieKnightsPod">
-		<meta property="fb:app_id" content="514828295332812" />
 {% assign ogtitle = site.name %}
 {% assign ogdesc = site.description %}
-{% assign bannerimg = '/assets/img/mmk_banner.png' %}
+{% assign bannerimg = site.ogimage %}
 {% capture ogimage %}{{ site.url }}{{ site.baseurl }}{{ bannerimg }}{% endcapture %}
 {% assign ogtype = 'website' %}
+{% assign twittercard = 'summary' %}
 
 {% if page.title %}
 	{% assign ogtitle = page.title %}
@@ -38,8 +35,14 @@
 
 {% if page.ogimage %}
 	{% assign ogimage = page.ogimage %}
+	{% assign twittercard = 'summary_large_image' %}
 {% endif %}
 
+		<meta name="twitter:card" content="{{ twittercard }}">
+		<meta name="twitter:site" content="@MovieKnightsPod">
+		<meta name="twitter:creator" content="@MovieKnightsPod">
+		{% if page.ogimage %}<meta name="twitter:image" content="{{ page.ogimage }}">{% endif %}
+		<meta property="fb:app_id" content="{{ site.fbappid }}" />
 		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 		<meta property="og:title" content="{{ ogtitle }}">
 		<meta property="og:description" content="{{ ogdesc | strip_html | strip_newlines }}">

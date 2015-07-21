@@ -5,6 +5,8 @@ timezone: America/Los_Angeles
 baseurl: ''
 url: http://www.midnightmovieknights.com
 paginate: 5
+fbappid: 514828295332812
+ogimage: /assets/img/mmk_banner.png
 gems:
 - jekyll-sitemap
 - jekyll-redirect-from
