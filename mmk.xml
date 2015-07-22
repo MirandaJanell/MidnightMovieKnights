@@ -16,7 +16,7 @@ layout: null
 	<description>{{ site.description }}</description>
 	<itunes:owner>
 		<itunes:name>@MirandaJanell &amp; @ThatFrakkingCat</itunes:name>
-		<itunes:email>midnightmovieknights@gmail.com</itunes:email>
+		<itunes:email>contact@take37.com</itunes:email>
 	</itunes:owner>
 	<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
 	<itunes:category text="TV &amp; Film" />
