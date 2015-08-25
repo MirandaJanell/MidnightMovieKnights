@@ -7,7 +7,7 @@ date:       2015-08-22 9:00:00
 duration:   1:13:31
 length:     37694138
 link:       http://media.midnightmovieknights.com/2015/086_-_The_Great_Mouse_Detective.m4a
-soundcloud: 220596353%3Fsecret_token%3Ds-GOJrl
+soundcloud: 220596353
 #ogimage:    http://media.midnightmovieknights.com/img/MMK86_TheGreatMeowsDefective-750x811.png
 tags:
 - Great
