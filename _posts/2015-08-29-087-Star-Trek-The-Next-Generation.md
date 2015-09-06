@@ -21,4 +21,4 @@ Joined by their friends [@MarkoShark](https://twitter.com/MarkoShark), [@Revelst
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [@dianae173](https://twitter.com/dianae173).  
 
-![!](http://media.midnightmovieknights.com/img/MMK87_StarWrecked-750x522.png)
+![Star Wrecked!](http://media.midnightmovieknights.com/img/MMK87_StarWrecked-750x522.png)
