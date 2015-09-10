@@ -26,4 +26,4 @@ The Knights return for another evening of nearly incoherent babbling at each oth
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [@RevelstokeJim](https://twitter.com/RevelstokeJim), [@mv_ughn](https://twitter.com/mv_ughn), and [@Dianae173](https://twitter.com/Dianae173)
 
-![The Land Before Time](http://media.midnightmovieknights.com/img/MMK88_LittlefootAndMiranda-750x421.png)
+![Littlefoot and Miranda](http://media.midnightmovieknights.com/img/MMK88_LittlefootAndMiranda-750x421.png)
