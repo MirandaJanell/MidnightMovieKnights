@@ -6,7 +6,7 @@ categories: podcast
 date:       2015-10-10 21:15:00
 duration:   1:40:02
 length:     97466745
-link:       http://media.midnightmovieknights.com/Prerelease/093_-_Jurassic_Park.m4a
+link:       http://media.midnightmovieknights.com/2015/093_-_Jurassic_Park.m4a
 soundcloud: 228639676
 ogimage:    http://media.midnightmovieknights.com/img/MMK93_RexysDinoRunner-750x421.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK93_RexysDinoRunner-200x112.png
