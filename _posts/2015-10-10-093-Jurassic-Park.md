@@ -18,6 +18,6 @@ tags:
 ---
 The Knights return for another round of bickering, and goofing off. Ceebs was a Midnight Mucus Knight, while the Cat discovers Dale Pale Ale is a lot more intense than he anticipated. The Flick Pick is Jurassic Park which both Knights absolutely love, because dinosaurs!
 
-The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [@mv_ughn](https://twitter.com/mv_ughn), [@RevelstokeJim](https://twitter.com/RevelstokeJim), [@dianae173](https://twitter.com/dianae173), [@WANHTPY](https://twitter.com/ComicNewb), and [@RLE116](https://twitter.com/RLE116).
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [@mv_ughn](https://twitter.com/mv_ughn), [@RevelstokeJim](https://twitter.com/RevelstokeJim), [@dianae173](https://twitter.com/dianae173), [@WANHTPY](https://twitter.com/@WANHTPY), and [@RLE116](https://twitter.com/RLE116).
 
 ![{{ thumbalt }}]({{ page.ogimage }})
