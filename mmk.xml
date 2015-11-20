@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:creativeCommons="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html" xmlns:cc="http://creativecommons.org/ns#" xmlns:xapRights="http://ns.adobe.com/xap/1.0/rights/" version="2.0">
 <channel>
 	<title>Midnight Movie Knights</title>
 	<link>http://www.midnightmovieknights.com/</link>
@@ -19,6 +19,11 @@ layout: null
 		<itunes:email>contact@take37.com</itunes:email>
 	</itunes:owner>
 	<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+	<image>
+		<url>http://media.midnightmovieknights.com/img/mmk-cover-art.jpg</url>
+		<title>Midnight Movie Knights Logo</title>
+		<link>http://www.midnightmovieknights.com/</link>
+	</image>
 	<itunes:category text="TV &amp; Film" />
 	<itunes:category text="Society &amp; Culture" />
 	<itunes:explicit>Yes</itunes:explicit>
@@ -26,7 +31,7 @@ layout: null
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
 	<item>
 		<title>{{ post.title | xml_escape }}</title>
-		<link>{{site.url}}{{ site.baseurl }}{{ post.url }}</link>
+		<link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
 		<description>{{ post.content | xml_escape }}</description>
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
 		<itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
@@ -36,7 +41,13 @@ layout: null
 		<itunes:keywords>{% for tag in post.tags %}{{ tag }},{% endfor %}Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
 		<itunes:explicit>Yes</itunes:explicit>
 		<enclosure url="{{ episodeurl }}" length="{{ post.length }}" type="audio/mpeg" />
-		<media:content url="{{ episodeurl }}" fileSize="{{ post.length }}" type="audio/mpeg" medium="audio" />
+		<media:content url="{{ episodeurl }}" fileSize="{{ post.length }}" type="audio/mpeg" medium="audio" duration="{{ post.duration | remove: '.0' }}" />
+		{% if post.mediasha1 %}<media:hash algo="sha1">{{ post.mediasha1 }}</media:hash>{% endif %}
+		<media:license type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</media:license>
+		<media:subTitle>{{ post.subtitle | xml_escape }}</media:subTitle>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>{{ site.url }}{{ site.baseurl }}/license.html</cc:morePermissions>
+		<xapRights:WebStatement>{{ site.url }}{{ site.baseurl }}/license.html</xapRights:WebStatement>
 		<guid>{{ episodeurl }}</guid>
 		<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} PST</pubDate>
 		<content:encoded><![CDATA[
