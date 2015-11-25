@@ -6,7 +6,7 @@ categories: podcast
 date:       2015-11-21 20:40:00
 duration:   1:05:42
 length:     64679768
-link:       http://media.midnightmovieknights.com/2015/XCIX_-_The_Fire_Hydrant_Menace_Menace.m4a
+link:       http://media.midnightmovieknights.com/2015/099_-_The_Fire_Hydrant_Menace.m4a
 soundcloud: 234618679
 ogimage:    http://media.midnightmovieknights.com/img/MMK99_FireHydrantMenace-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK99_FireHydrantMenace-200x200.png
