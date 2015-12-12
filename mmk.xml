@@ -42,7 +42,7 @@ layout: null
 		<itunes:explicit>Yes</itunes:explicit>
 		<enclosure url="{{ episodeurl }}" length="{{ post.length }}" type="audio/mpeg" />
 		<media:content url="{{ episodeurl }}" fileSize="{{ post.length }}" type="audio/mpeg" medium="audio" duration="{{ post.duration | remove: '.0' }}" />
-		{% if post.mediasha1 %}<media:hash algo="sha1">{{ post.mediasha1 }}</media:hash>{% endif %}
+		{% if post.mediasha1 %}<media:hash algo="sha-1">{{ post.mediasha1 }}</media:hash>{% endif %}
 		<media:license type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</media:license>
 		<media:subTitle>{{ post.subtitle | xml_escape }}</media:subTitle>
 		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
