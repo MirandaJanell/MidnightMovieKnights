@@ -29,6 +29,8 @@ layout: null
 	<itunes:explicit>Yes</itunes:explicit>
 {% for post in site.categories.podcast limit:20 %}
 	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
+	{% assign coverart = 'http://media.midnightmovieknights.com/img/mmk-cover-art.jpg' %}
+	{% if post.coverart %}{% assign coverart = post.coverart %}{% endif %}
 	<item>
 		<title>{{ post.title | xml_escape }}</title>
 		<link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
@@ -36,7 +38,7 @@ layout: null
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
 		<itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
 		<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
-		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:image href="{{ coverart }}" />
 		<itunes:duration>{{ post.duration | remove: '.0' }}</itunes:duration>
 		<itunes:keywords>{% for tag in post.tags %}{{ tag }},{% endfor %}Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
 		<itunes:explicit>Yes</itunes:explicit>
