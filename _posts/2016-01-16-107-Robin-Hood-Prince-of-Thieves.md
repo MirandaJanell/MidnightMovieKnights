@@ -2,7 +2,7 @@
 layout:     episode
 title:      "107 - Robin Hood: Prince of Thieves"
 subtitle:   "#RIPAlanRickman"
-categories: prerelease
+categories: podcast
 date:       2016-01-16 19:00:00
 duration:   1:37:36
 length:     94530164
