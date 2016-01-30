@@ -1,6 +1,3 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:creativeCommons="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html" xmlns:cc="http://creativecommons.org/ns#" xmlns:xapRights="http://ns.adobe.com/xap/1.0/rights/" version="2.0">
 <channel>
@@ -12,8 +9,8 @@ layout: null
 	<itunes:subtitle>Two Idiots With Microphones</itunes:subtitle>
 	<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
 	<itunes:keywords>Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
-	<itunes:summary>{{ site.description }}</itunes:summary>
-	<description>{{ site.description }}</description>
+	<itunes:summary>Your not safe for work podcast by a couple of idiots with microphones who like to make each other laugh, rant a little, and talk about movies.</itunes:summary>
+	<description>Your not safe for work podcast by a couple of idiots with microphones who like to make each other laugh, rant a little, and talk about movies.</description>
 	<itunes:owner>
 		<itunes:name>@MirandaJanell &amp; @ThatFrakkingCat</itunes:name>
 		<itunes:email>contact@take37.com</itunes:email>
@@ -27,38 +24,985 @@ layout: null
 	<itunes:category text="TV &amp; Film" />
 	<itunes:category text="Society &amp; Culture" />
 	<itunes:explicit>Yes</itunes:explicit>
-{% for post in site.categories.podcast limit:20 %}
-	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
-	{% assign coverart = 'http://media.midnightmovieknights.com/img/mmk-cover-art.jpg' %}
-	{% if post.coverart %}{% assign coverart = post.coverart %}{% endif %}
+
+	
+	
+	
 	<item>
-		<title>{{ post.title | xml_escape }}</title>
-		<link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
-		<description>{{ post.content | xml_escape }}</description>
+		<title>108 - Juno</title>
+		<link>http://www.midnightmovieknights.com/podcast/2016/01/23/108-Juno.html</link>
+		<description>&lt;p&gt;The Knights return with another not safe for work dose of verbal diarrhea in which they actually cover life, pop-culture, and movies. What can you expect from the babbling buddies?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kitteh and the bike accident, a tale of helpful people, especially bus drivers.&lt;/li&gt;
+  &lt;li&gt;Social Ceebs has headaches and is getting into meditation.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.imdb.com/title/tt1386697/&quot;&gt;Suicide Squad&lt;/a&gt; and &lt;a href=&quot;http://www.imdb.com/title/tt3838992/&quot;&gt;Yoga Hosers&lt;/a&gt; get some time in the spotlight.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Flick Pick of the week is &lt;a href=&quot;http://www.imdb.com/title/tt0467406/&quot;&gt;Juno&lt;/a&gt;. Cat has never seen it, while Ceebs loves it because, survey says, she finds the characters very relatable.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned next week, same Knight time, same Knight channel. Go Team Knights! Someone can’t stop saying Knight! “With a K!”&lt;/p&gt;
+
+&lt;p&gt;The Knights (oops, said it again) were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;Dale Hu (@madzub)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;Comic Newb (@ComicNewb)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;RevelstokeJim (@RevelstokeJim)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;Dianae (@dianae173)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;Marc Thorner (@markoshark)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK108-YouKnow-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
 		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
-		<itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
-		<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
-		<itunes:image href="{{ coverart }}" />
-		<itunes:duration>{{ post.duration | remove: '.0' }}</itunes:duration>
-		<itunes:keywords>{% for tag in post.tags %}{{ tag }},{% endfor %}Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:subtitle>Knights of Pain</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The Knights return with another not safe for work dose of verbal diarrhea in which they actually cover life, pop-culture, and movies. What can you expect from the babbling buddies?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kitteh and the bike accident, a tale of helpful people, especially bus drivers.&lt;/li&gt;
+  &lt;li&gt;Social Ceebs has headaches and is getting into meditation.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.imdb.com/title/tt1386697/&quot;&gt;Suicide Squad&lt;/a&gt; and &lt;a href=&quot;http://www.imdb.com/title/tt3838992/&quot;&gt;Yoga Hosers&lt;/a&gt; get some time in the spotlight.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Flick Pick of the week is &lt;a href=&quot;http://www.imdb.com/title/tt0467406/&quot;&gt;Juno&lt;/a&gt;. Cat has never seen it, while Ceebs loves it because, survey says, she finds the characters very relatable.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned next week, same Knight time, same Knight channel. Go Team Knights! Someone can’t stop saying Knight! “With a K!”&lt;/p&gt;
+
+&lt;p&gt;The Knights (oops, said it again) were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;Dale Hu (@madzub)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;Comic Newb (@ComicNewb)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;RevelstokeJim (@RevelstokeJim)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;Dianae (@dianae173)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;Marc Thorner (@markoshark)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK108-YouKnow-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/MMK108-YouKnow-1400x1400.png" />
+		<itunes:duration>4549</itunes:duration>
+		<itunes:keywords>Juno,Ellen,Page,Michael,Cera,Diablo,Cody,Jason,Reitman,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
 		<itunes:explicit>Yes</itunes:explicit>
-		<enclosure url="{{ episodeurl }}" length="{{ post.length }}" type="audio/mpeg" />
-		<media:content url="{{ episodeurl }}" fileSize="{{ post.length }}" type="audio/mpeg" medium="audio" duration="{{ post.duration | remove: '.0' }}" />
-		{% if post.mediasha1 %}<media:hash algo="sha-1">{{ post.mediasha1 }}</media:hash>{% endif %}
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/108_-_Juno.m4a" length="74215299" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/108_-_Juno.m4a" fileSize="74215299" type="audio/mpeg" medium="audio" duration="4549" />
+		<media:hash algo="sha-1">05b88141be33fcf2051288b056a93a91657274e6</media:hash>
 		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
-		<cc:morePermissions>{{ site.url }}{{ site.baseurl }}/license.html</cc:morePermissions>
-		<xapRights:WebStatement>{{ site.url }}{{ site.baseurl }}/license.html</xapRights:WebStatement>
-		<guid>{{ episodeurl }}</guid>
-		<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} PST</pubDate>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/108_-_Juno.m4a</guid>
+		<pubDate>Sat, 23 Jan 2016 11:00:00 PST</pubDate>
 		<content:encoded><![CDATA[
 		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
-		<a href="{{site.url}}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br />
-		{{ post.subtitle }}<br />
+		<a href="http://www.midnightmovieknights.com/podcast/2016/01/23/108-Juno.html">108 - Juno</a><br />
+		Knights of Pain<br />
 		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
-		<p>{{ post.content }}</p>
+		<p><p>The Knights return with another not safe for work dose of verbal diarrhea in which they actually cover life, pop-culture, and movies. What can you expect from the babbling buddies?</p>
+
+<ul>
+  <li>Kitteh and the bike accident, a tale of helpful people, especially bus drivers.</li>
+  <li>Social Ceebs has headaches and is getting into meditation.</li>
+  <li><a href="http://www.imdb.com/title/tt1386697/">Suicide Squad</a> and <a href="http://www.imdb.com/title/tt3838992/">Yoga Hosers</a> get some time in the spotlight.</li>
+</ul>
+
+<p>The Flick Pick of the week is <a href="http://www.imdb.com/title/tt0467406/">Juno</a>. Cat has never seen it, while Ceebs loves it because, survey says, she finds the characters very relatable.</p>
+
+<p>Stay tuned next week, same Knight time, same Knight channel. Go Team Knights! Someone can’t stop saying Knight! “With a K!”</p>
+
+<p>The Knights (oops, said it again) were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/madzub">Dale Hu (@madzub)</a>, <a href="https://twitter.com/ComicNewb">Comic Newb (@ComicNewb)</a>, <a href="https://twitter.com/RevelstokeJim">RevelstokeJim (@RevelstokeJim)</a>, <a href="https://twitter.com/dianae173">Dianae (@dianae173)</a>, <a href="https://twitter.com/mv_ughn">Marianne (@mv_ughn)</a>, and <a href="https://twitter.com/markoshark">Marc Thorner (@markoshark)</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK108-YouKnow-750x750.png" alt="" /></p>
+</p>
 		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
 		]]></content:encoded>
 	</item>
-{% endfor %}
+
+	
+	
+	
+	<item>
+		<title>107 - Robin Hood: Prince of Thieves</title>
+		<link>http://www.midnightmovieknights.com/podcast/2016/01/16/107-Robin-Hood-Prince-of-Thieves.html</link>
+		<description>&lt;p&gt;This week, the Knights refuse to start the show description with “In this installment…”, “This week…”, “The Knights….”, or any of their other common introductory phrases. What do you mean we already screwed that up? Oh bother. In the life portion of the show, the Knights share another bike story, the Cat has the sick, and Ceebs has been weepy over the passing of &lt;a href=&quot;http://www.imdb.com/name/nm0000614/&quot;&gt;Alan Rickman&lt;/a&gt;. While discussing DVD rewind fees, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt; called to share a real life experience, and he didn’t even let anyone know it was his birthday. Frequent collaborator &lt;a href=&quot;https://twitter.com/revelstokejim&quot;&gt;@RevelstokeJim&lt;/a&gt; phoned in as well to check up on and hang out with the bickering buddies. In honor of Alan Rickman, this week’s Flick Pick is &lt;a href=&quot;http://www.imdb.com/title/tt0102798/&quot;&gt;Robin Hood: Prince of Thieves&lt;/a&gt;. Check back soon to pre-order the Knights latest product, the Genuine DVD / Blu-ray Rewinder. Act fast, the first 1000 pre-orders come with the bonus LaserDisc and MiniDisc adapters, a $39.99 value at absolutely no additional cost to you, just pay separate processing and handling.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;Jim Rilee (@revoltingnow)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;Comic Newb (@ComicNewb)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;RevelstokeJim (@RevelstokeJim)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/CapergirlMel&quot;&gt;Mel (@CapergirlMel)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/JudgeFunkyBoy&quot;&gt;Tom Sherlock (@JudgeFunkyBoy)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kaarval&quot;&gt;Ryan (@kaarval)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;Dianae (@dianae173)&lt;/a&gt;, &lt;a href=&quot;https://mixlr.com/hairyhotdog&quot;&gt;hairyhotdog&lt;/a&gt;, &lt;a href=&quot;https://mixlr.com/joennn24&quot;&gt;joennn24&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;Marc Thorner (@markoshark)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/tomkaytt&quot;&gt;Tom Kaytt (@tomkaytt)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK107-RobinHoodie-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>#RIPAlanRickman</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;This week, the Knights refuse to start the show description with “In this installment…”, “This week…”, “The Knights….”, or any of their other common introductory phrases. What do you mean we already screwed that up? Oh bother. In the life portion of the show, the Knights share another bike story, the Cat has the sick, and Ceebs has been weepy over the passing of &lt;a href=&quot;http://www.imdb.com/name/nm0000614/&quot;&gt;Alan Rickman&lt;/a&gt;. While discussing DVD rewind fees, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt; called to share a real life experience, and he didn’t even let anyone know it was his birthday. Frequent collaborator &lt;a href=&quot;https://twitter.com/revelstokejim&quot;&gt;@RevelstokeJim&lt;/a&gt; phoned in as well to check up on and hang out with the bickering buddies. In honor of Alan Rickman, this week’s Flick Pick is &lt;a href=&quot;http://www.imdb.com/title/tt0102798/&quot;&gt;Robin Hood: Prince of Thieves&lt;/a&gt;. Check back soon to pre-order the Knights latest product, the Genuine DVD / Blu-ray Rewinder. Act fast, the first 1000 pre-orders come with the bonus LaserDisc and MiniDisc adapters, a $39.99 value at absolutely no additional cost to you, just pay separate processing and handling.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;Jim Rilee (@revoltingnow)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;Comic Newb (@ComicNewb)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;RevelstokeJim (@RevelstokeJim)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/CapergirlMel&quot;&gt;Mel (@CapergirlMel)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/JudgeFunkyBoy&quot;&gt;Tom Sherlock (@JudgeFunkyBoy)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kaarval&quot;&gt;Ryan (@kaarval)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;Dianae (@dianae173)&lt;/a&gt;, &lt;a href=&quot;https://mixlr.com/hairyhotdog&quot;&gt;hairyhotdog&lt;/a&gt;, &lt;a href=&quot;https://mixlr.com/joennn24&quot;&gt;joennn24&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;Marc Thorner (@markoshark)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/tomkaytt&quot;&gt;Tom Kaytt (@tomkaytt)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK107-RobinHoodie-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/MMK107-RobinHoodie-1400x1400.png" />
+		<itunes:duration>5856</itunes:duration>
+		<itunes:keywords>Robin,Hood,Prince,Thieves,Alan,Rickman,Dogma,Die,Hard,David,Bowie,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/107_-_Robin_Hood_Prince_of_Thieves.m4a" length="94530164" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/107_-_Robin_Hood_Prince_of_Thieves.m4a" fileSize="94530164" type="audio/mpeg" medium="audio" duration="5856" />
+		<media:hash algo="sha-1">3a35407ac377c3ab73af40fe94c36e81c54a5d43</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/107_-_Robin_Hood_Prince_of_Thieves.m4a</guid>
+		<pubDate>Sat, 16 Jan 2016 11:00:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2016/01/16/107-Robin-Hood-Prince-of-Thieves.html">107 - Robin Hood: Prince of Thieves</a><br />
+		#RIPAlanRickman<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>This week, the Knights refuse to start the show description with “In this installment…”, “This week…”, “The Knights….”, or any of their other common introductory phrases. What do you mean we already screwed that up? Oh bother. In the life portion of the show, the Knights share another bike story, the Cat has the sick, and Ceebs has been weepy over the passing of <a href="http://www.imdb.com/name/nm0000614/">Alan Rickman</a>. While discussing DVD rewind fees, <a href="https://twitter.com/ComicNewb">@ComicNewb</a> called to share a real life experience, and he didn’t even let anyone know it was his birthday. Frequent collaborator <a href="https://twitter.com/revelstokejim">@RevelstokeJim</a> phoned in as well to check up on and hang out with the bickering buddies. In honor of Alan Rickman, this week’s Flick Pick is <a href="http://www.imdb.com/title/tt0102798/">Robin Hood: Prince of Thieves</a>. Check back soon to pre-order the Knights latest product, the Genuine DVD / Blu-ray Rewinder. Act fast, the first 1000 pre-orders come with the bonus LaserDisc and MiniDisc adapters, a $39.99 value at absolutely no additional cost to you, just pay separate processing and handling.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/revoltingnow">Jim Rilee (@revoltingnow)</a>, <a href="https://twitter.com/ComicNewb">Comic Newb (@ComicNewb)</a>, <a href="https://twitter.com/RevelstokeJim">RevelstokeJim (@RevelstokeJim)</a>, <a href="https://twitter.com/CapergirlMel">Mel (@CapergirlMel)</a>, <a href="https://twitter.com/JudgeFunkyBoy">Tom Sherlock (@JudgeFunkyBoy)</a>, <a href="https://twitter.com/kaarval">Ryan (@kaarval)</a>, <a href="https://twitter.com/dianae173">Dianae (@dianae173)</a>, <a href="https://mixlr.com/hairyhotdog">hairyhotdog</a>, <a href="https://mixlr.com/joennn24">joennn24</a>, <a href="https://twitter.com/mv_ughn">Marianne (@mv_ughn)</a>, <a href="https://twitter.com/markoshark">Marc Thorner (@markoshark)</a>, and <a href="https://twitter.com/tomkaytt">Tom Kaytt (@tomkaytt)</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK107-RobinHoodie-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>106 - The Departed</title>
+		<link>http://www.midnightmovieknights.com/podcast/2016/01/09/106-The-Departed.html</link>
+		<description>&lt;p&gt;In this installment the Knights are joined by &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;Revelstoke Jim&lt;/a&gt;. Kitteh is tired of things blowing up in his face, and Ceebs can’t remember crap, like that’s anything new. The Flick Pick was The Departed, which the mere suggestion of invoked some explicit enthusiam.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;The Mayor of Beertown (@MayorOfBeertown)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;Comic Newb (@ComicNewb)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;Marc Thorner (@markoshark)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/tomkaytt&quot;&gt;Tom Kaytt (@tomkaytt)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK106-TheDepodded-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Pump, Pump, Boom!</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;In this installment the Knights are joined by &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;Revelstoke Jim&lt;/a&gt;. Kitteh is tired of things blowing up in his face, and Ceebs can’t remember crap, like that’s anything new. The Flick Pick was The Departed, which the mere suggestion of invoked some explicit enthusiam.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;The Mayor of Beertown (@MayorOfBeertown)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;Comic Newb (@ComicNewb)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;Marc Thorner (@markoshark)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/tomkaytt&quot;&gt;Tom Kaytt (@tomkaytt)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK106-TheDepodded-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/MMK106-TheDepodded-1400x1400.png" />
+		<itunes:duration>5414</itunes:duration>
+		<itunes:keywords>Departed,RevelstokeJim,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/106_-_The_Departed.m4a" length="86574202" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/106_-_The_Departed.m4a" fileSize="86574202" type="audio/mpeg" medium="audio" duration="5414" />
+		<media:hash algo="sha-1">4468af42197fd8cf6a03f1886788d7990a89853f</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/106_-_The_Departed.m4a</guid>
+		<pubDate>Sat, 09 Jan 2016 11:15:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2016/01/09/106-The-Departed.html">106 - The Departed</a><br />
+		Pump, Pump, Boom!<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>In this installment the Knights are joined by <a href="https://twitter.com/RevelstokeJim">Revelstoke Jim</a>. Kitteh is tired of things blowing up in his face, and Ceebs can’t remember crap, like that’s anything new. The Flick Pick was The Departed, which the mere suggestion of invoked some explicit enthusiam.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/MayorOfBeertown">The Mayor of Beertown (@MayorOfBeertown)</a>, <a href="https://twitter.com/ComicNewb">Comic Newb (@ComicNewb)</a>, <a href="https://twitter.com/mv_ughn">Marianne (@mv_ughn)</a>, <a href="https://twitter.com/markoshark">Marc Thorner (@markoshark)</a>, and <a href="https://twitter.com/tomkaytt">Tom Kaytt (@tomkaytt)</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK106-TheDepodded-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>105 - Walk the Line</title>
+		<link>http://www.midnightmovieknights.com/podcast/2016/01/02/105-Walk-the-Line.html</link>
+		<description>&lt;p&gt;In this installment the Knights try to explain away why episode 104 is missing, the short story is #BlameTom. The Cat shares experience riding his bike to and from work, and Ceebs just never shuts ups, like that’s anything new. The Flick Pick for the week is Walk the Line, a suggestion from the Cat because he’d been listening to a lot of Johnny Cash lately.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;The Mayor of Beertown (@MayorOfBeertown)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;Comic Newb (@ComicNewb)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;Revelstoke Jim (@RevelstokeJim)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;Jim Rilee (@revoltingnow)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kaarval&quot;&gt;Kaarval (@kaarval)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;Dale Hu (@madzub)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK105-Foolsome-Prison-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Not a Godess Burp</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;In this installment the Knights try to explain away why episode 104 is missing, the short story is #BlameTom. The Cat shares experience riding his bike to and from work, and Ceebs just never shuts ups, like that’s anything new. The Flick Pick for the week is Walk the Line, a suggestion from the Cat because he’d been listening to a lot of Johnny Cash lately.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;The Mayor of Beertown (@MayorOfBeertown)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;Comic Newb (@ComicNewb)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;Revelstoke Jim (@RevelstokeJim)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;Jim Rilee (@revoltingnow)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kaarval&quot;&gt;Kaarval (@kaarval)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;Dale Hu (@madzub)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK105-Foolsome-Prison-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/MMK105-Foolsome-Prison-1400x1400.png" />
+		<itunes:duration>5884</itunes:duration>
+		<itunes:keywords>Walk,Line,Johhny,Cash,June,Carter,Stonehill,Burp,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/105_-_Walk_the_Line.m4a" length="95536286" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/105_-_Walk_the_Line.m4a" fileSize="95536286" type="audio/mpeg" medium="audio" duration="5884" />
+		<media:hash algo="sha-1">0322c84e455588373fa325fa177d1979aab409fc</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2016/105_-_Walk_the_Line.m4a</guid>
+		<pubDate>Sat, 02 Jan 2016 11:30:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2016/01/02/105-Walk-the-Line.html">105 - Walk the Line</a><br />
+		Not a Godess Burp<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>In this installment the Knights try to explain away why episode 104 is missing, the short story is #BlameTom. The Cat shares experience riding his bike to and from work, and Ceebs just never shuts ups, like that’s anything new. The Flick Pick for the week is Walk the Line, a suggestion from the Cat because he’d been listening to a lot of Johnny Cash lately.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/MayorOfBeertown">The Mayor of Beertown (@MayorOfBeertown)</a>, <a href="https://twitter.com/ComicNewb">Comic Newb (@ComicNewb)</a>, <a href="https://twitter.com/mv_ughn">Marianne (@mv_ughn)</a>, <a href="https://twitter.com/RevelstokeJim">Revelstoke Jim (@RevelstokeJim)</a>, <a href="https://twitter.com/revoltingnow">Jim Rilee (@revoltingnow)</a>, <a href="https://twitter.com/kaarval">Kaarval (@kaarval)</a>, and <a href="https://twitter.com/madzub">Dale Hu (@madzub)</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK105-Foolsome-Prison-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>103 - Spoiler Wars</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/12/19/103-Star-Wars-The-Force-Awakens.html</link>
+		<description>&lt;p&gt;In this installment, the Knights babble for a bit and then spoil the hell out of Star Wars: The Force Awakens scene by scene as best they could remember it.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;The Mayor of Beertown (@MayorOfBeertown)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;Dianae (@dianae173)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK103_SpoilerWars-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>The Forced Spoilers</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;In this installment, the Knights babble for a bit and then spoil the hell out of Star Wars: The Force Awakens scene by scene as best they could remember it.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;The Mayor of Beertown (@MayorOfBeertown)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;Dianae (@dianae173)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK103_SpoilerWars-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/MMK103_SpoilerWars-1400x1400.png" />
+		<itunes:duration>10488</itunes:duration>
+		<itunes:keywords>Star,Wars,Force,Awakens,Spoilers,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/103_-_Star_Wars_The_Force_Awakens.m4a" length="171282450" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/103_-_Star_Wars_The_Force_Awakens.m4a" fileSize="171282450" type="audio/mpeg" medium="audio" duration="10488" />
+		<media:hash algo="sha-1">ad17af124e3e64b9b612c452004745ccbaa85a58</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/103_-_Star_Wars_The_Force_Awakens.m4a</guid>
+		<pubDate>Sat, 19 Dec 2015 11:00:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/12/19/103-Star-Wars-The-Force-Awakens.html">103 - Spoiler Wars</a><br />
+		The Forced Spoilers<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>In this installment, the Knights babble for a bit and then spoil the hell out of Star Wars: The Force Awakens scene by scene as best they could remember it.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/MayorOfBeertown">The Mayor of Beertown (@MayorOfBeertown)</a>, <a href="https://twitter.com/mv_ughn">Marianne (@mv_ughn)</a>, and <a href="https://twitter.com/dianae173">Dianae (@dianae173)</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK103_SpoilerWars-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>102 - Does Dis-Count?</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/12/12/102-Does-Dis-Count.html</link>
+		<description>&lt;p&gt;Ceebs literally runs away and abandons the Kitteh to his own wits to carry the show. Both Knights fail to appreciate the holiday spirit, but according to the Cat, their Flick Pick &lt;a href=&quot;http://www.imdb.com/title/tt0096061/&quot;&gt;Scrooged&lt;/a&gt; will make it all better. Also in this installment, Ceebs has ideas for Boxing Day games at the Empire.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/judgefunkyboy&quot;&gt;Tom Sherlock (@judgefunkyboy)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/tkaytt&quot;&gt;Tom Kaytt (@tkaytt)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Kaarval&quot;&gt;Ryan Connolly (@Kaarval)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;Dale Hu (@madzub)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK102_Podwreck-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>The Sams Choice of Podcasts</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;Ceebs literally runs away and abandons the Kitteh to his own wits to carry the show. Both Knights fail to appreciate the holiday spirit, but according to the Cat, their Flick Pick &lt;a href=&quot;http://www.imdb.com/title/tt0096061/&quot;&gt;Scrooged&lt;/a&gt; will make it all better. Also in this installment, Ceebs has ideas for Boxing Day games at the Empire.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/judgefunkyboy&quot;&gt;Tom Sherlock (@judgefunkyboy)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/tkaytt&quot;&gt;Tom Kaytt (@tkaytt)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Kaarval&quot;&gt;Ryan Connolly (@Kaarval)&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne (@mv_ughn)&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;Dale Hu (@madzub)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK102_Podwreck-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/MMK102_Podwreck-1400x1400.png" />
+		<itunes:duration>6752</itunes:duration>
+		<itunes:keywords>Scrooged,Holidays,Boxing,Day,Empire,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/102_-_Does_Dis_Count.m4a" length="109388388" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/102_-_Does_Dis_Count.m4a" fileSize="109388388" type="audio/mpeg" medium="audio" duration="6752" />
+		<media:hash algo="sha-1">8ea60ad3ceefe781c9a4039ae3396b76db28c09f</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/102_-_Does_Dis_Count.m4a</guid>
+		<pubDate>Sat, 12 Dec 2015 11:40:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/12/12/102-Does-Dis-Count.html">102 - Does Dis-Count?</a><br />
+		The Sams Choice of Podcasts<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>Ceebs literally runs away and abandons the Kitteh to his own wits to carry the show. Both Knights fail to appreciate the holiday spirit, but according to the Cat, their Flick Pick <a href="http://www.imdb.com/title/tt0096061/">Scrooged</a> will make it all better. Also in this installment, Ceebs has ideas for Boxing Day games at the Empire.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/judgefunkyboy">Tom Sherlock (@judgefunkyboy)</a>, <a href="https://twitter.com/tkaytt">Tom Kaytt (@tkaytt)</a>, <a href="https://twitter.com/Kaarval">Ryan Connolly (@Kaarval)</a>, <a href="https://twitter.com/mv_ughn">Marianne (@mv_ughn)</a>, and <a href="https://twitter.com/madzub">Dale Hu (@madzub)</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK102_Podwreck-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>101 - Miranderp</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/12/05/101-Miranderp.html</link>
+		<description>&lt;p&gt;The Cat “ain’t mad” and Miranda proves talking is hard. Actually, writing seems to be hard too. Miranda derped so hard during the show that she can’t even write a proper description for the show. This week’s bracket showdown ended up being a battle of the chick flicks. It’s a &lt;a href=&quot;http://www.imdb.com/name/nm0000295/&quot;&gt;vampire&lt;/a&gt; and a &lt;a href=&quot;http://www.imdb.com/name/nm0000131/&quot;&gt;guy&lt;/a&gt; who will “&lt;a href=&quot;http://www.imdb.com/title/tt0098258/&quot;&gt;Say Anything&lt;/a&gt;” against the timey wimey tale of &lt;a href=&quot;http://www.imdb.com/name/nm0000630/&quot;&gt;Sabertooth&lt;/a&gt; setting up his ex-girlfriend &lt;a href=&quot;http://www.imdb.com/name/nm0000212/&quot;&gt;Sally&lt;/a&gt; with his great-great grandfather &lt;a href=&quot;http://www.imdb.com/name/nm0413168/&quot;&gt;Wolverine&lt;/a&gt;. This week’s flick pick was the incestuous time traveling tale of &lt;a href=&quot;http://www.imdb.com/title/tt0035423/&quot;&gt;Kate and Leopold&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Kaarval&quot;&gt;@Kaarval&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/JudgeFunkyboy&quot;&gt;@JudgeFunkyboy&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/tkaytt&quot;&gt;@tkaytt&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK101_Miranderp-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Kate and Leopold</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The Cat “ain’t mad” and Miranda proves talking is hard. Actually, writing seems to be hard too. Miranda derped so hard during the show that she can’t even write a proper description for the show. This week’s bracket showdown ended up being a battle of the chick flicks. It’s a &lt;a href=&quot;http://www.imdb.com/name/nm0000295/&quot;&gt;vampire&lt;/a&gt; and a &lt;a href=&quot;http://www.imdb.com/name/nm0000131/&quot;&gt;guy&lt;/a&gt; who will “&lt;a href=&quot;http://www.imdb.com/title/tt0098258/&quot;&gt;Say Anything&lt;/a&gt;” against the timey wimey tale of &lt;a href=&quot;http://www.imdb.com/name/nm0000630/&quot;&gt;Sabertooth&lt;/a&gt; setting up his ex-girlfriend &lt;a href=&quot;http://www.imdb.com/name/nm0000212/&quot;&gt;Sally&lt;/a&gt; with his great-great grandfather &lt;a href=&quot;http://www.imdb.com/name/nm0413168/&quot;&gt;Wolverine&lt;/a&gt;. This week’s flick pick was the incestuous time traveling tale of &lt;a href=&quot;http://www.imdb.com/title/tt0035423/&quot;&gt;Kate and Leopold&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Kaarval&quot;&gt;@Kaarval&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/JudgeFunkyboy&quot;&gt;@JudgeFunkyboy&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/tkaytt&quot;&gt;@tkaytt&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK101_Miranderp-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>5436</itunes:duration>
+		<itunes:keywords>Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/101_-_Miranderp.m4a" length="88470999" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/101_-_Miranderp.m4a" fileSize="88470999" type="audio/mpeg" medium="audio" duration="5436" />
+		<media:hash algo="sha-1">695506f56c92cc0385228b07424beab9bb8fb224</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/101_-_Miranderp.m4a</guid>
+		<pubDate>Sat, 05 Dec 2015 11:30:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/12/05/101-Miranderp.html">101 - Miranderp</a><br />
+		Kate and Leopold<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>The Cat “ain’t mad” and Miranda proves talking is hard. Actually, writing seems to be hard too. Miranda derped so hard during the show that she can’t even write a proper description for the show. This week’s bracket showdown ended up being a battle of the chick flicks. It’s a <a href="http://www.imdb.com/name/nm0000295/">vampire</a> and a <a href="http://www.imdb.com/name/nm0000131/">guy</a> who will “<a href="http://www.imdb.com/title/tt0098258/">Say Anything</a>” against the timey wimey tale of <a href="http://www.imdb.com/name/nm0000630/">Sabertooth</a> setting up his ex-girlfriend <a href="http://www.imdb.com/name/nm0000212/">Sally</a> with his great-great grandfather <a href="http://www.imdb.com/name/nm0413168/">Wolverine</a>. This week’s flick pick was the incestuous time traveling tale of <a href="http://www.imdb.com/title/tt0035423/">Kate and Leopold</a>.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/ComicNewb">@ComicNewb</a>, <a href="https://twitter.com/Kaarval">@Kaarval</a>, <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/JudgeFunkyboy">@JudgeFunkyboy</a>, <a href="https://twitter.com/tkaytt">@tkaytt</a>, <a href="https://twitter.com/Dianae173">@Dianae173</a>, and <a href="https://twitter.com/madzub">@madzub</a>.  </p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK101_Miranderp-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>100 - X-Men</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/11/28/100-X-Men.html</link>
+		<description>&lt;p&gt;The Knights celebrate episode 100, and it was chalk full of surprises. While catching up on their week Ceebs shares some thoughts on &lt;a href=&quot;http://www.imdb.com/title/tt2357547/&quot;&gt;Jessica Jones&lt;/a&gt;. Thanks to &lt;a href=&quot;http://mayorvsnewb.com/&quot;&gt;The Mayor vs Newb&lt;/a&gt;, &lt;a href=&quot;http://slscast.podbean.com/&quot;&gt;The SLS Cast&lt;/a&gt;, and &lt;a href=&quot;http://johnnywhitetrash.com/&quot;&gt;Johnny and Honey Whitetrash&lt;/a&gt; for the birthday wishes and 100th episode congrats. The Knights were joined on Skype by &lt;a href=&quot;https://twitter.com/MarkoShark&quot;&gt;@MarkoShark&lt;/a&gt;, and by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt; and her lovely husband Mickey in the Apartment Studio. The winner of this weeks Flick Pick bracket showdown was &lt;a href=&quot;http://www.imdb.com/title/tt0120903/&quot;&gt;X-Men&lt;/a&gt;. The Knights will return in Midnight Movie Knights: Episode 101 - &lt;a href=&quot;http://www.imdb.com/title/tt0055254/&quot;&gt;101 Dalmations&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/MarkoShark&quot;&gt;@MarkoShark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;@MayorOfBeertown&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK100_Celebration-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>100 Episodes and a Birthday</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The Knights celebrate episode 100, and it was chalk full of surprises. While catching up on their week Ceebs shares some thoughts on &lt;a href=&quot;http://www.imdb.com/title/tt2357547/&quot;&gt;Jessica Jones&lt;/a&gt;. Thanks to &lt;a href=&quot;http://mayorvsnewb.com/&quot;&gt;The Mayor vs Newb&lt;/a&gt;, &lt;a href=&quot;http://slscast.podbean.com/&quot;&gt;The SLS Cast&lt;/a&gt;, and &lt;a href=&quot;http://johnnywhitetrash.com/&quot;&gt;Johnny and Honey Whitetrash&lt;/a&gt; for the birthday wishes and 100th episode congrats. The Knights were joined on Skype by &lt;a href=&quot;https://twitter.com/MarkoShark&quot;&gt;@MarkoShark&lt;/a&gt;, and by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt; and her lovely husband Mickey in the Apartment Studio. The winner of this weeks Flick Pick bracket showdown was &lt;a href=&quot;http://www.imdb.com/title/tt0120903/&quot;&gt;X-Men&lt;/a&gt;. The Knights will return in Midnight Movie Knights: Episode 101 - &lt;a href=&quot;http://www.imdb.com/title/tt0055254/&quot;&gt;101 Dalmations&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/MarkoShark&quot;&gt;@MarkoShark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;@MayorOfBeertown&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK100_Celebration-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>6457</itunes:duration>
+		<itunes:keywords>X-Men,Birthday,100,Jessica,Jones,Marc,Thorner,Snatch,Titan A.E,Memento,What,Women,Want,Pitch,Black,High,Fidelity,Gone,60,Seconds,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/100_-_X-Men.m4a" length="104712028" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/100_-_X-Men.m4a" fileSize="104712028" type="audio/mpeg" medium="audio" duration="6457" />
+		<media:hash algo="sha-1">a365f91498e08763fd91f422b93150cf22c6b237</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/100_-_X-Men.m4a</guid>
+		<pubDate>Sat, 28 Nov 2015 10:30:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/11/28/100-X-Men.html">100 - X-Men</a><br />
+		100 Episodes and a Birthday<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>The Knights celebrate episode 100, and it was chalk full of surprises. While catching up on their week Ceebs shares some thoughts on <a href="http://www.imdb.com/title/tt2357547/">Jessica Jones</a>. Thanks to <a href="http://mayorvsnewb.com/">The Mayor vs Newb</a>, <a href="http://slscast.podbean.com/">The SLS Cast</a>, and <a href="http://johnnywhitetrash.com/">Johnny and Honey Whitetrash</a> for the birthday wishes and 100th episode congrats. The Knights were joined on Skype by <a href="https://twitter.com/MarkoShark">@MarkoShark</a>, and by <a href="https://twitter.com/mv_ughn">@mv_ughn</a> and her lovely husband Mickey in the Apartment Studio. The winner of this weeks Flick Pick bracket showdown was <a href="http://www.imdb.com/title/tt0120903/">X-Men</a>. The Knights will return in Midnight Movie Knights: Episode 101 - <a href="http://www.imdb.com/title/tt0055254/">101 Dalmations</a>!</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/MarkoShark">@MarkoShark</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/ComicNewb">@ComicNewb</a>, <a href="https://twitter.com/MayorOfBeertown">@MayorOfBeertown</a>, and <a href="https://twitter.com/Dianae173">@Dianae173</a>.  </p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK100_Celebration-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>XCIX - The Fire Hydrant Menace</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/11/21/XCIX-The-Fire-Hydrant-Menace.html</link>
+		<description>&lt;p&gt;In this installment, Ceebs tells the tale of what you get when you have dark chocolate, wine, Nerf guns, &lt;a href=&quot;http://www.imdb.com/title/tt2379713/&quot;&gt;Spectre&lt;/a&gt;, and a fire hydrant within about 24 hours. The Knights run down 44 possible Flick Pick candidates before choosing &lt;a href=&quot;http://www.imdb.com/title/tt0120915/&quot;&gt;Star Wars: Episode I - The Phantom Menace&lt;/a&gt;. The Cat tries to nerdshame Ceebs, and it backfires on him. Fear not for our noble feline, he did walk away with his head held high as he coined #NoAirBiscuits in the last moments of the show.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/JudgeFunkyBoy&quot;&gt;@JudgeFunkyBoy&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK99_FireHydrantMenace-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>#NoAirBisbuits</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;In this installment, Ceebs tells the tale of what you get when you have dark chocolate, wine, Nerf guns, &lt;a href=&quot;http://www.imdb.com/title/tt2379713/&quot;&gt;Spectre&lt;/a&gt;, and a fire hydrant within about 24 hours. The Knights run down 44 possible Flick Pick candidates before choosing &lt;a href=&quot;http://www.imdb.com/title/tt0120915/&quot;&gt;Star Wars: Episode I - The Phantom Menace&lt;/a&gt;. The Cat tries to nerdshame Ceebs, and it backfires on him. Fear not for our noble feline, he did walk away with his head held high as he coined #NoAirBiscuits in the last moments of the show.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/JudgeFunkyBoy&quot;&gt;@JudgeFunkyBoy&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK99_FireHydrantMenace-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>3942</itunes:duration>
+		<itunes:keywords>NoAirBisbuits,Air,Bisbuit,Fire,Hydrant,Star,Wars,Episode,I,Phantom,Menace,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/099_-_The_Fire_Hydrant_Menace.m4a" length="64679768" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/099_-_The_Fire_Hydrant_Menace.m4a" fileSize="64679768" type="audio/mpeg" medium="audio" duration="3942" />
+		<media:hash algo="sha-1">1b61a7c6a33f4d9e84ed3b36236688790033efcf</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/099_-_The_Fire_Hydrant_Menace.m4a</guid>
+		<pubDate>Sat, 21 Nov 2015 12:40:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/11/21/XCIX-The-Fire-Hydrant-Menace.html">XCIX - The Fire Hydrant Menace</a><br />
+		#NoAirBisbuits<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>In this installment, Ceebs tells the tale of what you get when you have dark chocolate, wine, Nerf guns, <a href="http://www.imdb.com/title/tt2379713/">Spectre</a>, and a fire hydrant within about 24 hours. The Knights run down 44 possible Flick Pick candidates before choosing <a href="http://www.imdb.com/title/tt0120915/">Star Wars: Episode I - The Phantom Menace</a>. The Cat tries to nerdshame Ceebs, and it backfires on him. Fear not for our noble feline, he did walk away with his head held high as he coined #NoAirBiscuits in the last moments of the show.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a>, <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/ComicNewb">@ComicNewb</a>, <a href="https://twitter.com/madzub">@madzub</a>, and <a href="https://twitter.com/Dianae173">@Dianae173</a>.  </p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK99_FireHydrantMenace-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>098 - Run Lola Run</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/11/14/098-Run-Lola-Run.html</link>
+		<description>&lt;p&gt;The Pizza Knights return for another go at a weekly dose of verbal diarrhea about life, pop culture, and most importantly &lt;strong&gt;PIZZA!!!&lt;/strong&gt; While discussing the pizza situation, the Cat feels the need to remind Ceebs that she’s a &lt;a href=&quot;https://twitter.com/search?q=%23CADbag&quot;&gt;#CAdbag&lt;/a&gt;. The Cat also shared why he was &lt;a href=&quot;https://twitter.com/search?q=%23OutragedKitteh&quot;&gt;#OutragedKitteh&lt;/a&gt;, and Ceebs really isn’t a fan of Lady Millenial Pizza Face. The Knights did another bracket showdown to chose their Flick Pick, and once the Cat learned of the timey wimey nature of &lt;a href=&quot;http://www.imdb.com/title/tt0130827/&quot;&gt;Run Lola Run&lt;/a&gt;, it sprinted ahead and no other flick could catch up.  &lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt; and &lt;a href=&quot;http://mixlr.com/carbono&quot;&gt;Carbono&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK98_JustKeepRunning-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>With a Pizza K!</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The Pizza Knights return for another go at a weekly dose of verbal diarrhea about life, pop culture, and most importantly &lt;strong&gt;PIZZA!!!&lt;/strong&gt; While discussing the pizza situation, the Cat feels the need to remind Ceebs that she’s a &lt;a href=&quot;https://twitter.com/search?q=%23CADbag&quot;&gt;#CAdbag&lt;/a&gt;. The Cat also shared why he was &lt;a href=&quot;https://twitter.com/search?q=%23OutragedKitteh&quot;&gt;#OutragedKitteh&lt;/a&gt;, and Ceebs really isn’t a fan of Lady Millenial Pizza Face. The Knights did another bracket showdown to chose their Flick Pick, and once the Cat learned of the timey wimey nature of &lt;a href=&quot;http://www.imdb.com/title/tt0130827/&quot;&gt;Run Lola Run&lt;/a&gt;, it sprinted ahead and no other flick could catch up.  &lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ComicNewb&quot;&gt;@ComicNewb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt; and &lt;a href=&quot;http://mixlr.com/carbono&quot;&gt;Carbono&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK98_JustKeepRunning-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>6311</itunes:duration>
+		<itunes:keywords>Run,Lola,Run,Pizza,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/098_-_Run_Lola_Run.m4a" length="102368954" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/098_-_Run_Lola_Run.m4a" fileSize="102368954" type="audio/mpeg" medium="audio" duration="6311" />
+		<media:hash algo="sha-1">65dec55d78d352b922ad39c28d2c69f50d376f09</media:hash>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/098_-_Run_Lola_Run.m4a</guid>
+		<pubDate>Sat, 14 Nov 2015 11:45:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/11/14/098-Run-Lola-Run.html">098 - Run Lola Run</a><br />
+		With a Pizza K!<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>The Pizza Knights return for another go at a weekly dose of verbal diarrhea about life, pop culture, and most importantly <strong>PIZZA!!!</strong> While discussing the pizza situation, the Cat feels the need to remind Ceebs that she’s a <a href="https://twitter.com/search?q=%23CADbag">#CAdbag</a>. The Cat also shared why he was <a href="https://twitter.com/search?q=%23OutragedKitteh">#OutragedKitteh</a>, and Ceebs really isn’t a fan of Lady Millenial Pizza Face. The Knights did another bracket showdown to chose their Flick Pick, and once the Cat learned of the timey wimey nature of <a href="http://www.imdb.com/title/tt0130827/">Run Lola Run</a>, it sprinted ahead and no other flick could catch up.  </p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/markoshark">@markoshark</a>, <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/ComicNewb">@ComicNewb</a>, <a href="https://twitter.com/madzub">@madzub</a>, <a href="https://twitter.com/Dianae173">@Dianae173</a> and <a href="http://mixlr.com/carbono">Carbono</a>.  </p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK98_JustKeepRunning-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>097 - Men in Black</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/11/06/097-Men-In-Black.html</link>
+		<description>&lt;p&gt;Confronted with a long list of flick to choose from, the Knights took to twitter thinking they’d create a &lt;a href=&quot;http://strawpoll.me&quot;&gt;straw poll&lt;/a&gt;. Listener &lt;a href=&quot;https://twitter.com/dckantel&quot;&gt;@dckantel&lt;/a&gt; responded with an idea that changed the course of the episode, he said “@MovieKnightsPod Do a bracket show!” The Knights listened and in this 97th installment, 32 flicks enter, but at the end of the battle, only &lt;a href=&quot;http://www.imdb.com/title/tt0119654/&quot;&gt;Men in Black&lt;/a&gt; remained.  &lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mayorofbeertown&quot;&gt;@mayorofbeertown&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK97_KnightsInBlack-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Frak it, lets bracket!</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;Confronted with a long list of flick to choose from, the Knights took to twitter thinking they’d create a &lt;a href=&quot;http://strawpoll.me&quot;&gt;straw poll&lt;/a&gt;. Listener &lt;a href=&quot;https://twitter.com/dckantel&quot;&gt;@dckantel&lt;/a&gt; responded with an idea that changed the course of the episode, he said “@MovieKnightsPod Do a bracket show!” The Knights listened and in this 97th installment, 32 flicks enter, but at the end of the battle, only &lt;a href=&quot;http://www.imdb.com/title/tt0119654/&quot;&gt;Men in Black&lt;/a&gt; remained.  &lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mayorofbeertown&quot;&gt;@mayorofbeertown&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK97_KnightsInBlack-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>6416</itunes:duration>
+		<itunes:keywords>Men,In,Black,1997,Will,Smith,Tommy,Lee,Jones,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/097_-_Men_in_Black.m4a" length="104021893" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/097_-_Men_in_Black.m4a" fileSize="104021893" type="audio/mpeg" medium="audio" duration="6416" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/097_-_Men_in_Black.m4a</guid>
+		<pubDate>Fri, 06 Nov 2015 12:00:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/11/06/097-Men-In-Black.html">097 - Men in Black</a><br />
+		Frak it, lets bracket!<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>Confronted with a long list of flick to choose from, the Knights took to twitter thinking they’d create a <a href="http://strawpoll.me">straw poll</a>. Listener <a href="https://twitter.com/dckantel">@dckantel</a> responded with an idea that changed the course of the episode, he said “@MovieKnightsPod Do a bracket show!” The Knights listened and in this 97th installment, 32 flicks enter, but at the end of the battle, only <a href="http://www.imdb.com/title/tt0119654/">Men in Black</a> remained.  </p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/markoshark">@markoshark</a>, <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/mayorofbeertown">@mayorofbeertown</a>, <a href="https://twitter.com/madzub">@madzub</a>, and <a href="https://twitter.com/Dianae173">@Dianae173</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK97_KnightsInBlack-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>096 - Hocus Pocus</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/10/31/096-Hocus-Pocus.html</link>
+		<description>&lt;p&gt;In this Halloween episode, the Knights prove that they truly are idiots with microphones. This one is chalk full of bickering, reminiscing about movies that came out in 1996, and, of course, the signature feature of the show, tangents while talking about the Flick Pick. This weeks Flick Pick was Ceebs’ favorite Halloween movie, &lt;a href=&quot;http://www.imdb.com/title/tt0107120/&quot;&gt;Hocus Pocus&lt;/a&gt;, which the Cat hadn’t seen before.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK96_Halloween2015-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Hocus Pocus Keep Our Focus</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;In this Halloween episode, the Knights prove that they truly are idiots with microphones. This one is chalk full of bickering, reminiscing about movies that came out in 1996, and, of course, the signature feature of the show, tangents while talking about the Flick Pick. This weeks Flick Pick was Ceebs’ favorite Halloween movie, &lt;a href=&quot;http://www.imdb.com/title/tt0107120/&quot;&gt;Hocus Pocus&lt;/a&gt;, which the Cat hadn’t seen before.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK96_Halloween2015-750x750.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>6126</itunes:duration>
+		<itunes:keywords>Hocus,Pocus,Halloween,1996,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/096_-_Hocus_Pocus.m4a" length="99411190" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/096_-_Hocus_Pocus.m4a" fileSize="99411190" type="audio/mpeg" medium="audio" duration="6126" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/096_-_Hocus_Pocus.m4a</guid>
+		<pubDate>Sat, 31 Oct 2015 14:30:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/10/31/096-Hocus-Pocus.html">096 - Hocus Pocus</a><br />
+		Hocus Pocus Keep Our Focus<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>In this Halloween episode, the Knights prove that they truly are idiots with microphones. This one is chalk full of bickering, reminiscing about movies that came out in 1996, and, of course, the signature feature of the show, tangents while talking about the Flick Pick. This weeks Flick Pick was Ceebs’ favorite Halloween movie, <a href="http://www.imdb.com/title/tt0107120/">Hocus Pocus</a>, which the Cat hadn’t seen before.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/markoshark">@markoshark</a>, <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/madzub">@madzub</a>, and <a href="https://twitter.com/Dianae173">@Dianae173</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK96_Halloween2015-750x750.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>095 - Goldeneye</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/10/24/095-Goldeneye.html</link>
+		<description>&lt;p&gt;False starts due to upgrade woes put Ceebs in a frantic state, while the Cat is, as he puts it, old and grumpy. The Knights discuss a variety of topics including the new Star Wars trailer, Back to the Future Day, and movies released in 1995, including their Flick Pick, &lt;a href=&quot;http://www.imdb.com/title/tt0113189/&quot;&gt;Goldeneye&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RLE116&quot;&gt;@RLE116&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MayorOfBeerTown&quot;&gt;@MayorOfBeerTown&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;@revoltingnow&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/AricDante&quot;&gt;@AricDante&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/nittwit12345&quot;&gt;@nittwit12345&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK95_GoldenEye-750x421.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Midnight Moody Knights</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;False starts due to upgrade woes put Ceebs in a frantic state, while the Cat is, as he puts it, old and grumpy. The Knights discuss a variety of topics including the new Star Wars trailer, Back to the Future Day, and movies released in 1995, including their Flick Pick, &lt;a href=&quot;http://www.imdb.com/title/tt0113189/&quot;&gt;Goldeneye&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RLE116&quot;&gt;@RLE116&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MayorOfBeerTown&quot;&gt;@MayorOfBeerTown&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;@revoltingnow&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/AricDante&quot;&gt;@AricDante&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/nittwit12345&quot;&gt;@nittwit12345&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK95_GoldenEye-750x421.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>5657</itunes:duration>
+		<itunes:keywords>Goldeneye,James,Bond,7,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/095_-_Goldeneye.m4a" length="91904936" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/095_-_Goldeneye.m4a" fileSize="91904936" type="audio/mpeg" medium="audio" duration="5657" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/095_-_Goldeneye.m4a</guid>
+		<pubDate>Sat, 24 Oct 2015 12:00:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/10/24/095-Goldeneye.html">095 - Goldeneye</a><br />
+		Midnight Moody Knights<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>False starts due to upgrade woes put Ceebs in a frantic state, while the Cat is, as he puts it, old and grumpy. The Knights discuss a variety of topics including the new Star Wars trailer, Back to the Future Day, and movies released in 1995, including their Flick Pick, <a href="http://www.imdb.com/title/tt0113189/">Goldeneye</a>.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/markoshark">@markoshark</a>, <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/RLE116">@RLE116</a>, <a href="https://twitter.com/MayorOfBeerTown">@MayorOfBeerTown</a>, <a href="https://twitter.com/Dianae173">@Dianae173</a>, <a href="https://twitter.com/revoltingnow">@revoltingnow</a>, <a href="https://twitter.com/AricDante">@AricDante</a>, and <a href="https://twitter.com/nittwit12345">@nittwit12345</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK95_GoldenEye-750x421.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>094 - True Lies</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/10/17/094-True-Lies.html</link>
+		<description>&lt;p&gt;In this installment the Knights experimented with their start time and go on 3 hours earlier than normal. For episode 94, the Knights stuck with their established pattern and focused on 1994. After mentioning a bunch of movies that aren’t their Flick Pick, the Knights finally settled down and talked about a bunch of other stuff that isn’t True Lies in between their attempts at discussing the flick.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dckantel&quot;&gt;@dckantel&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MayorOfBeerTown&quot;&gt;@MayorOfBeerTown&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;@revoltingnow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hey Ceebs, why do you put in peoples twitter profiles when they join you on the Mixlr chat? You know they have Mixlr profiles don’t you? Silly Ceebs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK94_MewLies-750x421.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>It Still Wasn&#39;t Commando</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;In this installment the Knights experimented with their start time and go on 3 hours earlier than normal. For episode 94, the Knights stuck with their established pattern and focused on 1994. After mentioning a bunch of movies that aren’t their Flick Pick, the Knights finally settled down and talked about a bunch of other stuff that isn’t True Lies in between their attempts at discussing the flick.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/markoshark&quot;&gt;@markoshark&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dckantel&quot;&gt;@dckantel&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MayorOfBeerTown&quot;&gt;@MayorOfBeerTown&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/madzub&quot;&gt;@madzub&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;@revoltingnow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hey Ceebs, why do you put in peoples twitter profiles when they join you on the Mixlr chat? You know they have Mixlr profiles don’t you? Silly Ceebs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK94_MewLies-750x421.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>4539</itunes:duration>
+		<itunes:keywords>true,Lies,Arnold,Schwarzenegger,Jamie,Lee,Curtis,Tom,Arnold,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/094_-_True_Lies.m4a" length="74272426" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/094_-_True_Lies.m4a" fileSize="74272426" type="audio/mpeg" medium="audio" duration="4539" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/094_-_True_Lies.m4a</guid>
+		<pubDate>Sat, 17 Oct 2015 11:00:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/10/17/094-True-Lies.html">094 - True Lies</a><br />
+		It Still Wasn't Commando<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>In this installment the Knights experimented with their start time and go on 3 hours earlier than normal. For episode 94, the Knights stuck with their established pattern and focused on 1994. After mentioning a bunch of movies that aren’t their Flick Pick, the Knights finally settled down and talked about a bunch of other stuff that isn’t True Lies in between their attempts at discussing the flick.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/markoshark">@markoshark</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/dckantel">@dckantel</a>, <a href="https://twitter.com/MayorOfBeerTown">@MayorOfBeerTown</a>, <a href="https://twitter.com/madzub">@madzub</a>, and <a href="https://twitter.com/revoltingnow">@revoltingnow</a>.</p>
+
+<p>Hey Ceebs, why do you put in peoples twitter profiles when they join you on the Mixlr chat? You know they have Mixlr profiles don’t you? Silly Ceebs.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK94_MewLies-750x421.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>093 - Jurassic Park</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/10/10/093-Jurassic-Park.html</link>
+		<description>&lt;p&gt;The Knights return for another round of bickering, and goofing off. Ceebs was a Midnight Mucus Knight, while the Cat discovers Dale Pale Ale is a lot more intense than he anticipated. The Flick Pick is Jurassic Park which both Knights absolutely love, because dinosaurs!&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;@dianae173&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/@WANHTPY&quot;&gt;@WANHTPY&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/RLE116&quot;&gt;@RLE116&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK93_RexysDinoRunner-750x421.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Must Talk Faster!</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The Knights return for another round of bickering, and goofing off. Ceebs was a Midnight Mucus Knight, while the Cat discovers Dale Pale Ale is a lot more intense than he anticipated. The Flick Pick is Jurassic Park which both Knights absolutely love, because dinosaurs!&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;@dianae173&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/@WANHTPY&quot;&gt;@WANHTPY&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/RLE116&quot;&gt;@RLE116&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK93_RexysDinoRunner-750x421.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>6002</itunes:duration>
+		<itunes:keywords>Jurassic,Park,Dinosaur,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/093_-_Jurassic_Park.m4a" length="97466745" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/093_-_Jurassic_Park.m4a" fileSize="97466745" type="audio/mpeg" medium="audio" duration="6002" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/093_-_Jurassic_Park.m4a</guid>
+		<pubDate>Sat, 10 Oct 2015 14:15:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/10/10/093-Jurassic-Park.html">093 - Jurassic Park</a><br />
+		Must Talk Faster!<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>The Knights return for another round of bickering, and goofing off. Ceebs was a Midnight Mucus Knight, while the Cat discovers Dale Pale Ale is a lot more intense than he anticipated. The Flick Pick is Jurassic Park which both Knights absolutely love, because dinosaurs!</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/dianae173">@dianae173</a>, <a href="https://twitter.com/@WANHTPY">@WANHTPY</a>, and <a href="https://twitter.com/RLE116">@RLE116</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK93_RexysDinoRunner-750x421.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>092 - The Martian</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/10/03/092-The-Martian.html</link>
+		<description>&lt;p&gt;The Knights were joined by &lt;a href=&quot;https://twitter.com/AricDante&quot;&gt;Damion Chaplin&lt;/a&gt; for a discussion of &lt;a href=&quot;http://www.imdb.com/title/tt3659388/&quot;&gt;The Martian&lt;/a&gt;, at least, that was the plan. The conversation jumped around from the Knights experience seeing The Martian with &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne&lt;/a&gt;, to Miranda and Damion’s interview of &lt;a href=&quot;https://twitter.com/AndyWeirAuthor&quot;&gt;Andy Weir&lt;/a&gt;, but inevitably kept jumping back to Star Trek: The Next Generation. Don’t you Knights know you already did a show on &lt;a href=&quot;http://www.midnightmovieknights.com/podcast/2015/08/29/087-Star-Trek-The-Next-Generation.html&quot;&gt;Star Trek: The Next Generation&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;@dianae173&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;@revoltingnow&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MayorOfBeerTown&quot;&gt;@MayorOfBeerTown&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/RLE116&quot;&gt;@RLE116&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK92_CatDamonInTheMartian-750x421.png&quot; alt=&quot;Cat Damon in The Martian. A Didley Squat film.&quot; /&gt;
+&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK92_CatDamonIsTheMartianFonz-750x421.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Star Trek, again?</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The Knights were joined by &lt;a href=&quot;https://twitter.com/AricDante&quot;&gt;Damion Chaplin&lt;/a&gt; for a discussion of &lt;a href=&quot;http://www.imdb.com/title/tt3659388/&quot;&gt;The Martian&lt;/a&gt;, at least, that was the plan. The conversation jumped around from the Knights experience seeing The Martian with &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;Marianne&lt;/a&gt;, to Miranda and Damion’s interview of &lt;a href=&quot;https://twitter.com/AndyWeirAuthor&quot;&gt;Andy Weir&lt;/a&gt;, but inevitably kept jumping back to Star Trek: The Next Generation. Don’t you Knights know you already did a show on &lt;a href=&quot;http://www.midnightmovieknights.com/podcast/2015/08/29/087-Star-Trek-The-Next-Generation.html&quot;&gt;Star Trek: The Next Generation&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;@dianae173&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/revoltingnow&quot;&gt;@revoltingnow&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/MayorOfBeerTown&quot;&gt;@MayorOfBeerTown&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/RLE116&quot;&gt;@RLE116&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK92_CatDamonInTheMartian-750x421.png&quot; alt=&quot;Cat Damon in The Martian. A Didley Squat film.&quot; /&gt;
+&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK92_CatDamonIsTheMartianFonz-750x421.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>6028</itunes:duration>
+		<itunes:keywords>Martian,Matt,Damon,Andy,Weir,Star,Trek,Next,Generation,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/092_-_The_Martian.m4a" length="97870547" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/092_-_The_Martian.m4a" fileSize="97870547" type="audio/mpeg" medium="audio" duration="6028" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/092_-_The_Martian.m4a</guid>
+		<pubDate>Sat, 03 Oct 2015 14:15:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/10/03/092-The-Martian.html">092 - The Martian</a><br />
+		Star Trek, again?<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>The Knights were joined by <a href="https://twitter.com/AricDante">Damion Chaplin</a> for a discussion of <a href="http://www.imdb.com/title/tt3659388/">The Martian</a>, at least, that was the plan. The conversation jumped around from the Knights experience seeing The Martian with <a href="https://twitter.com/mv_ughn">Marianne</a>, to Miranda and Damion’s interview of <a href="https://twitter.com/AndyWeirAuthor">Andy Weir</a>, but inevitably kept jumping back to Star Trek: The Next Generation. Don’t you Knights know you already did a show on <a href="http://www.midnightmovieknights.com/podcast/2015/08/29/087-Star-Trek-The-Next-Generation.html">Star Trek: The Next Generation</a>?</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/dianae173">@dianae173</a>, <a href="https://twitter.com/revoltingnow">@revoltingnow</a>, <a href="https://twitter.com/MayorOfBeerTown">@MayorOfBeerTown</a>, and <a href="https://twitter.com/RLE116">@RLE116</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK92_CatDamonInTheMartian-750x421.png" alt="Cat Damon in The Martian. A Didley Squat film." />
+<img src="http://media.midnightmovieknights.com/img/MMK92_CatDamonIsTheMartianFonz-750x421.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>091 - What About Bob?</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/09/26/091-What-About-Bob.html</link>
+		<description>&lt;p&gt;Ceebs calls an audible and the Knights start the show with their FlickPick, &lt;a href=&quot;http://www.imdb.com/title/tt0103241/&quot;&gt;What About Bob?&lt;/a&gt; The Knights discuss &lt;a href=&quot;http://missionbrewery.com/beer-styles/&quot;&gt;Mission Hard Root Beer&lt;/a&gt;, and both Knights agree that it tastes great at first, but finishes way too strong. The Cat shares a tale of biggoted simians as a lead in to Ceebs sharing the details of an incident that occurred at work that shook her to her core. In telling her story, Ceebs bore all and got very emotional.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;@dianae173&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK91_WhatAboutCeebs-750x422.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Baby Steps Go To The Bathroom</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;Ceebs calls an audible and the Knights start the show with their FlickPick, &lt;a href=&quot;http://www.imdb.com/title/tt0103241/&quot;&gt;What About Bob?&lt;/a&gt; The Knights discuss &lt;a href=&quot;http://missionbrewery.com/beer-styles/&quot;&gt;Mission Hard Root Beer&lt;/a&gt;, and both Knights agree that it tastes great at first, but finishes way too strong. The Cat shares a tale of biggoted simians as a lead in to Ceebs sharing the details of an incident that occurred at work that shook her to her core. In telling her story, Ceebs bore all and got very emotional.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;@dianae173&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK91_WhatAboutCeebs-750x422.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>7355</itunes:duration>
+		<itunes:keywords>What,About,Bob,Mission,Hard,Root,Beer,Transgender,Bathroom,Therapy,Psychologist,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/091_-_What_About_Bob.m4a" length="118964120" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/091_-_What_About_Bob.m4a" fileSize="118964120" type="audio/mpeg" medium="audio" duration="7355" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/091_-_What_About_Bob.m4a</guid>
+		<pubDate>Sat, 26 Sep 2015 14:20:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/09/26/091-What-About-Bob.html">091 - What About Bob?</a><br />
+		Baby Steps Go To The Bathroom<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>Ceebs calls an audible and the Knights start the show with their FlickPick, <a href="http://www.imdb.com/title/tt0103241/">What About Bob?</a> The Knights discuss <a href="http://missionbrewery.com/beer-styles/">Mission Hard Root Beer</a>, and both Knights agree that it tastes great at first, but finishes way too strong. The Cat shares a tale of biggoted simians as a lead in to Ceebs sharing the details of an incident that occurred at work that shook her to her core. In telling her story, Ceebs bore all and got very emotional.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, and <a href="https://twitter.com/dianae173">@dianae173</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK91_WhatAboutCeebs-750x422.png" alt="" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>090 - Dick Tracy</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/09/19/090-Dick-Tracy.html</link>
+		<description>&lt;p&gt;This week Ceebs tries to trigger paranoia in the Cat as part of her comedic master plan, and fails miserably. 3 days in the making and it failed #KittehWins. The Knights talk about the Cat being the new cohost of &lt;a href=&quot;http://wearenotheretopleaseyou.blogspot.fi&quot;&gt;We Are Not Here to Please You&lt;/a&gt;, as well as Ceebs’ career choices. The Flick Pick is &lt;a href=&quot;http://www.imdb.com/title/tt0099422/&quot;&gt;Dick Tracy&lt;/a&gt; which is loved by both Knights. Err… Umm… we mean we didn’t hate it.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/WANHTPY&quot;&gt;@WANHTPY&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kaarval&quot;&gt;@kaarval&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RLE116&quot;&gt;@RLE116&lt;/a&gt;, and the honorable &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;@MayorOfBeertown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK90_WTFTracy-750x741.png&quot; alt=&quot;Kid Dave, Miranda Tracy, and Big Boy Jonas&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>When do we eat?</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;This week Ceebs tries to trigger paranoia in the Cat as part of her comedic master plan, and fails miserably. 3 days in the making and it failed #KittehWins. The Knights talk about the Cat being the new cohost of &lt;a href=&quot;http://wearenotheretopleaseyou.blogspot.fi&quot;&gt;We Are Not Here to Please You&lt;/a&gt;, as well as Ceebs’ career choices. The Flick Pick is &lt;a href=&quot;http://www.imdb.com/title/tt0099422/&quot;&gt;Dick Tracy&lt;/a&gt; which is loved by both Knights. Err… Umm… we mean we didn’t hate it.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/WANHTPY&quot;&gt;@WANHTPY&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kaarval&quot;&gt;@kaarval&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/RLE116&quot;&gt;@RLE116&lt;/a&gt;, and the honorable &lt;a href=&quot;https://twitter.com/MayorOfBeertown&quot;&gt;@MayorOfBeertown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK90_WTFTracy-750x741.png&quot; alt=&quot;Kid Dave, Miranda Tracy, and Big Boy Jonas&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>5608</itunes:duration>
+		<itunes:keywords>Dick,Tracy,WANHTPY,Not,Here,Please,You,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/090_-_Dick_Tracy.m4a" length="91153562" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/090_-_Dick_Tracy.m4a" fileSize="91153562" type="audio/mpeg" medium="audio" duration="5608" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/090_-_Dick_Tracy.m4a</guid>
+		<pubDate>Sat, 19 Sep 2015 14:00:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/09/19/090-Dick-Tracy.html">090 - Dick Tracy</a><br />
+		When do we eat?<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>This week Ceebs tries to trigger paranoia in the Cat as part of her comedic master plan, and fails miserably. 3 days in the making and it failed #KittehWins. The Knights talk about the Cat being the new cohost of <a href="http://wearenotheretopleaseyou.blogspot.fi">We Are Not Here to Please You</a>, as well as Ceebs’ career choices. The Flick Pick is <a href="http://www.imdb.com/title/tt0099422/">Dick Tracy</a> which is loved by both Knights. Err… Umm… we mean we didn’t hate it.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/WANHTPY">@WANHTPY</a>, <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/kaarval">@kaarval</a>, <a href="https://twitter.com/RLE116">@RLE116</a>, and the honorable <a href="https://twitter.com/MayorOfBeertown">@MayorOfBeertown</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK90_WTFTracy-750x741.png" alt="Kid Dave, Miranda Tracy, and Big Boy Jonas" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>089 - Major League</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/09/12/089-Major-League.html</link>
+		<description>&lt;p&gt;This installment was threatened by a recording glitch, but with some recording redundancy, a little editing and post processing, voila, a tale of two Knights at the ballpark. The Knights recount the events of the evening at the Angels game with &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;. The Flick Pick for the week is &lt;a href=&quot;http://www.imdb.com/title/tt0097815/&quot;&gt;Major League&lt;/a&gt;, which both Knights agree was the perfect fit for the evening.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/revelstokejim&quot;&gt;@revelstokejim&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;@dianae173&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK89_Curveball-750x562.png&quot; alt=&quot;Dave throws a special curveball&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>Once Again, With Feeling</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;This installment was threatened by a recording glitch, but with some recording redundancy, a little editing and post processing, voila, a tale of two Knights at the ballpark. The Knights recount the events of the evening at the Angels game with &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;. The Flick Pick for the week is &lt;a href=&quot;http://www.imdb.com/title/tt0097815/&quot;&gt;Major League&lt;/a&gt;, which both Knights agree was the perfect fit for the evening.&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/revelstokejim&quot;&gt;@revelstokejim&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/dianae173&quot;&gt;@dianae173&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK89_Curveball-750x562.png&quot; alt=&quot;Dave throws a special curveball&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>4607</itunes:duration>
+		<itunes:keywords>Major,League,Angels,CSULB,California,State,University,Long,Beach,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/089_-_Major_League.m4a" length="84628554" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/089_-_Major_League.m4a" fileSize="84628554" type="audio/mpeg" medium="audio" duration="4607" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/089_-_Major_League.m4a</guid>
+		<pubDate>Sat, 12 Sep 2015 17:00:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/09/12/089-Major-League.html">089 - Major League</a><br />
+		Once Again, With Feeling<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>This installment was threatened by a recording glitch, but with some recording redundancy, a little editing and post processing, voila, a tale of two Knights at the ballpark. The Knights recount the events of the evening at the Angels game with <a href="https://twitter.com/mv_ughn">@mv_ughn</a>. The Flick Pick for the week is <a href="http://www.imdb.com/title/tt0097815/">Major League</a>, which both Knights agree was the perfect fit for the evening.</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, <a href="https://twitter.com/revelstokejim">@revelstokejim</a>, and <a href="https://twitter.com/dianae173">@dianae173</a>.</p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK89_Curveball-750x562.png" alt="Dave throws a special curveball" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
+	
+	
+	
+	<item>
+		<title>088 - The Land Before Time</title>
+		<link>http://www.midnightmovieknights.com/podcast/2015/09/05/088-The-Land-Before-Time.html</link>
+		<description>&lt;p&gt;The Knights return for another evening of nearly incoherent babbling at each other. Kitteh expresses his concerns about voicing his opinion so freely as of late and surprises Ceebs with a present as well as his so called “selective hearing.” Ceebs had another multiple anxiety attack week and kept mentioning that stuff was going down, but refused to talk about it. One host won’t talk about her week, the other can’t hear it anyway. Why on earth do you people listen to us? The Flick Pick for the week is &lt;a href=&quot;http://www.imdb.com/title/tt0095489/&quot;&gt;The Land Before Time&lt;/a&gt;, a favorite of Ceebs, even though she never fully articulates just what the film means to her, mostly because it has to do with some other stuff she doesn’t want to talk about. Frozen Ceebs, just let it go. Hey, look at the pretty picture Kitteh drew!&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK88_LittlefootAndMiranda-750x421.png&quot; alt=&quot;Littlefoot and Miranda&quot; /&gt;&lt;/p&gt;
+</description>
+		<itunes:author>@MirandaJanell &amp; @ThatFrakkingCat</itunes:author>
+		<itunes:subtitle>The Waveform for Dead Air</itunes:subtitle>
+		<itunes:summary>&lt;p&gt;The Knights return for another evening of nearly incoherent babbling at each other. Kitteh expresses his concerns about voicing his opinion so freely as of late and surprises Ceebs with a present as well as his so called “selective hearing.” Ceebs had another multiple anxiety attack week and kept mentioning that stuff was going down, but refused to talk about it. One host won’t talk about her week, the other can’t hear it anyway. Why on earth do you people listen to us? The Flick Pick for the week is &lt;a href=&quot;http://www.imdb.com/title/tt0095489/&quot;&gt;The Land Before Time&lt;/a&gt;, a favorite of Ceebs, even though she never fully articulates just what the film means to her, mostly because it has to do with some other stuff she doesn’t want to talk about. Frozen Ceebs, just let it go. Hey, look at the pretty picture Kitteh drew!&lt;/p&gt;
+
+&lt;p&gt;The Knights were joined in the &lt;a href=&quot;http://mixlr.com/take37/&quot;&gt;Mixlr&lt;/a&gt; chat by &lt;a href=&quot;https://twitter.com/RevelstokeJim&quot;&gt;@RevelstokeJim&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/mv_ughn&quot;&gt;@mv_ughn&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/Dianae173&quot;&gt;@Dianae173&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://media.midnightmovieknights.com/img/MMK88_LittlefootAndMiranda-750x421.png&quot; alt=&quot;Littlefoot and Miranda&quot; /&gt;&lt;/p&gt;
+</itunes:summary>
+		<itunes:image href="http://media.midnightmovieknights.com/img/mmk-cover-art.jpg" />
+		<itunes:duration>6262</itunes:duration>
+		<itunes:keywords>Land,Before,Time,Don,Bluth,George,Lucas,Steven,Speilberg,Midnight,Movie,Knights,Midnight Movie Knights,MirandaJanell,ThatFrakkingCat,MovieKnightsPod</itunes:keywords>
+		<itunes:explicit>Yes</itunes:explicit>
+		<enclosure url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/088_-_The_Land_Before_Time.m4a" length="101643963" type="audio/mpeg" />
+		<media:content url="http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/088_-_The_Land_Before_Time.m4a" fileSize="101643963" type="audio/mpeg" medium="audio" duration="6262" />
+		
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
+		<cc:morePermissions>http://www.midnightmovieknights.com/license.html</cc:morePermissions>
+		<xapRights:WebStatement>http://www.midnightmovieknights.com/license.html</xapRights:WebStatement>
+		<guid>http://www.podtrac.com/pts/redirect.m4a/media.midnightmovieknights.com/2015/088_-_The_Land_Before_Time.m4a</guid>
+		<pubDate>Sat, 05 Sep 2015 02:00:00 PST</pubDate>
+		<content:encoded><![CDATA[
+		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
+		<a href="http://www.midnightmovieknights.com/podcast/2015/09/05/088-The-Land-Before-Time.html">088 - The Land Before Time</a><br />
+		The Waveform for Dead Air<br />
+		Brought to you by <a href="https://twitter.com/MirandaJanell">@MirandaJanell</a> &amp; <a href="https://twitter.com/ThatFrakkingCat">@ThatFrakkingCat</a><br />
+		<p><p>The Knights return for another evening of nearly incoherent babbling at each other. Kitteh expresses his concerns about voicing his opinion so freely as of late and surprises Ceebs with a present as well as his so called “selective hearing.” Ceebs had another multiple anxiety attack week and kept mentioning that stuff was going down, but refused to talk about it. One host won’t talk about her week, the other can’t hear it anyway. Why on earth do you people listen to us? The Flick Pick for the week is <a href="http://www.imdb.com/title/tt0095489/">The Land Before Time</a>, a favorite of Ceebs, even though she never fully articulates just what the film means to her, mostly because it has to do with some other stuff she doesn’t want to talk about. Frozen Ceebs, just let it go. Hey, look at the pretty picture Kitteh drew!</p>
+
+<p>The Knights were joined in the <a href="http://mixlr.com/take37/">Mixlr</a> chat by <a href="https://twitter.com/RevelstokeJim">@RevelstokeJim</a>, <a href="https://twitter.com/mv_ughn">@mv_ughn</a>, and <a href="https://twitter.com/Dianae173">@Dianae173</a></p>
+
+<p><img src="http://media.midnightmovieknights.com/img/MMK88_LittlefootAndMiranda-750x421.png" alt="Littlefoot and Miranda" /></p>
+</p>
+		<p>With special thanks to <a href="https://twitter.com/mrBradRaven">@mrBradRaven</a> for the album art, <a href="https://twitter.com/JudgeFunkyBoy">@JudgeFunkyBoy</a> for the theme music, <a href="https://twitter.com/@DCKantel">@DCKantel</a> for segment openers, <a href="https://twitter.com/Kiwinerd">@Kiwinerd</a> for the microphone donation, and you for listening to us.</p>
+		]]></content:encoded>
+	</item>
+
 </channel>
 </rss>

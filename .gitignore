@@ -1,7 +1,0 @@
-_site
-Gemfile.lock
-mm*.log
-*.sublime-project
-*.sublime-workspace
-_config.dropbox.yml
-bower_components
