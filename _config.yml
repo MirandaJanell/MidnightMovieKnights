@@ -1,0 +1,14 @@
+name: Midnight Movie Knights
+description: "Your not safe for work podcast by a couple of idiots with microphones who like to make each other laugh, rant a little, and talk about movies."
+markdown: kramdown
+timezone: America/Los_Angeles
+baseurl: ''
+url: http://www.midnightmovieknights.com
+paginate: 5
+exclude: ["src", "bower_components", "node_modules"]
+fbappid: 514828295332812
+ogimage: /assets/img/mmk_banner.png
+mixlrstub: take37
+gems:
+- jekyll-sitemap
+- jekyll-redirect-from
