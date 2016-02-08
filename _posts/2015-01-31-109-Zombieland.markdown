@@ -5,9 +5,9 @@ subtitle:   Bimbo Twinkies
 categories: podcast
 date:       2016-01-31 19:00:00
 duration:   0:57:55
-length:     
+length:     57070181
 link:       http://media.midnightmovieknights.com/2016/109_-_Zombieland.m4a
-soundcloud: 
+soundcloud: 245963850
 coverart:   http://media.midnightmovieknights.com/img/MMK109-ZombiePod-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK109-ZombiePod-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK109-ZombiePod-200x200.png
