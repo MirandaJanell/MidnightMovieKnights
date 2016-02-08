@@ -1,0 +1,62 @@
+---
+layout:     episode
+title:      109 - Zombieland
+subtitle:   Bimbo Twinkies
+categories: podcast
+date:       2016-01-31 19:00:00
+duration:   0:57:55
+length:     
+link:       http://media.midnightmovieknights.com/2016/109_-_Zombieland.m4a
+soundcloud: 
+coverart:   http://media.midnightmovieknights.com/img/MMK109-ZombiePod-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK109-ZombiePod-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK109-ZombiePod-200x200.png
+thumbalt:   MMK 109 - ZombiePod
+flickpick:  Zombieland
+mediasha1:  fb5fe3af35be683ef48f5dff15feef44362ca7ef
+promos:
+- WEAREPROMO
+- JW BEEPING PROMO
+tags:
+- Zombieland
+- Cloak
+- Dagger
+- Batman
+- Begins
+- Dark
+- Knight
+- Rises
+- Zoolander
+- X-Files
+---
+The Cat has an interesting relationship with phone numbers and it nearly makes the Knights miss out on pod pizza. The Knights spend some time discussing their weekly movie lists. The Flick Pick for the week is [Zombieland](http://www.imdb.com/title/tt1156398/), a favorite of both knights.
+
+### Movie Lists
+
+<div class="row">
+	<div class="col-sm-6">
+		<h4>Ceebs</h4>
+		<ul class="list-unstyled">
+			<li class=""><a href="http://www.imdb.com/title/tt0372784/" target="_blank">Batman Begins</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt0468569/" target="_blank">The Dark Knight</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt1345836/" target="_blank">The Dark Knight Rises</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt0087065/" target="_blank">Cloak &amp; Dagger</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt1156398/" target="_blank">Zombieland</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		<h4>Kitteh</h4>
+		<ul class="list-unstyled">
+			<li class=""><a href="http://www.imdb.com/title/tt0372784/" target="_blank">Batman Begins</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt0468569/" target="_blank">The Dark Knight</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt1345836/" target="_blank">The Dark Knight Rises</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt0196229/" target="_blank">Zoolander</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt2637276/" target="_blank">Ted 2</a></li>
+			<li class=""><a href="http://www.imdb.com/title/tt1156398/" target="_blank">Zombieland</a></li>
+		</ul>
+	</div>
+</div>
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Just Matt (@nittwit12345)](https://twitter.com/nittwit12345), [Comic Newb (@ComicNewb)](https://twitter.com/ComicNewb), [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
+
+![{{ thumbalt }}]({{ page.ogimage }})
