@@ -1,0 +1,53 @@
+---
+layout:     episode
+title:      110 - The Losers
+subtitle:   Ugh, Why?
+categories: podcast
+date:       2016-02-07 19:15:00
+duration:   0:55:43
+length:     58062485
+link:       http://media.midnightmovieknights.com/2016/110_-_The_Losers.m4a
+soundcloud: 
+coverart:   http://media.midnightmovieknights.com/img/MMK110-LOSR-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK110-LOSR-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK110-LOSR-200x200.png
+thumbalt:   MMK 110 - The LOSR
+flickpick:  The Losers
+mediasha1:  258fa1e1c669315d50e8618f4173d2cbb2534e46
+promos:
+- RevJim Promo
+tags:
+- Losers
+---
+Ceebs hates this epsiode and is only releasing it because the Cat drew a frakking episode image for our Flick Pick, [The Losers](http://www.imdb.com/title/tt0480255/).
+
+### Movie Lists
+
+<div class="row">
+	<div class="col-sm-6">
+		<h4>Ceebs</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title/tt3659388/" target="_blank">The Martian</a></li>
+			<li><a href="http://www.imdb.com/title/tt2488496/" target="_blank">Star Wars: The Force Awakens</a></li>
+			<li><a href="http://www.imdb.com/title/tt1375666/" target="_blank">Inception</a></li>
+			<li><a href="http://www.imdb.com/title/tt0043456/" target="_blank">The Day the Earth Stood Still</a></li>
+			<li><a href="http://www.imdb.com/title/tt0000417/" target="_blank">Le Voyage dan la Lune</a></li>
+			<li><a href="http://www.imdb.com/title/tt0480255/" target="_blank">The Losers</a></li>
+			<li><a href="http://www.imdb.com/title/tt3289712/" target="_blank">Jenny's Wedding</a></li>
+			<li><a href="http://www.imdb.com/title/tt3314958/" target="_blank">Mala Mala</a></li>
+			<li><a href="http://www.imdb.com/title/tt0452625/" target="_blank">Good Luck Chuck</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		<h4>Kitteh</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title/tt0196229/" target="_blank">Zoolander</a></li>
+			<li><a href="http://www.imdb.com/title/tt0480255/" target="_blank">The Losers</a></li>
+			<li><a href="http://www.imdb.com/title/tt0452625/" target="_blank">Good Luck Chuck</a></li>
+		</ul>
+	</div>
+</div>
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [The Mayor of Beertown (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
+
+![{{ thumbalt }}]({{ page.ogimage }})
