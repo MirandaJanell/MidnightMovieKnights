@@ -7,7 +7,7 @@ date:       2016-02-07 19:15:00
 duration:   0:55:43
 length:     58062485
 link:       http://media.midnightmovieknights.com/2016/110_-_The_Losers.m4a
-soundcloud: 
+soundcloud: 247101548
 coverart:   http://media.midnightmovieknights.com/img/MMK110-LOSR-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK110-LOSR-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK110-LOSR-200x200.png
