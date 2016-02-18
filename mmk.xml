@@ -27,10 +27,13 @@ layout: null
 	<itunes:category text="TV &amp; Film" />
 	<itunes:category text="Society &amp; Culture" />
 	<itunes:explicit>Yes</itunes:explicit>
+{% capture guiddate %}{{ "2016-02-10 0:00:00" | date: "%s" }}{% endcapture %}
 {% for post in site.categories.podcast limit:20 %}
-	{% assign episodeurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
+	{% assign podtrackurl = post.link | replace: 'http://', 'http://www.podtrac.com/pts/redirect.m4a/' %}
+	{% assign episodeurl = podtrackurl %}
 	{% assign coverart = 'http://media.midnightmovieknights.com/img/mmk-cover-art.jpg' %}
 	{% if post.coverart %}{% assign coverart = post.coverart %}{% endif %}
+	{% capture postdatestamp %}{{ post.date | date: "%s" }}{% endcapture %}
 	<item>
 		<title>{{ post.title | xml_escape }}</title>
 		<link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
@@ -48,7 +51,7 @@ layout: null
 		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/4.0/</creativeCommons:license>
 		<cc:morePermissions>{{ site.url }}{{ site.baseurl }}/license.html</cc:morePermissions>
 		<xapRights:WebStatement>{{ site.url }}{{ site.baseurl }}/license.html</xapRights:WebStatement>
-		<guid>{{ episodeurl }}</guid>
+		<guid>{% if postdatestamp >= guiddate %}{{ post.link }}{% else %}{{ podtrackurl }}{% endif %}</guid>
 		<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} PST</pubDate>
 		<content:encoded><![CDATA[
 		<a href="http://www.midnightmovieknights.com">Midnight Movie Knights</a><br />
