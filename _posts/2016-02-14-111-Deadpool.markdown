@@ -1,0 +1,80 @@
+---
+layout:     episode
+title:      111 - Deadpool
+subtitle:   Davepool
+categories: podcast
+date:       2016-02-14 19:00:00
+duration:   2:01:57
+length:     117066881
+link:       http://media.midnightmovieknights.com/2016/111_-_Deadpool.m4a
+soundcloud: 247755869
+coverart:   http://media.midnightmovieknights.com/img/MMK111-Davepool-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK111-Davepool-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK111-Davepool-200x200.png
+thumbalt:   MMK 111 - Davepool
+flickpick:  The Losers
+mediasha1:  121845e2d22532ee3bddd422bd1868f4524b71cd
+promos:
+- WANHTPY
+- RevJim Promo
+guests:
+- CapergirlMel
+chatters:
+- CaperGirlMel
+- Ryan (kaarval)
+- Marc Thorner
+- Madzub
+- Tom Kaytt
+- Marianne
+tags:
+- Deadpool
+- Galavant
+- Valentines
+- Day
+- How
+- Be
+- Single
+- Cloak
+- Dagger
+---
+Can you believe it? Ceebs is still muttering about Galavant being stuck in her head! Speaking of which...
+
+(Sung to the Galavant theme song)
+Way back a few days ago,
+Ceebs sat down and hit record,
+and shared her obsession with Galavant!
+
+Show delays, allergy eyes, lack of dreams, bus drivers, and oh so much more are packed into this mojo renewing dose of verbal diarrhea. The Knights are joined in the second half of the show by CaperGirlMel to discuss this weeks Flick Pick, [Deadpool](http://www.imdb.com/title/tt1431045/)! Both Knights and guest absolutely didn't hate it. 
+
+### Movie Lists
+
+<div class="row">
+	<div class="col-sm-6">
+		<h4>Ceebs</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title/tt0107290/" target="_blank">Jurassic Park</a></li>
+			<li><a href="http://www.imdb.com/title/tt0076489/" target="_blank">Oh God!</a></li>
+			<li><a href="http://www.imdb.com/title/tt1292566/" target="_blank">How to Be Single</a></li>
+			<li><a href="http://www.imdb.com/title/tt0817230/" target="_blank">Valentines Day</a></li>
+			<li><a href="http://www.imdb.com/title/tt0361467/" target="_blank">Confessions of a Teenage Drama Queen</a></li>
+			<li><a href="http://www.imdb.com/title/tt1431045/" target="_blank">Deadpool</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		<h4>Kitteh</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title//" target="_blank">The Martian</a></li>
+			<li><a href="http://www.imdb.com/title//" target="_blank">Guardians of the Galaxy</a></li>
+			<li><a href="http://www.imdb.com/title//" target="_blank">Canonball Run 2</a></li>
+			<li><a href="http://www.imdb.com/title//" target="_blank">The Italian Job (newer)</a></li>
+			<li><a href="http://www.imdb.com/title//" target="_blank">World War Z</a></li>
+			<li><a href="http://www.imdb.com/title//" target="_blank">Final Destination 3</a></li>
+			<li><a href="http://www.imdb.com/title/tt0087065/" target="_blank"></a>Cloak &amp; Dagger</li>
+			<li><a href="http://www.imdb.com/title/tt1431045/" target="_blank">Deadpool</a></li>
+		</ul>
+	</div>
+</div>
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [CaperGirlMel (@CaperGirlMel)](https://twitter.com/CaperGirlMel), [Ryan (@kaarval)](https://twitter.com/kaarval), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Dale Hu (@madzub)](https://twitter.com/madzub), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
+
+![{{ thumbalt }}]({{ page.ogimage }})
