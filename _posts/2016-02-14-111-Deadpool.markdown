@@ -63,13 +63,13 @@ Show delays, allergy eyes, lack of dreams, bus drivers, and oh so much more are 
 	<div class="col-sm-6">
 		<h4>Kitteh</h4>
 		<ul class="list-unstyled">
-			<li><a href="http://www.imdb.com/title//" target="_blank">The Martian</a></li>
-			<li><a href="http://www.imdb.com/title//" target="_blank">Guardians of the Galaxy</a></li>
-			<li><a href="http://www.imdb.com/title//" target="_blank">Canonball Run 2</a></li>
-			<li><a href="http://www.imdb.com/title//" target="_blank">The Italian Job (newer)</a></li>
-			<li><a href="http://www.imdb.com/title//" target="_blank">World War Z</a></li>
-			<li><a href="http://www.imdb.com/title//" target="_blank">Final Destination 3</a></li>
-			<li><a href="http://www.imdb.com/title/tt0087065/" target="_blank"></a>Cloak &amp; Dagger</li>
+			<li><a href="http://www.imdb.com/title/tt3659388/" target="_blank">The Martian</a></li>
+			<li><a href="http://www.imdb.com/title/tt2015381/" target="_blank">Guardians of the Galaxy</a></li>
+			<li><a href="http://www.imdb.com/title/tt0087032/" target="_blank">Canonball Run 2</a></li>
+			<li><a href="http://www.imdb.com/title/tt0317740/" target="_blank">The Italian Job (2003)</a></li>
+			<li><a href="http://www.imdb.com/title/tt0816711/" target="_blank">World War Z</a></li>
+			<li><a href="http://www.imdb.com/title/tt0414982/" target="_blank">Final Destination 3</a></li>
+			<li><a href="http://www.imdb.com/title/tt0087065/" target="_blank">Cloak &amp; Dagger</a></li>
 			<li><a href="http://www.imdb.com/title/tt1431045/" target="_blank">Deadpool</a></li>
 		</ul>
 	</div>
