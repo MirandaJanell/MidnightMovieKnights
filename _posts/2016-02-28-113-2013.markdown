@@ -1,0 +1,55 @@
+---
+layout:     episode
+title:      113 - 2013?
+subtitle:   No Flick Pick? No Problem!
+categories: podcast
+date:       2016-02-28 21:00:00
+duration:   2:11:25
+length:     127462594
+link:       http://media.midnightmovieknights.com/2016/113_-_2013.m4a
+soundcloud:
+coverart:   http://media.midnightmovieknights.com/img/MMK113-2013-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK113-2013-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK113-2013-200x200.png
+thumbalt:   No Flick Pick? No Problem!
+flickpick:  
+mediasha1:  484285ba0af439456e3869970e9cca2dfe220e63
+promos:
+- WeArePromo
+guests:
+- Johnny
+chatters:
+- Dianae173
+- Johnny
+- Dale Hu
+- lovelydoli
+tags:
+- Danish
+- Girl
+- Orange
+- New
+- Black
+- transgender
+---
+This week the Knights went without a Flick Pick in favor of focusing on the couple days. [Johnny](https://twitter.com/AvailableInADHD) joined the Knights on Skype after Ceebs explained her aversion to [The Danish Girl](http://www.imdb.com/title/tt0810819/).
+
+### Movie Lists
+
+<div class="row">
+	<div class="col-sm-6">
+		<h4>Ceebs</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title/tt2015381/" target="_blank"></a>The Danish Girl</li>
+		</ul>
+		<div class="col-sm-6">
+		<h4>Kitteh</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title//" target="_blank"></a></li>
+		</ul>
+	</div>
+	</div>
+</div>
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Dianae (@Dianae173)](https://twitter.com/Dianae173), [Johnny (@AvailableInADHD)](https://twitter.com/AvailableInADHD), [Dale Hu (@madzuub)](https://twitter.com/madzuub), and [lovelydoli](https://mixlr.com/lovelydoli).
+
+![{{ thumbalt }}]({{ page.ogimage }})
