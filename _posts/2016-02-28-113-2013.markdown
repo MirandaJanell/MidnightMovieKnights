@@ -39,7 +39,7 @@ This week the Knights went without a Flick Pick in favor of focusing on the last
 	<div class="col-sm-6">
 		<h4>Ceebs</h4>
 		<ul class="list-unstyled">
-			<li><a href="http://www.imdb.com/title/tt0810819/" target="_blank"></a>The Danish Girl</li>
+			<li><a href="http://www.imdb.com/title/tt0810819/" target="_blank">The Danish Girl</a></li>
 		</ul>
 	</div>
 	<div class="col-sm-6">
