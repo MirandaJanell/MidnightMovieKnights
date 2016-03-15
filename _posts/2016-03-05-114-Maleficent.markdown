@@ -14,6 +14,7 @@ thumbsrc:   http://media.midnightmovieknights.com/img/MMK114-Daveficent-200x200.
 thumbalt:   Daveficent
 flickpick:  Maleficent
 mediasha1:  70ff4cd56969429a2575ef7b36fa99bccd31b871
+pubdate:    2016-03-14 21:00:00
 promos:
 - RevJim Promo
 chatters:
