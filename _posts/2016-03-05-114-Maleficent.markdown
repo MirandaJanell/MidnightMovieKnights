@@ -1,0 +1,64 @@
+---
+layout:     episode
+title:      114 - Maleficent
+subtitle:   "Starting Poo in the #PodernFamily"
+categories: podcast
+date:       2016-03-05 19:00:00
+duration:   1:36:10
+length:     93833721
+link:       http://media.midnightmovieknights.com/2016/114-_Maleficent.m4a
+soundcloud:
+coverart:   http://media.midnightmovieknights.com/img/MMK114-Daveficent-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK114-Daveficent-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK114-Daveficent-200x200.png
+thumbalt:   Daveficent
+flickpick:  Maleficent
+mediasha1:  70ff4cd56969429a2575ef7b36fa99bccd31b871
+promos:
+- RevJim Promo
+chatters:
+- RevelokeJim
+- Marianne
+- Marc Thorner
+- Dianae
+- Matt
+- Tom Kaytt
+- AvailableInADHD
+tags:
+- 
+---
+The Knights have returned this week to give a dose of verbal diarrhea rather than bring it. Ceebs shared a story about a gift from her mother. The Cat didn't share much of an update this time around. In his own words, "I was here, by myself." The Flick Pick for the week is [Maleficent](http://www.imdb.com/title/tt1587310/), a movie so enjoyed by both Knights that they didn't discuss any other options.
+
+### Movie Lists
+
+<div class="row">
+	<div class="col-sm-6">
+		<h4>Ceebs</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title/tt1431045/" target="_blank">Deadpool</a></li>
+			<li><a href="http://www.imdb.com/title/tt0810819/" target="_blank">The Danish Girl</a></li>
+			<li><a href="http://www.imdb.com/title/tt1587310/" target="_blank">Maleficent</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		<h4>Kitteh</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title/tt1600196/" target="_blank">The Drop</a></li>
+			<li><a href="http://www.imdb.com/title/tt0434409/" target="_blank">V For Vendetta</a></li>
+			<li><a href="http://www.imdb.com/title/tt1431045/" target="_blank">Deadpool</a></li>
+			<li><a href="http://www.imdb.com/title/tt0091777/" target="_blank">Police Academy 3</a></li>
+			<li><a href="http://www.imdb.com/title/tt0088944/" target="_blank">Commando</a></li>
+			<li><a href="http://www.imdb.com/title/tt0111257/" target="_blank">Speed</a></li>
+			<li><a href="http://www.imdb.com/title/tt0810819/" target="_blank">The Danish Girl</a></li>
+			<li><a href="http://www.imdb.com/title/tt0104647/" target="_blank">Kuffs</a></li>
+			<li><a href="http://www.imdb.com/title/tt0093779/" target="_blank">The Princess Bride</a></li>
+			<li><a href="http://www.imdb.com/title/tt0098987/" target="_blank">The Adventures of Ford Fairlane</a></li>
+			<li><a href="http://www.imdb.com/title/tt2302755/" target="_blank">Olympus Has Fallen</a></li>
+			<li><a href="http://www.imdb.com/title/tt1587310/" target="_blank">Maleficent</a></li>
+		</ul>
+	</div>
+</div>
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Matt (@nittwit12345)](https://twitter.com/nittwit12345), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Dianae (@dianae173)](https://twitter.com/dianae173), [Johnny (@AvailableInADHD)](https://twitter.com/AvailableInADHD), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
+
+![{{ thumbalt }}]({{ page.ogimage }})
