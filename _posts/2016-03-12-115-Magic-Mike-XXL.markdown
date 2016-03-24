@@ -14,7 +14,7 @@ thumbsrc:   http://media.midnightmovieknights.com/img/MMK115-MagicMic-200x200.pn
 thumbalt:   Magic Mic
 flickpick:  Magic Mike XXL
 mediasha1:  056a9c12179ad861cf87e9f3a1e170f705974359
-pubdate:    2016-03-23 22:00:00
+pubdate:    2016-03-23 22:37:00
 promos:
 - RevJim Promo
 chatters:
