@@ -7,7 +7,7 @@ date:       2016-03-12 20:15:00
 duration:   1:16:08
 length:     74199621
 link:       http://media.midnightmovieknights.com/2016/115_-_Magic_Mike_XXL.m4a
-soundcloud: 
+soundcloud: 254761750
 coverart:   http://media.midnightmovieknights.com/img/MMK115-MagicMic-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK115-MagicMic-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK115-MagicMic-200x200.png
