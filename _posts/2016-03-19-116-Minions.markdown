@@ -1,0 +1,54 @@
+---
+layout:     episode
+title:      116 - Minions (Not Really)
+subtitle:   Kitteh is an "explitive deleted"
+categories: podcast
+date:       2016-03-19 20:15:00
+duration:   2:06:07
+length:     121722053
+link:       http://media.midnightmovieknights.com/2016/116_-_Minions.m4a
+soundcloud: 
+coverart:   http://media.midnightmovieknights.com/img/MMK116-Ominions-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK116-Ominions-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK116-Ominions-200x200.png
+thumbalt:   Jonas and Miranda talking on the couch while Dave lays across them.
+flickpick:  Minions
+mediasha1:  b22d37395ed5fcdcf4cbf20d3430a11e05fb4b3c
+pubdate:    2016-03-30 20:35:00
+promos:
+- RevJim Promo
+chatters:
+- RevelstokeJim
+- kaarval
+- MayorOfBeertown
+- mv_ughn
+- madzub
+- markoshark
+tags:
+- 
+---
+The Knights brought another life heavy installment this week. Kitteh has allergies, and is tired, but he's still sporting his sense of humor. Ceebs broke her phone, again, but she's now seen [Star Wars: The Force Awakens](http://www.imdb.com/title/tt2488496/) 10 times, so she's not complaining too much. This week's Flick Pick was [Minions](http://www.imdb.com/title/tt2293640/), but the Knights hadn't watched it before recording, so they really just mentioned it.
+
+### Movie Lists
+
+<div class="row">
+	<div class="col-sm-6">
+		<h4>Ceebs</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title/tt2488496/" target="_blank">Star Wars: The Force Awakens</a></li>
+			<li><a href="http://www.imdb.com/title/tt2293640/" target="_blank">Minions</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		<h4>Kitteh</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://www.imdb.com/title/tt0097428/" target="_blank">Ghostbusters II</a></li>
+			<li><a href="http://www.imdb.com/title/tt0337978/" target="_blank">Live Free or Die Hard</a></li>
+			<li><a href="http://www.imdb.com/title/tt2293640/" target="_blank">Minions</a></li>
+		</ul>
+	</div>
+</div>
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Mayor of Beertown (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [Dale Hu (@madzub)](https://twitter.com/madzub), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
+
+![{{ thumbalt }}]({{ page.ogimage }})
