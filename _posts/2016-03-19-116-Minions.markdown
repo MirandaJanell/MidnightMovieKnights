@@ -7,7 +7,7 @@ date:       2016-03-19 20:15:00
 duration:   2:06:07
 length:     121722053
 link:       http://media.midnightmovieknights.com/2016/116_-_Minions.m4a
-soundcloud: 
+soundcloud: 256385664
 coverart:   http://media.midnightmovieknights.com/img/MMK116-Ominions-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK116-Ominions-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK116-Ominions-200x200.png
