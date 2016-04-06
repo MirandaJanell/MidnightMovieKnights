@@ -7,7 +7,7 @@ date:       2016-03-27 21:15:00
 duration:   1:31:28
 length:     90130861
 link:       http://media.midnightmovieknights.com/2016/117_-_Hop.m4a
-soundcloud: 
+soundcloud: 257674539
 coverart:   http://media.midnightmovieknights.com/img/MMK117-HoppyEaster-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK117-HoppyEaster-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK117-HoppyEaster-200x200.png
