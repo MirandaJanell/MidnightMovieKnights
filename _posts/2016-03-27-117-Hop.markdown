@@ -1,0 +1,34 @@
+---
+layout:     episode
+title:      117 - Hop
+subtitle:   Hoppy Easter
+categories: podcast
+date:       2016-03-27 21:15:00
+duration:   1:31:28
+length:     90130861
+link:       http://media.midnightmovieknights.com/2016/117_-_Hop.m4a
+soundcloud: 
+coverart:   http://media.midnightmovieknights.com/img/MMK117-HoppyEaster-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK117-HoppyEaster-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK117-HoppyEaster-200x200.png
+thumbalt:   The Trio celebrates Easter
+flickpick:  Hop
+mediasha1:  71815f0e6bbff58ebcdcd569719f79b6e8877c35
+pubdate:    2016-04-06 13:25:00
+promos:
+- Johnny Promo
+chatters:
+- Marianne
+- Ryan
+- AvailableInADHD
+- Dale Hu
+tags:
+- Hop
+- WonderCon
+- Easter
+---
+The Knights catch up with each other on this Easter Sunday installment. Ceebs shares her current plans for leading a healthier lifestyle, as well as her WonderCon 2016 experiences. Kitteh shares Cat stuff like bus and paranoia stories. This week's Flick Pick is Hop, an Easter Favorite of Ceebs, and one Kitteh has never seen due to his loathing of Russel Brand.
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Johnny Whitetrash (@AvailableInADHD)](https://twitter.com/AvailableInADHD), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Dale Hu (@madzub)](https://twitter.com/madzub), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
+
+![{{ thumbalt }}]({{ page.ogimage }})
