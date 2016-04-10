@@ -14,7 +14,7 @@ thumbsrc:   http://media.midnightmovieknights.com/img/MMK118-MewperTroopers-200x
 thumbalt:   Mewper Troopers
 flickpick:	Super Troopers
 mediasha1:  75c912976cf5baf7f32ad5aab2ae8a8ef4e3ab2d
-pubdate:    2016-04-09 18:25:00
+pubdate:    2016-04-09 18:00:00
 promos:
 - WANHTPY Promo
 chatters:
