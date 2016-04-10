@@ -7,14 +7,14 @@ date:       2016-04-02 19:00:00
 duration:   2:34:53
 length:     151291941
 link:       http://media.midnightmovieknights.com/2016/118_-_Super_Troopers.m4a
-soundcloud: 
+soundcloud: 257674539
 coverart:   http://media.midnightmovieknights.com/img/MMK118-MewperTroopers-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK118-MewperTroopers-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK118-MewperTroopers-200x200.png
 thumbalt:   Mewper Troopers
 flickpick:	Super Troopers
 mediasha1:  75c912976cf5baf7f32ad5aab2ae8a8ef4e3ab2d
-pubdate:    2016-04-09 18:00:00
+pubdate:    2016-04-09 18:25:00
 promos:
 - WANHTPY Promo
 chatters:
