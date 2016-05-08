@@ -1,0 +1,37 @@
+---
+layout:     episode
+title:      120 - Aladdin
+subtitle:   Phenomenal Kosmic Power! Itty Bitty Litter Box.
+categories: prerelease
+date:       2016-04-24 16:00:00
+duration:   1:42:06
+length:     101863181
+link:       http://media.midnightmovieknights.com/2016/120_-_Aladdin.m4a
+soundcloud: 263011010
+coverart:   http://media.midnightmovieknights.com/img/MMK120-Meowladdin-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK120-Meowladdin-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK120-Meowladdin-200x200.png
+thumbalt:   Phenomenal kosmic power! Itty bitty litter box.
+flickpick:  Aladdin
+mediasha1:  1aa63d3a9299349fe60f419ee4f69db18692b4b0
+pubdate:    2016-05-07 18:35:00
+promos:
+- JW Beeping Promo
+chatters:
+- Marianne
+- Johnny Whitetrash
+- Ryan Connolly
+- Tom Kaytt
+- Mayor of Beertown
+tags:
+- Aladdin
+- Howard
+- Ashman
+- Alan
+- Manken
+---
+The Knights return and have some splaining to do, but instead start with giggles and mumbles. Both Knights share stories about anxiety attacks, dental work and knee injuries before discussing the Flick Pick, [Aladdin](http://www.imdb.com/title/tt0103639/). Some special attention is given to [Howard Ashman](http://www.imdb.com/name/nm0039141/), [Alan Menkin](http://www.imdb.com/name/nm0579678/), and [Tim Rice](http://www.imdb.com/name/nm0005358/) because the soundtrack has a special place in Ceebs' heart as her adolescent self parkoured through the house singing along to her very first cd. The Knights are to record episode 122 - Captain America: Civil War so we need to stop writing now. k thx bai!
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [The Mayor of Beertown (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Johnny Whitetrash (@AvailableInADHD)](https://twitter.com/AvailableInADHD), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
+
+![{{ thumbalt }}]({{ page.ogimage }})
