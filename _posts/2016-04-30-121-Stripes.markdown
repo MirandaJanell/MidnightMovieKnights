@@ -1,0 +1,37 @@
+---
+layout:     episode
+title:      121 - Stripes
+subtitle:   Baby Chestbursters!
+categories: podcast
+date:       2016-04-30 20:00:00
+duration:   1:19:31
+length:     78860861
+link:       http://media.midnightmovieknights.com/2016/121_-_Stripes.m4a
+soundcloud: 263651065
+coverart:   http://media.midnightmovieknights.com/img/MMK121-HulkaDave-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK121-HulkaDave-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK121-HulkaDave-200x200.png
+thumbalt:   Hulka Dave
+flickpick:  Stripes
+mediasha1:  c0262d800ebc018b67b48e5c14ed28601a9e4eef
+pubdate:    2016-05-11 12:00:00
+promos:
+- JW Beeping Promo
+chatters:
+- Ryan Connolly
+- Marianne
+- Revelstoke Jim
+- Dianae
+- Marc Thorner
+tags:
+- Stripes
+- Deadpool
+- Condorman
+- Ally
+- McBeal
+---
+For the last day of April, the Knights celebrate by discussing root canals, anxiety Xenomorphs, Uber rides, [Deadpool](http://www.imdb.com/title/tt1431045/) digital downloads, caveat emptor suckers, and the OG Birdman comic book movie, [Condorman](http://www.imdb.com/title/tt0082199/). This week's Flick Pick is [Stripes](http://www.imdb.com/title/tt0083131/), a movie cherished by Kitteh, but nearly forgotten by Ceebs.
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Dianae (@Dianae173)](https://twitter.com/Dianae173), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
+
+![{{ thumbalt }}]({{ page.ogimage }})
