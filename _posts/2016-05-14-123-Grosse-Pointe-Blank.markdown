@@ -2,7 +2,7 @@
 layout:     episode
 title:      123 - Grosse Pointe Blank
 subtitle:	"#RootingThroughTheArchives"
-categories: prerelease
+categories: podcast
 date:       2016-05-14 20:00:00
 duration:   1:19:17
 length:     82078500
@@ -14,7 +14,7 @@ thumbsrc:   http://media.midnightmovieknights.com/img/MMK123-Birfday-200x200.png
 thumbalt:   Dave celebrating a birthday, alone.
 flickpick:  Gross Pointe Blank
 mediasha1:  d079c656daf3a3e0b6cc3c3fea4f4000f5edca53
-pubdate:    2016-05-28 15:20:00
+pubdate:    2016-05-28 19:00:00
 promos:
 - ADHD Promo
 chatters:
