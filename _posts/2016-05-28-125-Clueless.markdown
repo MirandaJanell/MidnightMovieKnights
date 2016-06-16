@@ -1,0 +1,44 @@
+---
+layout:     episode
+title:      125 - Clueless
+subtitle:   "As If, I don't kare, With a K!"
+categories: podcast
+date:       2016-05-28 20:00:00
+duration:   1:13:11
+length:     72781699
+link:       http://media.midnightmovieknights.com/2016/125_-_Clueless.m4a
+soundcloud: 269325463
+coverart:   http://media.midnightmovieknights.com/img/MMK125-Klueless-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com.s3.amazonaws.com/img/MMK125-Klueless-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK125-Klueless-200x200.png
+thumbalt:   Klueless
+flickpick:  Clueless
+mediasha1:  a000779dce1c0c336e687115abed5ea3b6efa77c
+pubdate:    2016-06-15 20:27:30
+promos:
+- WANHTPY Promo
+chatters:
+- Ryan Connolly
+- Marianne
+- Marc Thorner
+- Dianae
+- RevelstokeJim
+- Tom Sherlock
+tags:
+- Clueless
+- Towel
+- Day
+- Star
+- Wars
+- Comic
+- Brad
+- Williams
+- Scrubs
+- Batgirl
+- Transgender
+---
+A botched episode release distracts Ceebs before she starts sharing her experience speaking about being transgender at a local high school. Topics include the celebraiton of Towel Day, Star Wars birthday, and a new comic shop. The Flick Pick for the week is [Clueless](http://www.imdb.com/title/tt0112697/), a quintessential 90's teen hit. A long stinger brings a shout out to [Johnny's](https://twitter.com/NotThatJohnny) new show [That 90's Show](http://availableinadhd.com/that90sshow/) and plans to see [Brad Williams](https://twitter.com/funnybrad) live the following week.
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@revelstokejim)](https://twitter.com/revelstokejim), [Tom Sherlock (@judgefunkyboy)](https://twitter.com/judgefunkyboy), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Dianae (@Dianae173)](https://twitter.com/Dianae173), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
+
+![{{ thumbalt }}]({{ page.ogimage }})
