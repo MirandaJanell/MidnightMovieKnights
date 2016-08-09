@@ -1,0 +1,37 @@
+---
+layout:     episode
+title:      127 - Clerks II
+subtitle:	Nobody expects DJ LeMahieu!
+categories: prerelease
+date:       2016-06-11 19:00:00
+duration:   1:24:03
+length:		82768090
+link:       http://media.midnightmovieknights.com/2016/127_-_Clerks_II.m4a
+soundcloud:
+coverart:   http://media.midnightmovieknights.com/img/MMK127-Klerks-Too-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK127-Klerks-Too-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK127-Klerks-Too-200x200.png
+thumbalt:   The idiots and Chump paying homage to Clerks II.
+flickpick:  Clerks II
+mediasha1:  6eed6c797b6f96d157014931cc32f3823444d325
+pubdate:    2016-08-09 13:45:00
+promos:
+- Johnny Promo
+chatters:
+- Marianne
+- Revelstoke Jim
+- Marc Thorner
+- Dianae173
+tags:
+- Clerks
+- II
+- Zootopia
+- Dodgers
+- LeMahieu
+---
+It's been nearly two months since The Knights have released an episode, but they are back and have debuted a new version of their intro! Kat shares a story about how he got a mason jar from a very Smirnoff nIce lady. Ceebs blathers on about going to the Dodgers game with her dad before sharing a story about the most bizarre play she's ever seen in the stadium. The Flick Pick was nearly Zootopia and the Knights discuss the joy it brought to both of them before getting into their actual Flick Pick, Clerks II. While discussing the Flick Pick questions were raised, such as wether the imagined name of a cow can be a racial, and the Knights even came up with a potential plot for Clerks III set at a voyeuristic marijuana dispensary.
+
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Dianae (@dianae173)](https://twitter.com/dianae173), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
+
+![{{ thumbalt }}]({{ page.ogimage }})
