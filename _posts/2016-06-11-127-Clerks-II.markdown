@@ -2,7 +2,7 @@
 layout:     episode
 title:      127 - Clerks II
 subtitle:	Nobody expects DJ LeMahieu!
-categories: prerelease
+categories: podcast
 date:       2016-06-11 19:00:00
 duration:   1:24:03
 length:		82768090
