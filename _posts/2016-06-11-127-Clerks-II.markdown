@@ -7,7 +7,7 @@ date:       2016-06-11 19:00:00
 duration:   1:24:03
 length:		82768090
 link:       http://media.midnightmovieknights.com/2016/127_-_Clerks_II.m4a
-soundcloud:
+soundcloud: 277558652
 coverart:   http://media.midnightmovieknights.com/img/MMK127-Klerks-Too-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK127-Klerks-Too-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK127-Klerks-Too-200x200.png
