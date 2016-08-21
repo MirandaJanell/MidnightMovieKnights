@@ -1,0 +1,32 @@
+---
+layout:     episode
+title:      128 - The Birdcage
+subtitle:	"No one wants #ButtPollen"
+categories: podcast
+date:       2016-06-25 19:00:00
+duration:   1:31:00
+length:		88926325
+link:       http://media.midnightmovieknights.com/2016/128_-_The_Birdcage.m4a
+soundcloud: 279269162
+#coverart:   http://media.midnightmovieknights.com/img/MMK128--1400x1400.png
+#ogimage:    http://media.midnightmovieknights.com/img/MMK128--750x750.png
+#thumbsrc:   http://media.midnightmovieknights.com/img/MMK128--200x200.png
+#thumbalt:
+flickpick:  The Birdcage
+mediasha1:	a41df02391e00ae9ddc30e04315d143caa124e8a
+pubdate:    2016-08-21 13:00:00
+promos:
+- ADHDPromo
+chatters:
+- Marianne
+- CaperGirlMel
+- RevelstokeJim
+- MarcThorner
+- Dianae
+tags:
+-
+---
+Ceebs fell in her battle battle with the stress monster, but her partner in pod valiantly picked his fallen comrade up and delivered her to the medics, injuring himself in the process. Fear not dear listener for The Knights have returned the Sand Castle Studio to share their tales from the medic tent, the discovery of the British mini-series [Hit & Miss](http://www.imdb.com/title/tt2232345/) following the life of a transgender hit woman, as well as their experience at OC Pride. The Flick Pick for the week is the hilariously over the top dramady, [The Birdcage](http://www.imdb.com/title/tt0115685/).
+
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Caper Girl Mel (@CaperGirlMel)](https://twitter.com/CaperGirlMel), [Dianae Weeks (@Dianae173)](https://twitter.com/Dianae173), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
