@@ -14,7 +14,7 @@ thumbsrc:   http://media.midnightmovieknights.com/img/MMK129-Independence-Dave-2
 thumbalt:	Welkome to Earf!
 flickpick:  Independence Day
 mediasha1:  a16f6f716724fc16f03b1998df27964df555bc01
-pubdate:    2016-06-06 15:20:00
+pubdate:    2016-09-02 06:57:00
 promos:
 - JWBeepPromo
 chatters:
