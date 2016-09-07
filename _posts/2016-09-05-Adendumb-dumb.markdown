@@ -6,7 +6,7 @@ categories: podcast
 date:       2016-09-05 18:05:00
 duration:   1:30:37
 length:     88400946
-link:       http://media.midnightmovieknights.com/2016/137_-_Adendumbdumb.m4a
+link:       http://media.midnightmovieknights.com/2016/137_-_Addendumb-dumb.m4a
 soundcloud: 281582284
 mediasha1:  83fe03d8abf5c6ce990a4a5e83d5038069a90366
 pubdate:    2016-09-05 20:25:00
