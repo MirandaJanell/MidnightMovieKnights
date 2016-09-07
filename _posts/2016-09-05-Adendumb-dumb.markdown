@@ -1,6 +1,6 @@
 ---
 layout:     episode
-title:      Adendumb-dumb
+title:      Addendumb-dumb
 subtitle:	Kitteh Makes Words
 categories: podcast
 date:       2016-09-05 18:05:00
