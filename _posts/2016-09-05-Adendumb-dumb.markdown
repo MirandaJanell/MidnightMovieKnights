@@ -19,6 +19,6 @@ chatters:
 tags:
 - Feels
 ---
-After recording episode 137, there were things that were left unsaid, and Kitteh wanted to say them. Welcome to the Adendumb-dumb to 137, brought to you by a couple idiots with microphones.
+After recording episode 137, there were things that were left unsaid, and Kitteh wanted to say them. Welcome to the Addendumb-dumb to 137, brought to you by a couple idiots with microphones.
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
