@@ -23,7 +23,12 @@ chatters:
 - Dianae Weeks
 - Mayor of Beertown
 tags:
--
+- Super
+- Mario
+- Brothers
+- Independence
+- Day
+- Ressurgence
 ---
 The Knights return for another for another round of finding talking to be hard. The Cat is in pain, but he had a mostly good week. Ceebs not so much. After their last Flick Pick of [Independence Day](http://www.imdb.com/title/tt0116629/) the Knights saw [Independence Day: Ressurgence](http://www.imdb.com/title/tt1628841/) and they share their thoughts. This weeks' Flick Pick is [Super Mario Brothers](http://www.imdb.com/title/tt0108255/) which both Knights admit isn't a great movie, but they love it anyway.
 
