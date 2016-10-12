@@ -1,0 +1,33 @@
+---
+layout:     episode
+title:      131 - Tombstone
+subtitle:   Ceebs the Day!
+categories: prerelease
+date:       2016-07-16 19:00:00
+duration:   1:24:49
+length:		82862194
+link:       http://media.midnightmovieknights.com/2016/131_-_Tombstone.m4a
+soundcloud:
+coverart:   http://media.midnightmovieknights.com/img/MMK131-Tombstone-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK131-Tombstone-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK131-Tombstone-200x200.png
+thumbalt:	The Derps on their stick horses.
+flickpick:  Tombstone
+mediasha1:	ca999589b6a2ab745b1a87068b38aea1417090db
+pubdate:    2016-06-06 15:20:00
+promos:
+- WeArePromo
+chatters:
+- Marc Thorner
+- Dianae173
+- RevelstokeJim
+- Marianne
+- Tom Kaytt
+tags:
+-
+---
+The Knights continue to battle the low levels monster but they emerge victorious. Kitteh has a new toy and the conversation get pretty graphic, while Ceebs sets a new professional goal. The Knights saw Ghostbusters on opening knight and both Knights gave it an official didn't hate it. After ceding the on going battle with their mixer, the Knights wrapped up by gushing at [Tombstone](http://www.imdb.com/title/tt0108358/), their Flick Pick for the week.
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Dianae Weeks (@dianae173)](https://twitter.com/dianae173), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
+
+![{{ thumbalt }}]({{ page.ogimage }})
