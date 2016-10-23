@@ -7,7 +7,7 @@ date:       2016-07-24 19:25:00
 duration:   1:28:42
 length:     86013851
 link:       http://media.midnightmovieknights.com/2016/132_-_Pacific_Symphony_Beethovens_9th.m4a
-soundcloud:
+soundcloud: 289638094
 coverart:   http://media.midnightmovieknights.com/img/MMK132-SymphonyDave-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK132-SymphonyDave-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK132-SymphonyDave-200x200.png
