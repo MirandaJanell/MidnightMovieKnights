@@ -1,0 +1,34 @@
+---
+layout:     episode
+title:      133 - Cast Away
+subtitle:   Uneven Muffins and Odd Gravy
+categories: podcast
+date:       2016-07-31 19:30:00
+duration:   1:52:49
+length:		112632003
+link:       http://media.midnightmovieknights.com/2016/133_-_Cast_Away.m4a
+soundcloud:
+coverart:   http://media.midnightmovieknights.com/img/MMK133-Cats-Away-1400x1400.png
+ogimage:    http://media.midnightmovieknights.com/img/MMK133-Cats-Away-750x750.png
+thumbsrc:   http://media.midnightmovieknights.com/img/MMK133-Cats-Away-200x200.png
+thumbalt:	Cats Away
+flickpick:	Cast Away
+mediasha1:	e099ffa96327be271c7733b8d0d329fa4421cabf
+pubdate:    2016-11-02 13:40:00
+promos:
+- Rev Jim Promo
+chatters:
+- Dianae
+- RevelstokeJim
+tags:
+- Cast
+- Away
+- Breakfast
+- Cars
+- Life
+---
+The Knights return for a longer episode where they get a little heavier on what is going on in their lives before moving on to chatting about their Flick Pick. It all starts with the tale of breakfast adventure where the Knights enjoy the local fare like uneven blueberry muffins, odd gravy and a big biscuit. Kitteh shares a story about the overnight manager that he unaffectionately calls Douche Monkey. Ceebs shares a story about an argument that interrupted her meditation, but it's ok because she is excited about a friendship that blossomed with the return of Wine Wednesday. Ceebs also shares how she is being more active by biking to work, which is great because she's seeking alternate transporation options. Audio issues plague the episode, but the Knights soldier on and eventually get to talking about Cast Away, their very heavy Flick Pick for the week.
+
+The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), and [Dianae (@Dianae173)](https://twitter.com/Dianae173).
+
+![{{ thumbalt }}]({{ page.ogimage }})
