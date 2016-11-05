@@ -14,7 +14,7 @@ thumbsrc:   http://media.midnightmovieknights.com/img/MMK134-Mewicide-Squad-200x
 thumbalt:	The idiots team up to form the Mewicide Squad.
 flickpick:	Suicide Squad
 mediasha1:	ec5f4e9eb3d045951625ebe26cbe3ab6e4d1f395
-pubdate:    2016-06-06 15:20:00
+pubdate:    2016-11-05 14:00:00
 promos:
 - Rev Jim Promo
 chatters:
