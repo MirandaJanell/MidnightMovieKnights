@@ -7,7 +7,7 @@ date:       2016-08-06 21:00:00
 duration:   1:31:52
 length:		95768161
 link:       http://media.midnightmovieknights.com/2016/134_-_Suicide_Squad.m4a
-soundcloud:
+soundcloud:	291678144
 coverart:   http://media.midnightmovieknights.com/img/MMK134-Mewicide-Squad-1400x1400.png
 ogimage:    http://media.midnightmovieknights.com/img/MMK134-Mewicide-Squad-750x750.png
 thumbsrc:   http://media.midnightmovieknights.com/img/MMK134-Mewicide-Squad-200x200.png
