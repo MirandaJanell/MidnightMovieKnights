@@ -77,4 +77,4 @@ Show delays, allergy eyes, lack of dreams, bus drivers, and oh so much more are 
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [CaperGirlMel (@CaperGirlMel)](https://twitter.com/CaperGirlMel), [Ryan (@kaarval)](https://twitter.com/kaarval), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Dale Hu (@madzub)](https://twitter.com/madzub), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

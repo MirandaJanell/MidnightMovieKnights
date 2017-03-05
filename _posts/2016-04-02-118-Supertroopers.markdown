@@ -39,4 +39,4 @@ In this installment, the Knights are joined by [Neil](https://twitter.com/angels
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Dianae (@Dianae173)](https://twitter.com/Dianae173), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Comic Newb (@ComicNewb)](https://twitter.com/ComicNewb), [Mayor of Beertown (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Matt Quinton (@nittwit12345)](https://twitter.com/nittwit12345), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

@@ -25,4 +25,4 @@ In this installment, the Knights babble for a bit and then spoil the hell out of
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [The Mayor of Beertown (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), and [Dianae (@dianae173)](https://twitter.com/dianae173).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

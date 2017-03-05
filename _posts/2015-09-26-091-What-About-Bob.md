@@ -28,4 +28,4 @@ Ceebs calls an audible and the Knights start the show with their FlickPick, [Wha
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [@mv_ughn](https://twitter.com/mv_ughn), [@RevelstokeJim](https://twitter.com/RevelstokeJim), and [@dianae173](https://twitter.com/dianae173).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

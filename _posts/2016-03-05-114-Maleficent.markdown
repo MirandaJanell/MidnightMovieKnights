@@ -62,4 +62,4 @@ The Knights have returned this week to give a dose of verbal diarrhea rather tha
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Matt (@nittwit12345)](https://twitter.com/nittwit12345), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Dianae (@dianae173)](https://twitter.com/dianae173), [Johnny (@AvailableInADHD)](https://twitter.com/AvailableInADHD), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

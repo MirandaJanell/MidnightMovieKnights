@@ -33,4 +33,4 @@ In their latest audio adventure, the Knights go to the symphony, but first they 
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Johnny Whitetrash (@NotThatJohnny)](https://twitter.com/NotThatJohnny), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Dianae Weeks (@dianae173)](https://twitter.com/dianae173) [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), and [Huney Whitetrash (@omgwtfhuney)](https://twitter.com/omgwtfhuney).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

@@ -34,4 +34,4 @@ This week, the Knights refuse to start the show description with "In this instal
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Jim Rilee (@revoltingnow)](https://twitter.com/revoltingnow), [Comic Newb (@ComicNewb)](https://twitter.com/ComicNewb), [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Mel (@CapergirlMel)](https://twitter.com/CapergirlMel), [Tom Sherlock (@JudgeFunkyBoy)](https://twitter.com/JudgeFunkyBoy), [Ryan (@kaarval)](https://twitter.com/kaarval), [Dianae (@dianae173)](https://twitter.com/dianae173), [hairyhotdog](https://mixlr.com/hairyhotdog), [joennn24](https://mixlr.com/joennn24), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Tom Kaytt (@tomkaytt)](https://twitter.com/tomkaytt).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

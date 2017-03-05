@@ -34,4 +34,4 @@ For the record the Knights would like to take one more opportunity to thank [Nei
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Marc Thoner (@markoshark)](https://twitter.com/markoshark), [Dale Hu (@madzub)](https://twitter.com/madzub), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Comic Newb (@ComicNewb)](https://twitter.com/ComicNewb), [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Tom Sherlock (@judgefunkyboy)](https://twitter.com/judgefunkyboy), [Matt Quinton (@nittwit12345)](https://twitter.com/nittwit12345), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), and [gedidan fm](http://mixlr.com/gedidan-fm/).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

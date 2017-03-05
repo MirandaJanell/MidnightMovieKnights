@@ -31,4 +31,4 @@ The Knights return for a longer episode where they get a little heavier on what 
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), and [Dianae (@Dianae173)](https://twitter.com/Dianae173).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

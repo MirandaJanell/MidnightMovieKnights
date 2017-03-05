@@ -34,4 +34,4 @@ In this installment the Knights start silly, and then follow a tangent and brief
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Dianae (@Dianae173)](https://twitter.com/Dianae173), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

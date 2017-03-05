@@ -20,4 +20,4 @@ The Knights return for another round of bickering, and goofing off. Ceebs was a 
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [@mv_ughn](https://twitter.com/mv_ughn), [@RevelstokeJim](https://twitter.com/RevelstokeJim), [@dianae173](https://twitter.com/dianae173), [@WANHTPY](https://twitter.com/@WANHTPY), and [@RLE116](https://twitter.com/RLE116).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

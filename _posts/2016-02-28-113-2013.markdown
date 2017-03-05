@@ -36,4 +36,4 @@ This week the Knights went without a Flick Pick in favor of focusing on the last
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Dianae (@Dianae173)](https://twitter.com/Dianae173), [Johnny (@AvailableInADHD)](https://twitter.com/AvailableInADHD), [Dale Hu (@madzuub)](https://twitter.com/madzuub), and [lovelydoli](https://mixlr.com/lovelydoli).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

@@ -31,4 +31,4 @@ The Knights continue to battle the low levels monster but they emerge victorious
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Dianae Weeks (@dianae173)](https://twitter.com/dianae173), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

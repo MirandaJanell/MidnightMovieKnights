@@ -31,4 +31,4 @@ Kitteh gets back in touch with his artistic side and pushes Ceebs' buttons. Ceeb
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Qassem166](http://mixlr.com/qassem166/), [Matt Quinton (@nittwit12345)](https://twitter.com/nittwit12345), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

@@ -30,4 +30,4 @@ In this installment, Ceebs tells the tale of what you get when you have dark cho
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [@JudgeFunkyBoy](https://twitter.com/JudgeFunkyBoy), [@mv_ughn](https://twitter.com/mv_ughn), [@RevelstokeJim](https://twitter.com/RevelstokeJim), [@ComicNewb](https://twitter.com/ComicNewb), [@madzub](https://twitter.com/madzub), and [@Dianae173](https://twitter.com/Dianae173).  
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

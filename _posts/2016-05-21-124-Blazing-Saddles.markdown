@@ -43,4 +43,4 @@ In this installment the Knights start off, really off, but after a few moments t
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Matt Quinton (@nittwit12345)](https://twitter.com/nittwit12345), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Tom Sherlock (@JudgeFunkyBoy)](https://twitter.com/JudgeFunkyBoy), [Marc Thorner (@MarkoShark)](https://twitter.com/MarkoShark), [Johnny Whitetrash (@NotThatJohnny)](https://twitter.com/NotThatJohnny), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

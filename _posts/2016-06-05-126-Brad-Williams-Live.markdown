@@ -33,4 +33,4 @@ In this intallment the Knights had every intention of discussing [Brad Williams'
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Papa Mayor (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [Comic Newb (@comicnewb)](https://twitter.com/comicnewb), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

@@ -34,4 +34,4 @@ Holy tangent Batman! The Knights tried to talk about their experience seeing the
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [CaperGirlMel (@CaperGirlMel)](https://twitter.com/CaperGirlMel), [Dianae (@Dianae173)](https://twitter.com/Dianae173), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

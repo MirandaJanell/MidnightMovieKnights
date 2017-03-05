@@ -70,4 +70,4 @@ Another week has come to pass and the knights have taken to the microphones. Com
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Ryan (@kaarval)](https://twitter.com/kaarval), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), [Tom Sherlock (@judgefunkyboy)](https://twitter.com/judgefunkyboy), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

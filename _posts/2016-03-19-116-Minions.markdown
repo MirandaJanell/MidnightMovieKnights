@@ -51,4 +51,4 @@ The Knights brought another life heavy installment this week. Kitteh has allergi
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Mayor of Beertown (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [Dale Hu (@madzub)](https://twitter.com/madzub), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

@@ -34,4 +34,4 @@ The Knights return for another for another round of finding talking to be hard. 
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Papa Mayor (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [Marc Thorner (@markoshark)](https://twitter.com/markoshark), and [Dianae Weeks (@dianae173)](https://twitter.com/dianae173).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

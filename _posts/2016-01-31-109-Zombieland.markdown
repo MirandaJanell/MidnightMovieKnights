@@ -59,4 +59,4 @@ The Cat has an interesting relationship with phone numbers and it nearly makes t
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Just Matt (@nittwit12345)](https://twitter.com/nittwit12345), [Comic Newb (@ComicNewb)](https://twitter.com/ComicNewb), [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

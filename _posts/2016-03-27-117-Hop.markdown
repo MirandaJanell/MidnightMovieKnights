@@ -31,4 +31,4 @@ The Knights catch up with each other on this Easter Sunday installment. Ceebs sh
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Johnny Whitetrash (@AvailableInADHD)](https://twitter.com/AvailableInADHD), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Dale Hu (@madzub)](https://twitter.com/madzub), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

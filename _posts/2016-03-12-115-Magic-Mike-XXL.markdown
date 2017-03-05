@@ -27,7 +27,7 @@ tags:
 - OMGWTFHuney
 - mv_ughn
 ---
-Girls Knight finally happened! The Knights were joined in studio by [Marianne]((https://twitter.com/mv_ughn)), and on Skype by [Huney](https://twitter.com/OMGWTFHuney) and [Johnny Whitetrash](https://twitter.com/AvailableInADHD) to watch and discuss this weeks Flick Pick [Magic Mike XXL](http://www.imdb.com/title/tt2268016/).
+Girls Knight finally happened! The Knights were joined in studio by [Marianne](https://twitter.com/mv_ughn), and on Skype by [Huney](https://twitter.com/OMGWTFHuney) and [Johnny Whitetrash](https://twitter.com/AvailableInADHD) to watch and discuss this weeks Flick Pick [Magic Mike XXL](http://www.imdb.com/title/tt2268016/).
 
 ### Movie Lists
 
@@ -53,4 +53,4 @@ Girls Knight finally happened! The Knights were joined in studio by [Marianne]((
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Mel (@CaperGirlMel)](https://twitter.com/CaperGirlMel), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

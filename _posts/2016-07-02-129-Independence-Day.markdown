@@ -29,4 +29,4 @@ Tech issues throw Ceebs big time, but that doesn't stop the Knights returning fo
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Dianae Weeks (@dianae173)](https://twitter.com/dianae173), and [Ryan Connolly (@kaarval)](https://twitter.com/kaarval).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

@@ -50,4 +50,4 @@ Ceebs hates this episode and is only releasing it because the Cat drew a frakkin
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [The Mayor of Beertown (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [RevelstokeJim (@RevelstokeJim)](https://twitter.com/RevelstokeJim), and [Marc Thorner (@markoshark)](https://twitter.com/markoshark).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

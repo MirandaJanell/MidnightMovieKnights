@@ -41,4 +41,4 @@ A botched episode release distracts Ceebs before she starts sharing her experien
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Revelstoke Jim (@revelstokejim)](https://twitter.com/revelstokejim), [Tom Sherlock (@judgefunkyboy)](https://twitter.com/judgefunkyboy), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Dianae (@Dianae173)](https://twitter.com/Dianae173), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

@@ -25,4 +25,4 @@ Ceebs literally runs away and abandons the Kitteh to his own wits to carry the s
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [Tom Sherlock (@judgefunkyboy)](https://twitter.com/judgefunkyboy), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), [Ryan Connolly (@Kaarval)](https://twitter.com/Kaarval), [Marianne (@mv_ughn)](https://twitter.com/mv_ughn), and [Dale Hu (@madzub)](https://twitter.com/madzub).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})

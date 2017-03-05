@@ -34,4 +34,4 @@ The Knights return and have some splaining to do, but instead start with giggles
 
 The Knights were joined in the [Mixlr](http://mixlr.com/{{ site.mixlrstub }}/) chat by [The Mayor of Beertown (@MayorOfBeertown)](https://twitter.com/MayorOfBeertown), [Ryan Connolly (@kaarval)](https://twitter.com/kaarval), [Johnny Whitetrash (@AvailableInADHD)](https://twitter.com/AvailableInADHD), [Tom Kaytt (@tkaytt)](https://twitter.com/tkaytt), and [Marianne (@mv_ughn)](https://twitter.com/mv_ughn).
 
-![{{ thumbalt }}]({{ page.ogimage }})
+![{{ page.thumbalt }}]({{ page.ogimage }})
