@@ -6,6 +6,9 @@ baseurl: ''
 url: http://www.midnightmovieknights.com
 paginate: 5
 exclude: ["src", "bower_components", "node_modules"]
+sass:
+  sass_dir: _sass
+  style: compressed
 fbappid: 514828295332812
 ogimage: /assets/img/mmk_banner.png
 mixlrstub: take37
